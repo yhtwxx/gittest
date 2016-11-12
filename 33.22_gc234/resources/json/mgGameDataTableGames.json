@@ -1,0 +1,226 @@
+{"code":0,"gameData":[
+{
+"gameName": "3 Card Poker",
+"zhName": "三卡扑克",
+"gameCode": "3CardPoker",
+"gameImgName": "BTN_3CardPoker1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "3 Card Poker (gold)",
+"zhName": "三卡扑克(金系列)",
+"gameCode": "3CardPokerGold",
+"gameImgName": "BTN_GoldSeries_3CardPoker1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "American",
+"zhName": "美式轮盘",
+"gameCode": "AmericanRoulette",
+"gameImgName": "BTN_USRoulette1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Baccarat",
+"zhName": "百家乐",
+"gameCode": "Baccarat",
+"gameImgName": "BTN_Baccarat2.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Baccarat Gold",
+"zhName": "百家乐金系列",
+"gameCode": "BaccaratGold",
+"gameImgName": "BTN_GoldSeries_Baccarat1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Craps",
+"zhName": "掷骰子",
+"gameCode": "Craps",
+"gameImgName": "BTN_Craps1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Crown and Anchor",
+"zhName": "皇冠和锚骰子游戏",
+"gameCode": "CrownAndAnchor",
+"gameImgName": "BTN_CrownAndAnchor1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Cyberstud Poker",
+"zhName": "网络螺柱扑克",
+"gameCode": "Cyberstud",
+"gameImgName": "BTN_Cyberstud1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "European (Gold)",
+"zhName": "欧洲21点（金系列）",
+"gameCode": "EuroRouletteGold",
+"gameImgName": "BTN_GoldSeries_EuroRoulette1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Flip Card",
+"zhName": "翻转卡",
+"gameCode": "FlipCard",
+"gameImgName": "BTN_FlipCard1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "French",
+"zhName": "法国风味",
+"gameCode": "FrenchRoulette",
+"gameImgName": "BTN_FrenchRoulette1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "High Limit Baccarat",
+"zhName": "上限百家乐",
+"gameCode": "HighLimitBaccarat",
+"gameImgName": "BTN_HighLimitBaccarat1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "High Speed Poker",
+"zhName": "高速扑克",
+"gameCode": "HighSpeedPoker",
+"gameImgName": "BTN_GoldSeries_HighSpeedPoker1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Keno",
+"zhName": "基诺",
+"gameCode": "Keno",
+"gameImgName": "BTN_Keno3.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "3 Card Poker (multihand)",
+"zhName": "三卡扑克（多手）",
+"gameCode": "MH3CardPokerGold",
+"gameImgName": "BTN_MH3CardPoker1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Multi Wheel Roulette Gold",
+"zhName": "多轮轮盘金系列",
+"gameCode": "MultiWheelRouletteGold",
+"gameImgName": "BTN_GoldSeries_MultiWheelRoulette1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Poker Pursuit",
+"zhName": "扑克追赶",
+"gameCode": "PokerPursuit",
+"gameImgName": "BTN_PokerPursuit1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Premier Roulette Diamond Edition",
+"zhName": "首位轮盘钻石版",
+"gameCode": "PremierRouletteDE",
+"gameImgName": "BTN_PremierRouletteDE1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Red Dog",
+"zhName": "红狗",
+"gameCode": "RedDog",
+"gameImgName": "BTN_RedDog1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "European",
+"zhName": "欧洲轮盘",
+"gameCode": "Roulette",
+"gameImgName": "BTN_EuroRoulette1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Holdem High",
+"zhName": "德州高扑克",
+"gameCode": "RubyMHHoldemHigh",
+"gameImgName": "BTN_GoldSeries_MHHoldEmHighPoker1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Perfect Pairs European",
+"zhName": "珠联璧合欧洲版",
+"gameCode": "RubyMHPerfectPairs",
+"gameImgName": "BTN_GoldSeries_MHEuroPerfectPairsBlackjack1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Multihand Classic",
+"zhName": "多手经典",
+"gameCode": "RubyMultiClassicBlackjackGold",
+"gameImgName": "BTN_MHClassicBlackjack.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Premier Roulette",
+"zhName": "总理轮盘",
+"gameCode": "RubyPremierRoulette",
+"gameImgName": "BTN_PremierRoulette9.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Royal Derby",
+"zhName": "皇家德比",
+"gameCode": "RubyRoyalDerby",
+"gameImgName": "BTN_RoyalDerby1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Triple Pocket Hold'em",
+"zhName": "三重掌上扑克",
+"gameCode": "RubyTriplePocketPoker",
+"gameImgName": "BTN_GoldSeries_TriplePocket.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Sic Bo",
+"zhName": "骰宝",
+"gameCode": "Sicbo",
+"gameImgName": "BTN_SicBo1.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+,{
+"gameName": "Spingo",
+"zhName": "自旋去",
+"gameCode": "Spingo",
+"gameImgName": "BTN_Spingo.png",
+"gameType": "TABLE GAMES",
+"gameShi": "0"
+}
+]}

@@ -1,0 +1,97 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, blockquote, pre, form, input, textarea, fieldset, table, th, td {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+body, button, input, select, textarea {
+    font: 14px/1.6 微软雅黑, Tahoma, Verdana, Arial, "\5b8b\4f53";
+}
+input[type='text'].invalid, input[type='number'].invalid, input[type='email'].invalid, input[type='url'].invalid, input[type='password'].invalid, textarea.invalid, select.invalid {
+    border-color: #d15151;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.1) inset,0 0 6px #e66b6b;
+    background: #FFB0B0;
+    color: #8F4B4B;
+}
+.input-large {
+    height: 18px;
+    line-height: 18px;
+    padding: 4px;
+    margin-right: 5px;
+    border: 1px solid #cccccc;
+    background: #DACFC9;
+}
+.control-group .input-large {
+    padding: 5px 4px;
+    margin: 5px;
+    background: #fff;
+}
+.alertify-inner {
+    text-align: left;
+}
+nav {
+    display: block;
+}
+.alertify-dialog {
+    padding: 25px;
+}
+.alertify-message {
+    margin-bottom: 20px;
+}
+.alertify .alertifyText {
+    text-align: left;
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.grey {
+    color: #a5a5a5;
+}
+.control-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+.verifypic {
+    vertical-align: top;
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+}
+.vagueBtn {
+    color: #4D8FCB;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+.alertify-buttons {
+    text-align: center;
+}
+.alertify-button-cancel {
+    background-color: #FE1A00;
+    border: 1px solid #D83526;
+}
+.alertify-button {
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.5);
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,.5);
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0));
+    background-image: -o-linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0));
+    background-image: linear-gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0));
+}
+.alertify-button {
+    line-height: 1.5;
+    font-size: 100%;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.alertify-button-ok {
+    background-color: #5CB811;
+    border: 1px solid #3B7808;
+}

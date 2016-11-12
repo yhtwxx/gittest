@@ -1,0 +1,64 @@
+/*公告开始*/
+.notice {
+    height: 52px;
+    background: #fbfbfb;
+    border-bottom: 1px solid #ebecec;
+    color: #666;
+    line-height: 52px;
+    width: 100%;
+}
+.notice ul, .notice li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.panel {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.notice .prev,.notice .next {
+    display: block;
+    height: 26px;
+    text-align: right;
+    position:relative;
+}
+
+.panel-body {
+    width: 97%;
+    padding: 0 0 0 2%;
+    float: left;
+}
+.panel-footer {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: #fbfbfb;
+    width: 2%;
+    height: 51px;
+    float: right;
+}
+.panel-footer a {text-decoration: none}
+.panel-footer a:hover {text-decoration: none}
+.notice .prev {
+    background: url("../img/notice-updown.png") 0 0 no-repeat;
+    width: 20px;
+    height: 13px;
+    margin-top: 13px;
+}
+.notice .next {
+    background: url("../img/notice-updown.png") 0 -13px no-repeat;
+    width: 20px;
+    height: 13px;
+}
+.notice > .container {
+    background: url("../img/notice.png") no-repeat left center;
+}
+
+/*推荐开始*/
+.popular {
+    height: 310px;
+    padding: 0;
+}

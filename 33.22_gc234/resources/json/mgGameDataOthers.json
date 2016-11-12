@@ -1,0 +1,210 @@
+{"code":0,"gameData":[
+{
+"gameName": "Enchanted Woods",
+"zhName": "魔法森林",
+"gameCode": "EnchantedWoods",
+"gameImgName": "BTN_EnchantedWoods1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Germinator",
+"zhName": "病菌发芽器",
+"gameCode": "Germinator",
+"gameImgName": "BTN_Germinator1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Hexaline",
+"zhName": "赫素线",
+"gameCode": "Hexaline",
+"gameImgName": "BTN_Hexaline.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Instant Win Card Selector",
+"zhName": "即时运卡选择",
+"gameCode": "IWCardSelector",
+"gameImgName": "BTN_InstantWinCardSelector1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Max Damage and the Alien Attack",
+"zhName": "最大伤害的外来攻击",
+"gameCode": "MaxDamage",
+"gameImgName": "BTN_MaxDamage1",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Premier Racing",
+"zhName": "超级赛车",
+"gameCode": "PremierRacing",
+"gameImgName": "BTN_PremierRacing1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Premier Trotting",
+"zhName": "首位小跑",
+"gameCode": "PremierTrotting",
+"gameImgName": "BTN_PremierTrotting1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Ballistic Bingo",
+"zhName": "弹道宾果",
+"gameCode": "RubyBallisticBingo",
+"gameImgName": "BTN_BallisticBingo1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Bingo Bonanza",
+"zhName": "宾果富矿",
+"gameCode": "RubyBingoBonanza",
+"gameImgName": "BTN_BingoBonanza1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Card Climber",
+"zhName": "卡登山者",
+"gameCode": "RubyCardClimber",
+"gameImgName": "BTN_CardClimber1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Dragons Fortune",
+"zhName": "圣龙赐福",
+"gameCode": "RubyDragonsFortune",
+"gameImgName": "BTN_DragonsFortune1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Hand to Hand Combat",
+"zhName": "肉搏战",
+"gameCode": "RubyHandToHandCombat",
+"gameImgName": "BTN_HandToHandCombat1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Big Break Instant Win",
+"zhName": "重大突破即时赢",
+"gameCode": "RubyIWBigBreak",
+"gameImgName": "BTN_InstantWin_BigBreak1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Cashapillar",
+"zhName": "现金毛虫",
+"gameCode": "RubyIWCashapillar",
+"gameImgName": "BTN_Cashapillar1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Halloweenies",
+"zhName": "万圣节怪人",
+"gameCode": "RubyIWHalloweenies",
+"gameImgName": "BTN_Halloweenies1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Kashatoa",
+"zhName": "嘉沙岛",
+"gameCode": "RubyKashatoa",
+"gameImgName": "BTN_Kashatoa1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Killer Clubs",
+"zhName": "杀手俱乐部",
+"gameCode": "RubyKillerClubs",
+"gameImgName": "BTN_KillerClubs1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Numbers",
+"zhName": "幸运数字",
+"gameCode": "RubyLuckyNumbers",
+"gameImgName": "BTN_LuckyNumbers1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Pharaoh's Gems",
+"zhName": "法老的宝石",
+"gameCode": "RubyPharaohsGems",
+"gameImgName": "BTN_PharoahsGems1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Super Bonus Bingo",
+"zhName": "超级奖金宾果",
+"gameCode": "RubySuperBonusBingo",
+"gameImgName": "BTN_SuperBonusBingo1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Three Wheeler",
+"zhName": "三轮车",
+"gameCode": "RubyThreeWheeler",
+"gameImgName": "BTN_ThreeWheeler1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Turtley Awesome",
+"zhName": "图尔吨莱伊真棒",
+"gameCode": "RubyTurtleyAwesome",
+"gameImgName": "BTN_TurtleyAwesome1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Wheel of Riches",
+"zhName": "财富之轮",
+"gameCode": "RubyWheelOfRiches",
+"gameImgName": "BTN_WheelofRiches2.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Wild Champions",
+"zhName": "野生冠军",
+"gameCode": "RubyWildChampions",
+"gameImgName": "BTN_WildChampions1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Scratch Card",
+"zhName": "刮刮卡",
+"gameCode": "Scratch",
+"gameImgName": "BTN_Scratch1.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+,{
+"gameName": "Triangulation",
+"zhName": "三角",
+"gameCode": "Triangulation",
+"gameImgName": "BTN_Triangulation.png",
+"gameType": "Others",
+"gameShi": "0"
+}
+]}

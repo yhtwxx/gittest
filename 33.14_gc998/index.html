@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="renderer" content="webkit"><!-- 360浏览器极速模式 -->
+    <title>黄金世纪</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <!-- 全局CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+
+    <!-- 模块CSS -->
+
+    <!-- 全局JS -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <div class="header">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <div id="navbar">
+          <ul class="nav navbar-nav dh">
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="business.html">业务合作</a></li>
+            <li><a href="product.html">产品介绍</a></li>
+            <li><a href="services.html">服务支持</a></li>
+            <li><a href="news.html">最新信息</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right lang">
+            <a href="../index.html" role="button"><img src="img/icon-chinese.png">&nbsp;</a>
+            <a href="../english/index.html" role="button"><img src="img/icon-english.png"></a>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+
+  <div class="index_1">
+    <div class="container-fluid">
+    </div>
+  </div>
+
+  <div class="index_2">
+    <div class="container-fluid">
+      <div class="des text-center">
+        <p>亚洲具代表地位的在线游戏平台供应商-黄金世纪平台，致力于在线游戏研发并提供整合平台服务，供应于亚洲地区<br>
+        游戏平台业者，最专业的技术及产品研发，并追求产品多元化，迈向国际市场最前端。</p>
+        <a class="btn btn-view" href="about.html" role="button">浏览</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="partner_t">合作伙伴</p>
+      <p class="partner"><img src="img/bbin-logo.png"><img src="img/ag-gaming-logo.png"><img src="img/playtech-logo.png"><img src="img/microgaming-logo.png"><img src="img/allbet-logo.png"><img src="img/gd-gaming-logo.png"><img src="img/xin-tian-di-logo.png"></p>
+    </div>
+    <div class="container-fluid copyright">&copy; 2016 黄金世纪 版权所有</div>
+  </footer>
+
+  <script>
+    $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+    });
+  </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    //改变浏览器大小
+    $(window).resize(function () {
+      $('.index_1').height($(window).height());
+    });
+    //首次加载完成后
+    window.onload = function (){
+      $('.index_1').height($(window).height());
+    }
+  </script>
+  </body>
+</html>

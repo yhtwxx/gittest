@@ -1,0 +1,181 @@
+{"code":0,"gameData":[
+  {
+    "gameName": "硬币投掷赌博游戏",
+    "gameCode": "head",
+    "gameImgName": "smallicon/head.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "飞镖投掷赌博游戏",
+    "gameCode": "drts",
+    "gameImgName": "smallicon/drts.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "基诺",
+    "gameCode": "kn",
+    "gameImgName": "smallicon/kn.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "百万幸运球",
+    "gameCode": "bls",
+    "gameImgName": "smallicon/bls.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "迷你轮盘赌",
+    "gameCode": "mro",
+    "gameImgName": "smallicon/mro.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "罚点球游戏",
+    "gameCode": "pso",
+    "gameImgName": "smallicon/pso.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "宾果",
+    "gameCode": "pop",
+    "gameImgName": "smallicon/pop.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "石头、剪刀、纸游戏",
+    "gameCode": "rps",
+    "gameImgName": "smallicon/rps.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "掷骰子赌博游戏",
+    "gameCode": "rcd",
+    "gameImgName": "smallicon/rcd.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "轮盘旋转赌博游戏",
+    "gameCode": "lwh",
+    "gameImgName": "smallicon/lwh.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "周游列国",
+    "gameCode": "atw",
+    "gameImgName": "smallicon/atw.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "打比日",
+    "gameCode": "hr",
+    "gameImgName": "smallicon/hr.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "转骰子游戏",
+    "gameCode": "dctw",
+    "gameImgName": "smallicon/dctw.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "猜扑克牌游戏",
+    "gameCode": "ghl",
+    "gameImgName": "smallicon/ghl.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "猜扑克牌彩池游戏",
+    "gameCode": "ghlj",
+    "gameImgName": "smallicon/ghlj.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "保龄猜球游戏",
+    "gameCode": "bowl",
+    "gameImgName": "smallicon/bowl.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Fixed Odds Slot / Slots",
+    "gameCode": "fosl",
+    "gameImgName": "smallicon/fosl.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Final Score",
+    "gameCode": "fsc",
+    "gameImgName": "smallicon/fsc.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Medusa's Gaze",
+    "gameCode": "gts35",
+    "gameImgName": "smallicon/gts35.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Wheel Of Light",
+    "gameCode": "gts36",
+    "gameImgName": "smallicon/gts36.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Cash Blox",
+    "gameCode": "gtscb",
+    "gameImgName": "smallicon/gtscb.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Rubik's Riches",
+    "gameCode": "gtsru",
+    "gameImgName": "smallicon/gtsru.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Hold'em Showdown",
+    "gameCode": "hsd",
+    "gameImgName": "smallicon/hsd.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "King Derby",
+    "gameCode": "kgdb",
+    "gameImgName": "smallicon/kgdb.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Pinball Roulette",
+    "gameCode": "pbro",
+    "gameImgName": "smallicon/pbro.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Darts",
+    "gameCode": "qbd",
+    "gameImgName": "smallicon/qbd.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },{
+    "gameName": "Frankie Fantastic 7",
+    "gameCode": "tps",
+    "gameImgName": "smallicon/tps.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  }
+]}

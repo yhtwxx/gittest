@@ -1,0 +1,5295 @@
+#box-body,
+#box_body {
+    height:100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#box-range, 
+#box_range {
+    min-width: 979px;
+    width:100%;
+    position: relative;
+    height:100%;
+}
+
+#header {
+    position: relative;
+    z-index:1000;
+    min-height:117px;
+    background-color:#516073;
+}
+#ui-marquee {
+    height:18px;
+    line-height:18px;
+    background-color:#121212;
+    display:none;
+}
+#ui-marquee > b{
+    display:none;
+}
+#ui-marquee div.marquee{
+    overflow:hidden;
+    position: relative;
+    font-size: 11px;
+    background-color:#121212;
+    height: 18px;
+    line-height: 18px;
+    color:#fff;
+}
+
+
+
+#ui-btn-games nav, .second-nav {
+    position:absolute;
+    width:180px;
+    background-color:#fff;
+    border:1px solid #bbbbbb;
+    padding:5px;
+    top:55px;
+    overflow:visible;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    display:none;
+    z-index:5000;
+}
+.new-nav-style {
+    width:230px;
+    margin-left:-120px;
+}
+dl.second-nav  {
+    width:640px;
+    position:absolute;
+    background-color:#fff;
+    border:1px solid #bbb;
+    padding:5px;
+    top:55px;
+    overflow:visible;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    display:none;
+    z-index:5000;
+}
+dl.second-nav dd {
+    width:48%;
+    display:inline-block;
+    float:left;
+}
+nav#NORMAL {
+    left:-10px;
+    display:none;
+}
+nav#TT {
+    left:95px;
+    display:none;
+}
+nav#SF {
+    left:200px;
+    display:none;
+}
+nav#S5 {
+    left:300px;
+    display:none;
+}
+nav#KN {
+    left:300px;
+    display:none;
+}
+#ui-btn-games nav:before, .second-nav:before {
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border:0;
+    border-bottom:15px solid #bbbbbb;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position:absolute;
+    top:-15px;
+    left:65px;
+}
+#ui-btn-games nav:after, .second-nav:after {
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border:0;
+    border-bottom:15px solid #fff;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    position:absolute;
+    top:-14px;
+    left:65px;
+}
+
+.new-nav-style:before {
+    left:180px;
+}
+
+.new-nav-style:after {
+    left:180px;
+}
+
+#ui-btn-games nav a, .second-nav a {
+    width:90%;
+    display:block;
+    margin:0 auto;
+    padding:3px;
+    height:22px;
+    line-height:22px;
+    color:#333;
+    font-size:9pt;
+}
+#ui-btn-games nav a:hover, .second-nav a:hover {
+    background: #2489ce; /* Old browsers */
+    color:#fff;
+    text-shadow: -1px -1px 1px #333333;
+}
+#ui-btn-games nav > a:first-child, .second-nav > a:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+#ui-btn-games nav > a:last-child, .second-nav > a:last-child  {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom:0;
+}
+#ui-btn-games nav a::after, .second-nav a[data-gtype]::after {
+    content:">";
+    float:right;
+}
+
+#main {
+    max-width:1024px;
+    margin:0 auto;
+    background:#fff url("/TPL/pitaya/images/bg_left.jpg") repeat-y left top;
+    box-shadow: 3px 0px 2px rgba(0, 0, 0, 0.1);
+    min-height:85.5%;
+    min-height:-webkit-calc(100% - 117px);
+    min-height:calc(100% - 117px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-animation:allstart 1s 1; /* Safari and Chrome */
+    animation:allstart 1s 1;
+}
+
+#main:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+#left, #content {
+    float: left;
+    min-height: 100%;
+}
+#left {
+    width: 226px;
+    padding: 10px 8px 38px 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: none;
+    min-height: 600px !important;
+}
+.main-inner {
+    margin-bottom: 0;
+    background-color: #d6d6d6;
+}
+#clock {
+    background: url("/TPL/pitaya/images/icon_clock.png") no-repeat 16px center;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 38px;
+    font-size: 10px;
+}
+#clock > b{
+    display:none;
+}
+.gamelobby-header-wrap:after, 
+.gamelobby-main-tool:after, 
+.memberInfo-quote-content:after, 
+.msgList-item:after { 
+    content: '';
+    display: table;
+    clear: both;
+}
+#go-gamelobby {
+    display: inline-block;
+    width: 103px;
+    height: 30px;
+    line-height: 30px;
+    margin : 0 0 3px 3px !important;
+    text-align: center;
+    background: url("/pt/assets/img/gogamelobby/en-us/btn.png") no-repeat 0 0;
+    color: #fff;
+}
+#go-gamelobby:hover {
+    background-position: 0 -33px !important;
+}
+#go-gamelobby.btn-block {
+    width : 210px;
+    margin:0 0 0 6px;
+    background: url("/pt/assets/img/gogamelobby/en-us/btn_block.png") no-repeat 0 0;
+}
+#go-gamelobby.zh-tw {
+    background: url("/pt/assets/img/gogamelobby/zh-tw/btn.png") no-repeat 0 0;
+}
+#go-gamelobby.zh-tw.btn-block {
+    width : 210px;
+    margin:0 0 0 6px;
+    background: url("/pt/assets/img/gogamelobby/zh-tw/btn_block.png") no-repeat 0 0;
+}
+#go-gamelobby.zh-cn {
+    background: url("/pt/assets/img/gogamelobby/zh-cn/btn.png") no-repeat 0 0;
+}
+#go-gamelobby.zh-cn.btn-block {
+    width : 210px;
+    margin:0 0 0 6px;
+    background: url("/pt/assets/img/gogamelobby/zh-cn/btn_block.png") no-repeat 0 0;
+}
+#go-bbliveshow {
+    display: inline-block;
+    width: 103px;
+    height: 30px;
+    line-height: 30px;
+    margin : 0 0 3px 3px !important;
+    text-align: center;
+    background: url("/pt/assets/img/liveshow/en-us/btn.png") no-repeat 0 0;
+    color: #fff;
+}
+#go-bbliveshow:hover {
+    background-position: 0 -33px !important;
+}
+#go-bbliveshow.zh-tw {
+    background: url("/pt/assets/img/liveshow/zh-tw/btn.png") no-repeat 0 0;
+}
+#go-bbliveshow.zh-cn {
+    background: url("/pt/assets/img/liveshow/zh-cn/btn.png") no-repeat 0 0;
+}
+
+#go-pic {
+    min-height:132px;
+} 
+#go-pic > a > img {
+    margin :0;
+    padding :0;
+    border :0;
+}
+
+#user_info {
+    display:none;
+}
+
+.message_box {
+    background-color:#ffffff;
+    width: 210px;
+    font-size: 12px;
+    margin-left: 0;
+    margin:5px 0 4px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.message_box .inner {
+    min-height: 250px;
+    line-height:18px;
+}
+.message_box .inner span.err{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    background: url("/TPL/pitaya/images/icon_err.gif") no-repeat left center;
+}
+.message_box .footer {
+    height: 6px;
+    line-height: 0;
+}
+
+.msg-tag, .msg-title {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+    color: white;
+    border-left: 1px;
+    border-right: 1px;
+    background-color:#455964;
+}
+.msg-tag:hover, .msg-tag.active {
+}
+
+.msg-tag:first-child {
+    border-left: 0 !important;
+}
+
+.msg-tag:last-child {
+    border-right: 0 !important;
+}
+
+.msg-text {
+    padding-left: 0.5em;
+    word-wrap: break-word;
+}
+
+#content {
+    min-height:500px;
+    height:100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('/pt/assets/img/sk2/line_dotted_AAA.gif') repeat-x left 59px;
+}
+#content h2 {
+    display: block;
+    background-color: #455964;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 0.5em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #333333, 1px 1px 2px #222222;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#content h2 > b {
+    display:none;
+}
+a#limitShow {
+    width:32px;
+    height:32px;
+    display:inline-block;
+    background:transparent url("/TPL/pitaya/images/setIcon.png") no-repeat 2px 5px;
+    cursor:pointer;
+    vertical-align:top;
+}
+#content #content_inner {
+    position: relative;
+}
+#content #game_info {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    height: 32px;
+    line-height: 32px;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+}
+#content #game_info #ui-countdown {
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    line-height: 32px;
+    width: 130px;
+    margin:0px 10px 0px 0;
+    padding:0px 10px 0px 36px;
+    line-height: inherit;
+    color: #990000;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent url("/TPL/pitaya/images/countdown-bg.png") no-repeat top center;*/
+    border-radius:12px;
+    font-family: Verdana, "Microsoft YaHei", "SimSun", Arial, Helvetica, sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;
+}
+#content #game_info #ui-countdown:before {
+    content:'';
+    position:absolute;
+    width:30px;
+    height:20px;
+    top:6px;
+    left:10px;
+    background: transparent url("/TPL/pitaya/images/bg_field.gif") no-repeat left -1px;*/
+}
+
+#content #wager_groups {
+    padding-left: 15px;
+    height: 30px;
+    overflow:hidden;
+    white-space:nowrap;
+    position:relative;
+}
+#content #wager_groups div {
+    width:200%;
+    z-index:100;
+    position:absolute;
+    top :0 ;
+    left:15px;
+    white-space:nowrap;
+}
+#content b.before, #content b.after {
+    display:none;
+}
+#content .scrollL::before, #content div.scrollL b.before {
+    content:'<<更多';
+    position:absolute;
+    width:60px;
+    height:26px;
+    line-height:26px;
+    top:2px;
+    left:0;
+    background-color:#fff;
+    color:#333;
+    text-align:center;
+    font-weight:bold;
+    z-index:101;
+    cursor:pointer;
+    display:block;
+    font-size:12px;
+    border-right:2px dotted #ccc;
+}
+#content .scrollR::after, #content div.scrollR b.after  {
+    content:'更多>>';
+    position:absolute;
+    width:60px;
+    height:26px;
+    line-height:26px;
+    top:2px;
+    right:0;
+    background-color:#fff;
+    color:#333;
+    text-align:center;
+    font-weight:bold;
+    z-index:101;
+    cursor:pointer;
+    display:block;
+    font-size:12px;
+    border-left:2px dotted #ccc;
+
+}
+#content #wager_groups a {
+    display: inline-block;
+    vertical-align: top;
+    height: 27px;
+    line-height: 27px;
+    color: #455964;
+    font-size: 12px;
+    background: url("/TPL/pitaya/images/arrow_02.png") no-repeat 2px center;
+    padding: 0 7px 0 15px;
+    overflow:hidden;
+}
+#content #wager_groups a#allplay {
+    background:transparent url("/TPL/pitaya/images/addIcon.png") no-repeat 2px center;
+    padding: 0 7px 0 22px;
+}
+
+#content #wager_groups a:hover, 
+#content #wager_groups a.NowPlay {
+    color: #940501;
+    background-image: url("/TPL/pitaya/images/arrow_03.png");
+    border-bottom: 4px solid #dddddd;
+}
+#wager_groups ul li {
+    float:left;
+    width:auto;
+    padding:0 10px 0 0  ;
+    display:inline-block;
+}
+#wager_groups nav, 
+#wager_groups dl {
+    display:none;
+}
+
+#rde-contextmenu {
+    display:none;
+}
+
+.txt {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black
+}
+.oddsI {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black
+}
+#total_gold {
+    color: red;
+    font-weight: bold;
+}
+b.At{
+    font-weight:normal;
+    color:#454545;
+}
+b.OddsL{
+    color:red;
+}
+#pc{
+    font-weight:normal;
+    color:red;
+}
+input.OrderGold{
+    width:84px;
+}
+input.GoldQQ{
+    width:55px;
+    margin:0 2px;
+}
+.ListOrder {
+    color: white;
+    padding-right: 10px;
+}
+div.Info, 
+#quickMode {
+    clear:both;
+    height:32px;
+    line-height:32px;
+    width:97%;
+    margin: 0 0 0 5px;
+}
+#left div.Info {
+    height:auto;
+    min-height:24px;
+    line-height:24px;
+}
+#bet-scroll {
+    max-height:150px;
+    overflow:auto;
+    position:relative;
+}
+.ListOrder span.num, 
+.ListOrder label.num {
+    color: black;
+    width: 100%;
+    display: block;
+}
+.Inp {
+    display: block;
+    width:100%;
+    color:#000;
+    text-align:right;
+}
+.Inp input {
+    width:45px;
+}
+.Inp input.btn, .Inp input.btnD {
+    border: 0px;
+    font-size: 12px;
+}
+.PlayType {
+    text-align: center;
+    width: 100%;
+    margin:3px 0;
+    background-color:#eeffff;
+    border-top:1px solid #126bd1;
+    border-bottom:1px solid #126bd1;
+    clear:both;
+}
+#left div.Grp{
+    text-align:left;
+    width:90%;
+    clear:both;
+}
+/*左方的包組下注*/
+#left div.Grp div{
+    color:#454545;
+}
+#left div.Grp div span{
+    color:white;
+    background-color:#333;
+}
+#left div.Grp div b{
+    color:red;
+}
+#left div.Grp a{
+    color:#333;
+}
+#left div.Grp div{
+    color:#454545;
+}
+#left div.Grp div span{
+    color:white;
+    background-color:#333;
+}
+#left div.Grp div b{
+    color:red;
+}
+#left div.Grp a {
+    overflow: hidden;
+    width: auto;
+    height: 30px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    bottom: 6px;
+    right: 10px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    text-shadow: #3e5779 0 -1px 0;
+    box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0, rgba(0, 0, 0, 0.2) 0 1px 2px inset;
+    border: 1px solid #2d3f57;
+    border-radius: 5px;
+    background-image: none;
+    background-color: #7c97bb; /* Old browsers */
+    background-image: linear-gradient(to bottom, #7c97bb 0%,#5a7caa 50%,#50709a 51%,#476489 100%); /* W3C */
+}
+#err {
+    color: #cc0000;
+    background: #ffffff;
+}
+#left a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+#left a:visited {
+    color: #ffffff;
+}
+#left a:hover {
+    color:#0099CC;
+    text-decoration: none;
+}
+#left a:active {
+    color: #ffffff;
+}
+div#randomball{
+    min-width: 435px;
+    margin:5px auto;
+}
+#randomball table{
+    width:100%;
+    clear: both;
+    background-color: #333;
+    padding: 0;
+    border-spacing:1px;
+    margin:0 auto;
+}
+#randomball table .title_tr td{
+    height:25px;
+}
+#randomball tr.BallTr{
+    height: 30px;
+    font-size:12px
+}
+#randomball tr.BallTr td{
+    text-align:center;
+    background-color: #e5eaee;
+}
+#randomball table td{
+    min-width:60px;
+}
+/*D盤下注的連結區塊*/
+ul.DLUL{
+    clear:both;
+    width:200px;
+    height:24px;
+    line-height:24px;
+    margin:5px auto;
+    padding:0;
+    text-decoration: inherit;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    list-style:none;
+    overflow:hidden;
+    display:block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.DLUL > li {
+    width:50%;
+    border-right:1px solid rgba(0,0,0,0.4);
+    display:block;
+    float:left;
+    height:24px;
+    line-height:24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.DLUL li:last-child {
+    border-right:0px solid rgba(0,0,0,0.4);
+}
+
+ul.DLUL > li > a {
+    font-size:12px;
+    width:100%;
+    display:block;
+    height:100%;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+}
+.W1quick_style {
+    display:none;
+}
+.quick_betnum_style {
+    height: 40px;
+    padding-top: 10px;
+}
+.quick_option_style {
+    padding-bottom: 5px;
+}
+input#qkGold, input#qkGoldW1 {
+    width:6em;
+}
+ul.DLUL > li > a.ON, 
+.Game fieldset > nav > b.ON {
+    background: #455964; /* Old browsers */
+    color:#fff;
+}
+.Game {
+    font-size:11pt;
+}
+.Game fieldset {
+    clear:both;
+    border:0;
+    display:block;
+    margin:5px 0;
+}
+.Game fieldset#PackgeBox {
+    width:70%;
+    border: 1px solid #000;
+}
+.Game fieldset#PackgeBox legend{
+    font-size:10pt;
+    margin-left:2em;
+}
+
+.Game > fieldset.HB,
+.Game > fieldset.HH {
+    width:auto;
+}
+.Game > fieldset.NA {
+    width:98%;
+}
+.Game fieldset.SPA {
+    width:85%;
+}
+.Game > fieldset.SF {
+    width:30%;
+}
+.Game fieldset > nav > b {
+    font-size:12px;
+    display:table-cell;
+    height:100%;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+    border-right:1px solid rgba(0,0,0,0.4);
+    cursor:pointer;
+}
+.Game fieldset > nav {
+    float:left;
+    width:70%;
+    height:24px;
+    line-height:24px;
+    margin:0 0 0 5px;
+    padding:0;
+    text-decoration: inherit;
+    border: 1px solid #bbbbbb;
+    overflow:hidden;
+    display:table;
+}
+
+.Game fieldset > nav > b {
+    font-size:12px;
+    display:table-cell;
+    height:100%;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+    text-decoration:none;
+    border-right:1px solid rgba(0,0,0,0.4);
+    background-color:#e8e8e8;
+    cursor:pointer;
+}
+.Game > fieldset.HB > nav > b,
+.Game > fieldset.HH > nav > b {
+    width:14%;
+}
+.Game fieldset.SPA > nav > b {
+    width:25%;
+}
+.Game > fieldset.SF > nav > b {
+    width:50%;
+}
+.Game fieldset > nav > b:last-child {
+    border-right:0px solid rgba(0,0,0,0.4);
+}
+/*六合彩包組*/
+a.highlight_me_a {
+    background-color: #f5dec1;
+    color: blue;
+}
+.highlight_me {
+    background-color: #f5dec1;
+}
+#switchMode, 
+#fquick {
+    display:inline-block;
+}
+.betMove {
+    cursor: url("/images/openhand.cur"), auto;
+}
+#table1,#table2,#table3,#table4,#table5, #table6, #table7, #table8,#ShowRule #RuleText,#ShowRule2 #RuleText2,#QuickBar div#QuickMenu,table.QuickTab, table.GameTable, #TodayTab,#HistoryTab {
+    border-collapse:collapse;
+}
+#table1 td, #table2 td, #table3 td, #table4 td{
+    text-align:center;
+}
+#table5 td, #table6 td, #table7 td, #table8 td{
+    padding:0;
+    border:1px solid #bbbbbb;
+}
+#table1 {
+    clear:both;
+}
+#table1, #table2, #table3, #table4, #table5, #table6  ,#table7, #table8{
+    background-color: #fff;
+    width:100%;
+}
+.sColorR,.sColorG,.sColorB {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-family: "Arial Black";
+    color: black;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.padding_label {
+    display:block;
+    padding: 2px;
+}
+.nap_label {
+    display:block;
+    float:left;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    width:80px;
+    background-color:#f0f0f0;
+    border-right:1px solid #ccc;
+}
+span[id^=s] {
+    display:inline-block;
+    height:45px;
+    line-height:45px;
+}
+.sColorR {
+    background: #fff url("/TPL/pitaya/images/ball/r.png") center 0 no-repeat;
+}
+.sColorG {
+    background: #fff url("/TPL/pitaya/images/ball/g.png") center 0 no-repeat;
+}
+.sColorB {
+    background: #fff url("/TPL/pitaya/images/ball/b.png") center 0 no-repeat;
+}
+.bColorR, .bColorG, .bColorB {
+    height: 30px;
+    font-weight: bold;
+}
+.bColorR {
+    background: #F4F8F9 url("/TPL/pitaya/images/ball/r.png") center center no-repeat;
+}
+.bColorG {
+    background: #F4F8F9 url("/TPL/pitaya/images/ball/g.png") center center no-repeat;
+}
+.bColorB {
+    background: #F4F8F9 url("/TPL/pitaya/images/ball/b.png") center center no-repeat;
+}
+tr.Choice .cColorR {
+    background: #F4F8F9 url("/TPL/pitaya/images/ball/r.png") center 0px no-repeat;
+}
+tr.Choice .cColorG {
+    background: #F4F8F9 url("/TPL/pitaya/images/ball/g.png") center 0px no-repeat;
+}
+tr.Choice .cColorB {
+    background: #F4F8F9 url("/TPL/pitaya/images/ball/b.png") center 0px no-repeat;
+}
+tr.Choice .wColorR,tr.Choice td.wColorG,tr.Choice td.wColorB {
+    background: #F4F8F9 url("/TPL/pitaya/images/ball/w.png") center 0px no-repeat;
+}
+tr.Choice .cColorR span,tr.Choice .cColorG span,tr.Choice .cColorB span, tr.Choice .wColorR span,tr.Choice .wColorG span,tr.Choice .wColorB span{
+    font-family: "Arial Black";
+    color: #ffffff;
+    font-size:12px;
+    display:block;
+}
+td.cColorR, td.cColorG, td.cColorB, td.wColorR, td.wColorG, td.wColorB  {
+    height: 30px;
+    font-weight: bold;
+    text-align:center;
+    font-size:12px;
+}
+.bColorR span,.bColorG span,.bColorB span,.bColorR label,.bColorG label,.bColorB label {
+    font-family: "Arial Black";
+    color: #fff;
+    display:block;
+    font-size:12px;
+}
+/*分頁效果的css*/
+div#arrowLeft {
+    width:0;
+    height:0;
+    line-height:0;
+    border-top:15px solid transparent;
+    border-left:0 solid transparent;
+    border-bottom:15px solid transparent;
+    border-right:15px solid rgba(0, 0, 0,0.7);
+    float:left;
+    margin-right:5px;
+    z-index:1000;
+    display:none;
+    cursor:pointer;
+
+}
+div#arrowRight {
+    width:0;
+    height:0;
+    line-height:0;
+    border-top:15px solid transparent;
+    border-left:15px solid rgba(0,0,0,0.7);
+    border-bottom:15px solid transparent;
+    border-right:0 solid transparent;
+    z-index:1000;
+    display:none;
+    float:left;
+    margin-left:5px;
+    cursor:pointer;
+
+}
+div.Game{
+   clear:both;
+}
+div#tab{
+    height:40px;
+    line-height:30px;
+    overflow:hidden;
+    clear:both;
+}
+div#tab ul {
+    margin: 5px 0 10px 0;
+    list-style: none;
+    padding: 0 0 0 5px;
+    font-size:12px;
+    width:200%;
+    font-weight: bold;
+    border-bottom:1px solid #bbbbbb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#tab ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+div#tab ul > li:first-child {
+    border-left:1px solid #bbbbbb;
+}
+div#tab ul li {
+    float: left;
+    height: 32px;
+    text-align: center;
+    background-color:#ebebeb;
+    border-top:1px solid #bbbbbb;
+    border-right:1px solid #bbbbbb;
+}
+div#tab ul li#space {
+    float: left;
+    height: 32px;
+    padding: 0;
+    width: 220px;
+    background-color: #fff;
+    border:none;
+    display:none;
+}
+div#tab ul .unTagClick  {
+}
+div#tab ul li.onTagClick {
+    background-color:#fbfbfb;
+}
+div#tab ul .unTagClick a, div#tab ul .unTagClick span {
+    display: block;
+    padding: 0 0 0 14px;
+    margin-right: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+div#tab ul .onTagClick a, div#tab ul .onTagClick span {
+    cursor: pointer;
+    display: block;
+    padding: 0 0 0 14px;
+    margin: 0 14px 0 0;
+    color: #000;
+}
+div#tab ul .onTagClick span b  {
+    font-weight:normal;
+    color:red;
+}
+div#tab ul .onTagClick span font, div#tab ul .unTagClick span b {
+    font-size: 12px;
+    font-weight:normal;
+}
+/*六合彩快選*/
+table#gameTable, #showTable{
+    border-spacing:1px;
+    border:0;
+    width:100%;
+}
+table#gameTable td, #showTable td{
+    text-align:center;
+}
+table#showTable a{
+    display:block;
+}
+#showTable td.ball_td, #gameTable td.ball_td {
+    background-position: center center;
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    color: #620607;
+}
+#showTable td.ball_td > span, #gameTable td.ball_td > span {
+    display:block;
+    width:100%;
+    height:100%;
+}
+#showTable td.ball_td > span:hover, #gameTable td.ball_td > span:hover {
+    background-color:#ffff33;
+}
+/* 連碼的css */
+span#Warn, span#Warn1, span#Warn2, span#Warn3{
+    color:red;
+    font-size:12px;
+    font-weight:bold;
+}
+.Game #showTable {
+    min-height:580px;
+}
+#SPA_Box {
+    font-size:10pt;
+    width:96%;
+    display:table;
+    height:32px;
+    border:1px solid #bbbbbb;
+    border-collapse:collapse;
+    background-color:#f6f6f6;
+}
+#SPA_Box > label {
+    display:table-cell;
+    vertical-align:middle;
+    border:1px solid #bbbbbb;
+    color:#455964;
+}
+#SPA_Box > label > input:checked + span {
+    color:red;
+}
+/* 交叉碰*/
+div#CrossOverHit{
+    display:none;
+    position:relative;
+    height:300px;
+}
+div#CrossOverHit div#HitZone{
+    width:60%;
+    margin:24px 0 0 0;
+}
+div#CrossOverHit div#HitZone > div{
+    border:1px solid #bbbbbb;
+    width:95%;
+    margin:0 auto;
+    clear:both;
+    float:left;
+    min-height:48px;
+}
+div#CrossOverHit div#HitZone div > label{
+    display:block;
+    height:24px;
+    line-height:24px;
+    background-color:#f6f6f6;
+    border-bottom:1px solid #bbbbbb;
+    vertical-align:middle;
+}
+div#CrossOverHit div#HitZone div input{
+    float:left;
+}
+div#CrossOverHit div#HitZone div input[type=button]{
+    font-size:11px;
+    margin:1px;
+    padding:0px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+div#CrossOverHit div#HitZone div span{
+    text-align:center;
+    cursor:pointer;
+}
+div#CrossOverHit div#HitZone div#AddCross{
+    border:0;
+    width:100%;
+    clear:both;
+    height:26px;
+    line-height:26px;
+}
+div#CrossOverHit div#HitZone p{
+    margin:0;
+    padding:0;
+    clear:both;
+    width:95%;
+    clear:both;
+    text-align:center;
+}
+div#CrossOverHit div#NumBtn{
+    position:absolute;
+    top:0px;
+    left:60%;
+    width:35%;
+    min-height:300px;
+    background-color:#455964;
+    color:#454545;
+}
+div#CrossOverHit > div#NumBtn > #QuickCross {
+    text-align:center;
+    display:block;
+    width:96%;
+    margin:5px auto;
+    border:1px solid #bbbbbb;
+    border-collapse:collapse;
+}
+div#CrossOverHit > div#NumBtn > #QuickCross > p {
+    display:table;
+    width:100%;
+}
+div#CrossOverHit > div#NumBtn > #QuickCross > p > a {
+    display:table-cell;
+    background-color:#ededed;
+    border:1px solid #bbbbbb;
+    height:32px;
+    line-height:32px;
+    vertical-align:middle;
+}
+div#CrossOverHit > div#NumBtn > #QuickCross > p > a:hover,
+div#CrossOverHit > div#NumBtn > #QuickCross > p > a:active {
+    background-color:#dbdbdb;
+}
+div#CrossOverHit div#NumBtn a{
+    color:#454545;
+    text-decoration:none;
+    font-size:12px;
+}
+div#CrossOverHit div#NumBtn table{
+    width:95%;
+    border:1px solid #333;
+    margin:10px auto;
+    background-color:#fff;
+    text-align:center;
+    border-collapse:collapse;
+}
+div#CrossOverHit div#NumBtn table td{
+    border:1px solid #333;
+    height:17px;
+    width:20%;
+}
+div#CrossOverHit div#NumBtn table td span{
+    font-size: 12px;
+    cursor: pointer;
+}
+div#CrossOverHit div#CrossSend{
+    width:60%;
+    text-align:center;
+    height:48px;
+    line-height:48px;
+}
+/*膽拖*/
+div#Dantuo, div#DantuoC, div#DantuoSpa, div#FXF, div#XXX{
+    display:none;
+    position:relative;
+    height:300px;
+    font-size:12px;
+}
+div#Dantuo div.l, div#DantuoC div.l, div#DantuoSpa div.l, div#FXF div.l, div#XXX div.l{
+    float:left;
+    width:48%;
+}
+div.l table{
+    width:95%;
+    margin:0 auto;
+    text-align:center;
+    border:1px solid #bbbbbb;
+    border-collapse:collapse;
+}
+div.l table td{
+    width:20%;
+    border:1px solid #bbbbbb;
+    height:30px;
+}
+div.l table.s {
+    border:1px solid #bbbbbb;
+}
+div.l table.s td{
+    width:16%;
+    border:1px solid #bbbbbb;
+    background-color: #ffffff
+}
+div.l table.s td > label{
+    background-color:#e8e8e8;
+}
+div.l table td span{
+    cursor:pointer;
+}
+div.c table td span{
+    cursor:pointer;
+}
+div.l table td input{
+    display:none;
+}
+div.l table.s td input{
+    display:inline;
+}
+div.l h3{
+    padding:0;
+    margin:0 auto;
+    text-align:center;
+    background-color:#f6f6f6;
+    min-height:24px;
+    line-height:24px;
+    width:95%;
+    border-top:1px solid #bbb;
+    border-left:1px solid #bbb;
+    border-right:1px solid #bbb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.SubmitSend{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+/*動態下注範圍選取*/
+div.Range{
+    height:22px;
+    border:1px solid #000;
+    margin:15px 0;
+    width:100%;
+}
+div.Range label span{
+    width:19%;
+    height:18px;
+    line-height:18px;
+    display:block;
+    color:#000;
+    margin:1px;
+    float:left;
+    cursor:pointer;
+    text-align:center;
+    text-decoration:underline;
+}
+div.Range label span.On{
+    background-color: #f5dec1;
+    font-weight:bold;
+    color:#ff0000;
+    text-shadow: 1px 1px #111111;
+    text-decoration:none;
+}
+div.Range label span.On b{
+    color:red;
+}
+#ShowBall h2 {
+    display:block;
+    font-size:12px;
+    height:32px;
+    line-height:32px;
+    padding:0;
+    margin:0;
+    background-color:#f6f6f6;
+    color:#455964;
+    text-align:center;
+}
+#ShowBall div#Ball{
+    height:92%;
+    overflow:auto;
+    padding:2px;
+    font-size:10pt;
+}
+#ShowBall div#Ball p{
+   margin:2px;
+   padding:0;
+   clear:both;
+   color:rgb(187,187,187);
+}
+#ShowBall div#Ball p span{
+   text-align:center;
+}
+/*快選區塊*/
+div#QuickMenu p.grp-title {
+    clear:both;
+    font-size:12px;
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    z-index:50000;
+    padding:0;
+    color: #fff;
+    display:block;
+    background-color: #455964;
+    font-weight:bold;
+    cursor:pointer;
+}
+div#QuickMenu p.grp-title i {
+    width:24px;
+    height:32px;
+    background:transparent url(/TPL/pitaya/images/menuIcon.png) no-repeat 0 7px;
+    display:inline-block;
+    vertical-align:top;
+    _background:transparent url() no-repeat 0 3px;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TPL/pitaya/images/menuIcon.png', sizingMethod='image');
+    _vertical-align:baseline;
+    _margin-right:2px;
+}
+div#QuickMenu {
+    color:black;
+    text-align:center;
+    background-color:#f6f6f6;
+    border:1px solid #bbbbbb;
+}
+div#QuickMenu div{
+    font-size:14px;
+    margin:4px;
+    padding:4px;
+    text-align:center;
+    height:24px;
+    line-height:24px;
+    clear:both;
+    width:98%;
+    color:#455964;
+}
+div#QuickMenu fieldset {
+    width:48%;
+    display:inline-block;
+}
+div#QuickMenu fieldset.ball49 {
+    width:98%;
+    margin:0 auto;
+}
+div#QuickMenu fieldset::after {
+    clear:both;
+}
+div#QuickMenu fieldset.HB, 
+div#QuickMenu fieldset.SPA {
+    width:98%;
+    margin:0 auto;
+}
+div#QuickMenu fieldset p {
+    margin:5px;
+    padding:0;
+    line-height:32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#QuickMenu fieldset.ball49 p {
+    line-height:26px;
+    text-align:left;
+}
+div#QuickMenu fieldset p a{
+    padding:3px;
+    margin:2px;
+    cursor:pointer;
+    font-weight: bold;
+}
+#GrpBtn fieldset {
+    margin: 4px;
+    padding: 0;
+    border: 1px solid #d6d6d6;
+    background-color:#fff;
+}
+div#QuickMenu > p {
+    padding:5px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#QuickBar legend, 
+#GrpBtn legend {
+    font-size: 12px;
+    margin-left: 5px;
+    color: black;
+    background-color:white;
+}
+#GrpBtn h4 {
+    width:100%;
+    height:24px;
+    line-height:24px;
+    background-color:#cccccc;
+    border-bottom:1px solid #bbbbbb;
+    font-size:9pt;
+    color:#455964;
+}
+#QuickBar a, 
+#GrpBtn fieldset a {
+    font-size: 12px;
+    background-color: white;
+    color: #455964;
+    border:1px solid #bbb;
+    background:#fff url(/TPL/pitaya/images/tab_bg.png) repeat-x bottom;
+}
+#GrpBtn fieldset a:hover {
+    background-position:top;
+}
+#QuickBar a, 
+#GrpBtn fieldset.ball49 a {
+    font-size:11px;
+    padding:3px;
+    margin:2px;
+    border-radius:18px;
+    background:#fff;
+}
+#GrpBtn fieldset.ball49 > p {
+    clear:both;
+    height:32px;
+    line-height:32px;
+}
+#GrpBtn fieldset.ball49 > p > a {
+    font-size:12px;
+    vertical-align:top;
+    display:block;
+    float:left;
+    padding:0;
+    margin:1px 3px;
+    width:29px;
+    height:29px;
+    line-height:29px;
+    text-align:center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#GrpBtn fieldset.ball49 > p > a.hasGold {
+    background-color:#ffd64c;
+}
+#GrpBtn fieldset a.b01,
+#GrpBtn fieldset a.b02,
+#GrpBtn fieldset a.b07,
+#GrpBtn fieldset a.b08,
+#GrpBtn fieldset a.b12,
+#GrpBtn fieldset a.b13,
+#GrpBtn fieldset a.b18,
+#GrpBtn fieldset a.b19,
+#GrpBtn fieldset a.b23,
+#GrpBtn fieldset a.b24,
+#GrpBtn fieldset a.b29,
+#GrpBtn fieldset a.b30,
+#GrpBtn fieldset a.b34,
+#GrpBtn fieldset a.b35,
+#GrpBtn fieldset a.b40,
+#GrpBtn fieldset a.b45,
+#GrpBtn fieldset a.b46 {
+    color:red;
+}
+#GrpBtn fieldset a.b03,
+#GrpBtn fieldset a.b04,
+#GrpBtn fieldset a.b09,
+#GrpBtn fieldset a.b10,
+#GrpBtn fieldset a.b14,
+#GrpBtn fieldset a.b15,
+#GrpBtn fieldset a.b20,
+#GrpBtn fieldset a.b25,
+#GrpBtn fieldset a.b26,
+#GrpBtn fieldset a.b31,
+#GrpBtn fieldset a.b36,
+#GrpBtn fieldset a.b37,
+#GrpBtn fieldset a.b41,
+#GrpBtn fieldset a.b42,
+#GrpBtn fieldset a.b47,
+#GrpBtn fieldset a.b48 {
+    color:blue;
+}
+#GrpBtn fieldset a.b05,
+#GrpBtn fieldset a.b06,
+#GrpBtn fieldset a.b11,
+#GrpBtn fieldset a.b16,
+#GrpBtn fieldset a.b17,
+#GrpBtn fieldset a.b21,
+#GrpBtn fieldset a.b22,
+#GrpBtn fieldset a.b27,
+#GrpBtn fieldset a.b28,
+#GrpBtn fieldset a.b32,
+#GrpBtn fieldset a.b33,
+#GrpBtn fieldset a.b38,
+#GrpBtn fieldset a.b39,
+#GrpBtn fieldset a.b43,
+#GrpBtn fieldset a.b44,
+#GrpBtn fieldset a.b49 {
+    color:green;
+}
+#GrpBtn fieldset a.hasGold {
+    background-color:#ffd64c;
+    border:1px solid #ffd64c;
+}
+#GrpBtn fieldset a.RED {
+    color:red;
+}
+#GrpBtn fieldset a.BLUE {
+    color:blue;
+}
+#GrpBtn fieldset a.GREEN {
+    color:green;
+}
+#GrpBtn  label {
+    font-size:9px;
+    vertical-align:middle;
+}
+#GrpBtn{
+    overflow:hidden;
+    width:95%;
+    margin:5px;
+}
+/*廣告css*/
+#AD{
+    width:200px;
+    height:540px;
+    padding:0;
+    margin:0;
+    position:absolute;
+    top:167px;
+}
+/*六合彩 連碼 連肖 連尾 自選不中的組合視窗css*/
+#ShowBall {
+    width:194px;
+    border:1px solid #bbbbbb;
+    margin:15px 0 0 0;
+    height:78%;
+    background-color:#455964;
+}
+@media all and (-webkit-bb: 0) {  
+    .gameList-group {  
+        height: 185px; 
+    } 
+}  
+@media all and (min-device-height:800px) and (max-device-height:899px) {
+    #bet-scroll {
+        max-height:200px;
+    }
+}
+@media all and (min-device-height:900px) {
+    #bet-scroll {
+        max-height:250px;
+    }
+}
+@media all and (max-width: 1024px) {
+    #AD{
+        left:799px;
+    }
+}
+@media all and (min-width: 1025px) {
+    #AD {
+        left:auto;
+        right : 50%;
+        margin-right:-500px;
+    }
+}
+@media all and (min-width: 1025px) and (max-width: 1279px) {
+    #bet-scroll {
+        max-height:184px \9;
+        *height:184px \9;
+    }
+}
+@media all and (min-width: 1365px) and (max-width: 1439px) {
+    #bet-scroll {
+        max-height:210px \9;
+        *height:210px;
+    }
+}
+@media all and (min-width: 1440px) and (max-width: 1599px) {
+    #bet-scroll {
+        max-height:210px \9;
+        *height:210px;
+    }
+}
+@media all and (min-width: 1600px) and (max-width: 1679px) {
+    #bet-scroll {
+        max-height:210px \9;
+        *height:210px;
+    }
+}
+@media all and (min-width: 1680px) and (max-width: 1919px) {
+    #bet-scroll {
+        max-height:210px \9;
+        *height:210px;
+    }
+}
+@media all and (min-width: 1920px){
+    #bet-scroll {
+        max-height:210px \9;
+        *height:210px;
+    }
+}
+#QuickBar h2,
+#GrpBtn h2 {
+    margin: 0;
+    padding: 0;
+    display: none;
+    font-size: 16px;
+    color: white;
+    clear:both;
+}
+#QuickBar h3,
+#GrpBtn h3 {
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+#QuickBar input,
+#GrpBtn input {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+/*滑動css*/
+#touchPadZone {
+    width:100%;
+    height:100%;
+    position:fixed;
+    background: rgba(0,0,0,0.6);
+    z-index:30000;
+    top:0;
+    left:0;
+    display:none;
+}
+/*離開區塊*/
+#touchPadZone > #exitHall {
+    float:right;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    display:block;
+    border-radius:12px;
+    text-align:center;
+    background-color: #CCCCCC;
+    position:absolute;
+    top:5px;
+    right:5px;
+    font-weight:bold;
+    cursor:pointer;
+}
+/*滑動顯示區塊*/
+#touchNav{
+    width:70%;
+    height:580px;
+    margin:0 auto;
+}
+#touchNav h1{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size:32pt;
+    color:#fff;
+    text-shadow: 2px 2px #111111;
+    margin:10px 0;
+}
+#touchNav div#Pad{
+    top:0;
+    left:0;
+    width:2000%;
+}
+#touchNav div#Pad div{
+    width:5%;
+    float:left;
+}
+div#LeftGo{
+    width:0;
+    height:0;
+    line-height:0;
+    border-top:50px solid transparent;
+    border-left:0 solid transparent;
+    border-bottom:50px solid transparent;
+    border-right:50px solid rgba(255, 255, 255,0.5);
+    position:absolute;
+    top:306px;
+    left:0;
+    display:none;
+    color:#000;
+    font-weight:normal;
+}
+div#RightGo{
+    width:0;
+    height:0;
+    line-height:0;
+    border-top:50px solid transparent;
+    border-left:50px solid rgba(255,255,255,0.5);
+    border-bottom:50px solid transparent;
+    border-right:0 solid transparent;
+    position:absolute;
+    top:306px;
+    right:0;
+    display:none;
+    color:#000;
+    font-weight:normal;
+}
+div#Pad > div > nav{
+    padding:0;
+    margin:5px auto;
+    display:block;
+    overflow:hidden;
+    width:80%;
+    border-radius:30px;
+    background-color:#fff;
+    border:1px solid #555;
+}
+div#Pad > div > nav > a{
+    border-bottom:1px solid #555;
+    height:24pt;
+    line-height:24pt;
+    width:-webkit-calc(100% - 13px);
+    width:calc(100% - 13px);
+    padding:3px 0 0 13px;
+    font-size:22pt;
+    font-weight:normal;
+    display:block;
+    color:#000;
+    text-decoration:none;
+}
+div#Pad > div > nav > a::after{
+    content:">";
+    float:right;
+    height:24pt;
+    line-height:24pt;
+    font-weight:bold;
+    font-size:22pt;
+    margin-right:5px;
+}
+div#Pad > div > nav > a:last-child{
+    border-bottom:0;
+}
+/*右方規則說明區塊css*/
+#RightBar,
+#RightBar2 {
+    border: 1px solid #6b6b6b;
+    border-right: 0;
+    float: right;
+    cursor: pointer;
+    overflow: hidden;
+    width: 20px;
+}
+#RightBar div,
+#RightBar2 div {
+    background-color: #e2e2e2;;
+    border: 1px solid white;
+    border-bottom: 1px solid #afafaf;
+    text-align: center;
+}
+#RightBar .aa,
+#RightBar2 .aa {
+    height: 16px;
+    line-height: 16px;
+    color: #828282;
+    font-weight: bold;
+}
+#RightBar .bb,
+#RightBar2 .bb {
+    border-top: 0;
+    padding: 1px;
+    color: #828282;
+    font-size: 12px;
+}
+#ShowRule #RuleText,
+#QuickBar div#QuickMenu,
+#ShowRule2 #RuleText2 {
+    border-radius:10px;
+}
+#ShowRule,
+#ShowRule2 {
+    position:absolute;
+    top: 149px;
+    right: 0px;
+    z-index: 50;
+    font-size:12px;
+}
+#ShowRule {
+    min-width:30px;
+    display:none;
+}
+#ShowRule2 {
+    width:385px;
+}
+#ShowRule #RuleText,
+#ShowRule2 #RuleText2 {
+    border: 1px solid #6b6b6b;
+    float: right;
+    min-height:150px;
+    padding: 0;
+    background-color:rgb( 231, 241, 248 );
+}
+#ShowRule #RuleText {
+    width: 245px;
+}
+#ShowRule2 #RuleText2 {
+    width: 360px;
+}
+#ShowRule #RuleText ol,
+#ShowRule2 #RuleText2 ol{
+    background-color:rgb( 255, 255, 255 );
+    margin:3px;
+    padding-left:20px;
+    list-style-type:decimal;
+}
+#ShowRule2 #RuleText2 ol li b{
+    font-weight:bold;
+}
+#ShowRule li{
+    color:#000;
+    font-weight:normal;
+}
+#ShowRule .ruleTips img{
+    border:0;
+}
+#ShowRule li span{
+    font-weight:bold;
+    color:red;
+}
+#ShowRule .ruleTips span{
+    font-weight:bold;
+    color:blue;
+}
+/*提示*/
+#Tips,
+#Tips2{
+    position:absolute;
+    top:0;
+    left:0;
+    width:250px;
+    height:45px;
+    border:1px solid #000;
+    padding:2.5px;
+    background-color:#fff;
+    z-index:500;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px rgba(48, 48, 48, 0.7);
+    font-size:12px;
+}
+#Tips:after,
+#Tips2:after  {
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border-bottom:10px solid #fff;
+    border-right:5px solid transparent;
+    border-left:5px solid transparent;
+    position:absolute;
+    left:120px;
+    top:-9px;
+    z-index:501;
+}
+#Tips:before,
+#Tips2:before {
+    content:"";
+    display:block;
+    width:0;
+    height:0;
+    border-bottom:10px solid #000;
+    border-right:5px solid transparent;
+    border-left:5px solid transparent;
+    position:absolute;
+    left:120px;
+    top:-10px;
+    z-index:500;
+}
+#Tips b.before,
+#Tips2 b.before {
+    display:none;
+}
+#Tips b.after,
+#Tips2 b.after {
+    display:none;
+}
+input.order,
+.SubmitSend input.yes,
+input#switchMode,
+input#fquick,
+.Send input.yes,
+#GrpBtn #QuickMenu p input#QuickSubmit,
+input.submit_cen,
+input#ok,
+.Inp input.btn,
+.Game fieldset#PackgeBox input.quickb,
+#CrossSend input.yes,
+#XF_Send input.yes,
+#HitZone #AddCross input,
+.Send input.yes_min,
+input#quickD3,
+input.long_cen {
+    overflow: hidden;
+    width: auto;
+    height: 30px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    bottom: 6px;
+    right: 10px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: #357cbb;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+#GrpBtn #QuickMenu p input.cancel,
+input.cancel_cen,
+.Send input.no,
+#CrossSend input.no,
+#XF_Send input.no,
+.SubmitSend input.no,
+.Inp input.btnD,
+.Send input.no_min  {
+    overflow: hidden;
+    width: auto;
+    height: 30px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    bottom: 6px;
+    right: 10px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #d63e35;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+input[type=button]:disabled {
+    opacity:0.6;
+}
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover {
+    opacity:0.9;
+}
+/*彩票類玩法表格css*/
+table.GameTable {
+    width: 100%;
+    text-align: center;
+}
+table.GameTable tr {
+    background-color: white;
+    height:28px;
+}
+table.GameTable tr.title_line {
+    color: white;
+    font-size:12px;
+    height:22px;
+    line-height:22px;
+    background-color: #828282;
+}
+table.GameTable tr.title_line td{
+    white-space:nowrap;
+}
+table.GameTable td{
+    padding:3px;
+}
+table.GameTable td.num {
+    width:55px;
+    background-color: #F4F8F9;
+}
+table.GameTable td.oddsD{
+    background-color:#ffffaa;
+    color: red;
+    font-weight: bold;
+}
+table.GameTable td.odds {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-family: Verdana, "Microsoft YaHei", "SimSun", Arial, Helvetica, sans-serif;
+}
+div.spaceH {
+    clear:both;
+    height:30px;
+    line-height:30px;
+    font-size:9pt;
+    width:97%;
+    margin: 0 0 0 5px;
+}
+/*賠率紅色*/
+label.odds{
+    color:red;
+    font-weight:bold;
+    display:block;
+    margin-top:2px;
+}
+div.odds {
+    background-color: white;
+}
+div.num{
+    font-family: "Arial Black";
+    font-weight:bold;
+    font-size:11pt;
+}
+table.MobileTable tr td {
+    font-size:8pt;
+}
+table.GameTable td input.G{
+    width:4em;
+    margin:2px 0;
+}
+/*彩票類玩法即時搖珠球號的css*/
+#final_01,
+#final_02,
+#final_03,
+#final_04,
+#final_05,
+#num{
+    font-size:12px;
+    font-weight:bold;
+}
+#final_01,
+#final_04 {
+  color: red;
+}
+#final_02,
+#final_05 {
+  color: green;
+}
+#final_03 {
+  color: blue;
+}
+#D3Result{
+    width:220px;
+    position:absolute;
+    top:111px;
+    right:0;
+    display:none;
+}
+#SendSS,
+#SendD3,
+#SendP3,
+#SendT3,
+#SendCQ,
+#SendJX,
+#SendTJ,
+#SendB3,
+#SendB5,
+.SendLT {
+    text-align:right;
+    padding:0;
+    margin:3px 0 15px 5px;
+    width:95%;
+}
+#SendSS span.credit,
+#SendB3 span.credit,
+#SendB5 span.credit,
+.SendLT span.credit{
+    font-size:9pt;
+    display:block;
+    margin:5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#shownum{
+    position:absolute;
+    top:0px;
+    left:539px;
+    text-align:left;
+    width:250px;
+    padding:0 5px 0 5px;
+    line-height:8pt;
+    font-size:8pt;
+}
+#tickedBox {
+    position:absolute;
+    top:42px;
+    left:539px;
+    text-align:left;
+    width:200px;
+    padding:0 5px 0 5px;
+    line-height:8pt;
+    font-size:8pt;
+    display:none;
+}
+#tickedBoxBt {
+    position:absolute;
+    top:74px;
+    left:539px;
+    text-align:left;
+    width:200px;
+    padding:0 5px 0 5px;
+    line-height:8pt;
+    font-size:8pt;
+    display:none;
+}
+#BetInfo{
+    position:absolute;
+    top:215px;
+    right:0;
+    width:225px;
+    display:none;
+}
+#NAS-fix-ie6 {
+    display:none;
+}
+
+#ding {
+    height:0;
+    overflow:hidden;
+}
+embed {
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+
+td#NA_ODD_bg,
+td#NA_EVEN_bg,
+td#NA_OVER_bg,
+td#NA_UNDER_bg {
+    min-width:60px;
+    width:auto !important;
+    width:60px;
+}
+#SP_R_bg,
+#SP_G_bg,
+#SP_B_bg {
+    min-width:50px;
+    width:auto !important;
+    width:50px;
+}
+td.color-r > span,
+td.color-g > span,
+td.color-b > span {
+    font-family: "Arial Black";
+    height:30px;
+    line-height:30px;
+    display:inline-block;
+    padding:0 0 0 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+td.color-r > span {
+    background: transparent url("/TPL/pitaya/images/ball/r.png") 0 0 no-repeat;
+}
+td.color-g > span {
+    background: transparent url("/TPL/pitaya/images/ball/g.png") 0 0 no-repeat;
+}
+td.color-b > span {
+    background: transparent url("/TPL/pitaya/images/ball/b.png") 0 0 no-repeat;
+}
+
+td#C7_G_bg,
+td#C7_B_bg,
+td#C7_N_bg {
+    min-width:50px;
+    width:auto !important;
+    width:50px;
+}
+.BorderLine.bColorR,
+.BorderLine.bColorG,
+.BorderLine.bColorB {
+    min-width:60px;
+    width:auto !important;
+    width:60px;
+}
+
+.gamelobby-header {
+    z-index: 4;
+    width: 100%;
+}
+.gamelobby-header.is-theme-1st .gamelobby-header-info {
+    background-color: #464646;
+}
+.gamelobby-header.is-theme-1st .gamelobby-header-main {
+    background-color: #516073;
+}
+.gamelobby-header-wrap {
+    position: relative;
+}
+.gamelobby-header-wrap {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: 0 auto;
+}
+.gamelobby-header-info {
+    height: 29px;
+    background-color: #455964;
+}
+.gamelobby-header-main {
+    box-sizing: border-box;
+    background-color: #516073;
+}
+.gamelobby-header-wrap {
+    width: 976px;
+}
+.gamelobby-nav {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    margin: auto;
+    height: 55px;
+}
+.gamelobby-nav .nav-list {
+    margin-left: 14px;
+    margin-right: -2px;
+}
+.gamelobby-main {
+    width: 100%;
+}
+.gamelobby-main-tool {
+    padding: 30px 20px 35px 20px;
+    box-sizing: border-box;
+}
+.gamelobby-main-tool, .gamelobby-main-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.gamelobby-main-tool {
+    margin-top: 2px;
+}
+.gamelobby-logo { 
+    width: 200px;
+    height: 62px;
+    display: inline-block;
+    float: left;
+    margin: 12.5px 0 12.5px 20px;
+}
+.logo--sk2 { 
+    background-image: url("/pt/assets/img/laima-charon/sk2/logo.png"); 
+}
+.gameList-group:nth-child(4n + 1) {
+    position: relative;
+}
+.btn-msg, .btn-gameList, .btn-memberService {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.btn-msg {
+    background-image: url("/pt/assets/img/laima-charon/btn/msg.png");
+}
+.btn-gameList {
+    background-image: url("/pt/assets/img/laima-charon/btn/gameList.png");
+}
+.btn-memberService {
+    background-image: url("/pt/assets/img/laima-charon/btn/memberService.png");
+}
+.gamelobby-header.is-theme-1st .btn-msg {
+    background-image: url("/pt/assets/img/laima-charon/theme/1st/btn/msg.png");
+}
+.gamelobby-header.is-theme-1st .btn-gameList {
+    background-image: url("/pt/assets/img/laima-charon/theme/1st/btn/gameList.png");
+}
+.gamelobby-header.is-theme-1st .btn-memberService {
+    background-image: url("/pt/assets/img/laima-charon/theme/1st/btn/memberService.png");
+}
+.btn-msg.is-alert {
+    background-position: 0 -110px;
+}
+.btn-msg.is-alert:hover {
+    background-position: 0 -165px;
+}
+.btn-msg, .btn-gameList, .btn-memberService {
+    width: 55px;
+    height: 55px;
+}
+.btn-msg:hover, .btn-gameList:hover, .btn-memberService:hover {
+    background-position: 0 -55px; 
+}
+
+.memberInfo {
+    font-size: 14px;
+    color: #e5e5e5;
+    line-height: 2;
+    float: right;
+}
+.memberInfo-name {
+    float: left;
+    margin-right: 34px;
+}
+.memberInfo-name:before {
+    width: 16px;
+    height: 16px;
+    background: url("/pt/assets/img/laima-charon/btn-header/icon-member.png") no-repeat;
+    display: inline-block;
+    content: '';
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.memberInfo-quote-value {
+    float: left;
+    margin-right: 36px;
+}
+.memberInfo-quote-value:after {
+    width: 16px;
+    height: 16px;
+    background: url("/pt/assets/img/laima-charon/btn-header/icon-plus.png") no-repeat;
+    display: inline-block;
+    content: '';
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.memberInfo-quote-value:hover:after {
+    cursor: pointer;
+}
+.memberInfo-quote-title {
+    float: left;
+    margin-right: 5px;
+}
+.memberInfo-quote-content.nav-list-sub {
+    top: 44px;
+    right: -32px;
+}
+.memberInfo-quote-content.nav-list-sub:before {
+    top: -14px;
+}
+.memberInfo-quote-content.nav-list-sub:after {
+    top: -14px;
+    right: 29px;
+}
+.memberInfo-quote-content {
+    font-size: 14px;
+    color: #516073;
+    padding: 13px 30px;
+    line-height: 2.5;
+    box-sizing: border-box;
+}
+html:lang(en-us) .memberInfo-quote-content {
+    width: 332px\9;
+}
+html:lang(zh-tw) .memberInfo-quote-content {
+    width: 300px\9;
+}
+html:lang(zh-cn) .memberInfo-quote-content {
+    width: 300px\9;
+}
+.memberInfo-content-value {
+    width: 100px\9;
+}
+
+.memberInfo-content-value {
+    font-weight: bold;
+    text-align: right;
+}
+.memberInfo-content-title {
+    display: inline-block;
+    width: 135px;
+}
+.time {
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 11px;
+    left:237px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 37px;
+    display: inline-block;
+}
+
+
+.time.js-time:before {
+    width: 18px;
+    height: 18px;
+    background: url("/pt/assets/img/laima-charon/clock_icon.png") no-repeat;
+    display: inline-block;
+    content: '';
+    vertical-align: -4px;
+    margin-right: 5px;
+}
+
+.gamelobby-header.is-theme-1st .time {
+    color: #fff;
+}
+.time-date-value {
+    margin-right: 5px;
+    font-weight: normal;
+}
+.time-clock-value {
+    font-weight: bold;
+}
+.nav { 
+    height: 55px; 
+}
+.nav-list-sub {
+    display: none;
+}
+.nav-list.is-active .nav-list-sub {
+    display: block;
+}
+.nav-list {
+    position: relative;
+}
+.nav-list {
+    display: inline-block;
+    
+}
+.nav-list:first-child {
+    margin-left: 0;
+    
+}
+.nav-list-sub {
+    position: absolute;
+    top: 68px;
+    right: 0;
+    z-index: 4;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px #333;
+}
+.nav-list-sub:after {
+    position: absolute;
+    top: -15px;
+    right: 18px;
+    width: 0;
+    height: 0;
+    content: '';
+    display: inline-block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #fff;
+}
+.nav-list-sub:before {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    width: 100%;
+    height: 15px;
+    content: '';
+    display: inline-block;
+}
+
+html:lang(en-us) .gameList {
+    width: 742px;
+}
+html:lang(en-us) .gameList-group {
+    width: 163px;
+    margin-right:30px;
+}
+html:lang(en-us) .gameList-group:nth-child(4n) {
+    margin-right: 0;
+}
+html:lang(en-us) .gameList-group:nth-child(4n + 1):before {
+    position: absolute;
+    top: 0;
+    left: -14px;
+    content: '';
+    display: block;
+    width: 770px;
+    height: 1px;
+    background-color: #e5e5e5;
+}
+html:lang(en-us) .gameList-group:nth-child(4n + 1):first-child:before {
+    display: none;
+}
+html:lang(zh-tw) .gameList {
+    width: 554px;
+}
+html:lang(zh-tw) .gameList-group {
+    width: 110px;
+    margin-right:30px;
+}
+html:lang(zh-tw) .gameList-group:nth-child(4n) {
+    margin-right: 0;
+}
+html:lang(zh-tw) .gameList-group:nth-child(4n + 1):before {
+    position: absolute;
+    top: 0;
+    left: -14px;
+    content: '';
+    display: block;
+    width: 582px;
+    height: 1px;
+    background-color: #e5e5e5;
+}
+html:lang(zh-tw) .gameList-group:nth-child(4n + 1):first-child:before {
+    display: none;
+}
+html:lang(zh-cn) .gameList {
+    width: 554px;
+}
+html:lang(zh-cn) .gameList-group {
+    width: 110px;
+    margin-right:30px;
+}
+html:lang(zh-cn) .gameList-group:nth-child(4n) {
+    margin-right: 0;
+}
+html:lang(zh-cn) .gameList-group:nth-child(4n + 1):before {
+    position: absolute;
+    top: 0;
+    left: -14px;
+    content: '';
+    display: block;
+    width: 582px;
+    height: 1px;
+    background-color: #e5e5e5;
+}
+html:lang(zh-cn) #left .gameList-group:nth-child(4n + 1):first-child:before {
+    display: none;
+}
+.nav-list.is-active .gameList {  
+    display: flex;  
+    flex-direction: row;  
+    flex-wrap: wrap;  
+    align-content: stretch; 
+}  
+  
+.gameList-group.BB .gameList-item a:before {  
+    width: 19px;  
+    height: 19px;  
+    background: url('/pt/assets/img/laima-charon/video.png') no-repeat;  
+    display: inline-block;  
+    content: '';  
+    background-position: 0 0;  
+    vertical-align: -4px;  
+    margin-right: 10px; 
+}  
+  
+.gameList-group.BB .gameList-item a:hover:before {  
+    background-position: 0 -19px; 
+}  
+
+html:lang(en-us) #left #left .banner-link a.banner-go-bbvideo {
+    background: url('/pt/assets/img/laima-pitaya/lang/en-us/banner-go-bbvideo.png?1447744732');
+    text-indent: -99999px;
+}
+html:lang(en-us) #left #left .banner-link a.banner-go-bbvideo:hover {
+    background-position: 0 -42px;
+}
+html:lang(en-us) #left .banner-link a.banner-col-2 {
+    width: 100%;
+}
+html:lang(en-us) #left .banner-link a.banner-col-2.banner-go-lobby {
+    background: url('/pt/assets/img/laima-pitaya/lang/en-us/lottoHall-col-2.png?1447744732');
+}
+html:lang(en-us) #left .banner-link a.banner-col-2.banner-go-lobby:hover {
+    background-position: 0 -42px;
+}
+html:lang(en-us) #left .banner-link a.banner-col-2 {
+    width: 100%;
+}
+html:lang(en-us) #left .banner-link a.banner-col-2.banner-go-lobby {
+    background: url('/pt/assets/img/laima-pitaya/lang/en-us/lottoHall-col-2.png?1449621339');
+}
+html:lang(en-us) #left .banner-link a.banner-col-2.banner-go-lobby:hover {
+    background-position: 0 -42px;
+}
+
+html:lang(zh-cn) #left .banner-link a.banner-col-2 {
+    width: 100%;
+}
+html:lang(zh-cn) #left .banner-link a.banner-col-2.banner-go-lobby {
+    background: url('/pt/assets/img/laima-pitaya/lang/zh-cn/lottoHall-col-2.png?1449621339');
+}
+html:lang(zh-cn) #left .banner-link a.banner-col-2.banner-go-lobby:hover {
+    background-position: 0 -42px;
+}
+
+html:lang(zh-tw) #left .banner-link a.banner-col-2 {
+    width: 100%;
+}
+html:lang(zh-tw) #left .banner-link a.banner-col-2.banner-go-lobby {
+    background: url('/pt/assets/img/laima-pitaya/lang/zh-tw/lottoHall-col-2.png?1449621339');
+}
+html:lang(zh-tw) #left .banner-link a.banner-col-2.banner-go-lobby:hover {
+    background-position: 0 -42px;
+}
+
+.gameList { 
+    padding: 0 25px; 
+}
+
+.gameList-title {
+    font-size: 18px;
+    color: #516073;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.gameList-group {
+    float: left;
+    margin: 0;
+    margin-right: 30px;
+    padding: 38px 0 30px 0;
+}
+.gameList-item {
+    margin-left: 0;
+    margin-top: 10px;
+    line-height: 1;
+}
+.gameList-item a {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.4;
+}
+.gameList-item a:hover {
+    cursor: pointer;
+    color: #516073;
+}
+.gameList-title + .gameList-item {
+    margin-top: 0;
+}
+
+.memberService-item.condition:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/condition.png") no-repeat;
+    display: inline-block;
+}
+.memberService-item.condition:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.history:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/history.png") no-repeat;
+    display: inline-block;
+}
+.memberService-item.history:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.profile:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/profile.png") no-repeat;
+    display: inline-block;
+}
+.memberService-item.profile:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.gamerule:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/gamerule.png") no-repeat;
+    display: inline-block;
+}
+.memberService-item.instruction:after { 
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/instruction.png") no-repeat;
+    display: inline-block;
+}  
+.memberService-item.instruction:hover:after { 
+    background-position: 0 -19px; 
+}  
+.memberService-item.gamerule:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.gameresult:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/gameresult.png") no-repeat;
+    display: inline-block;
+}
+.memberService-item.gameresult:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.chip:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/chip.png") no-repeat;
+    display: inline-block;
+}
+.memberService-item.chip:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.logout:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/logout.png") no-repeat;
+    display: inline-block;
+}
+.memberService-item.logout:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.quest:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/quest.png") no-repeat;
+    display: inline-block;
+}
+
+.memberService-item.quest:hover:after {
+    background-position: 0 -19px;
+}
+
+.memberService-item.magic:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/magic.png") no-repeat;
+    display: inline-block;
+}
+
+.memberService-item.magic:hover:after {
+    background-position: 0 -19px;
+}
+
+.memberService-item.bb-browser:after {
+    width: 19px;
+    height: 19px;
+    background: url("/pt/assets/img/laima-charon/memberService/bb-browser.png") no-repeat;
+    display: inline-block;
+}
+
+.memberService-item.bb-browser:hover:after {
+    background-position: 0 -19px;
+}
+.memberService-item.mem-center::after {
+    width: 19px;
+    height: 19px;
+    background: transparent url("/pt/assets/img/laima-charon/memberService/mem-center.png") no-repeat scroll 0% 0%;
+    display: inline-block;
+}
+.memberService-item.mem-center:hover:after {
+    background-position: 0 -19px;
+}
+
+.memberService-list {
+    box-sizing: border-box;
+    width: 192px;
+    padding: 24px 30px;
+}
+.memberService-item {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+    margin-top: 17px;
+}
+.memberService-item:hover {
+    color: #516073;
+    cursor: pointer;
+}
+.memberService-item:after {
+    content: '';
+    float: right;
+    vertical-align: middle;
+}
+.memberService-item:first-child {
+    margin-top: 0;
+}
+.glyphicon-sort-by-alphabet-alt-control,
+.banner-nav, .banner-control {
+    text-indent: -999999px;
+}
+
+.banner-nav { 
+    display: none; 
+}
+
+.banner-control {
+    display: inline-block;
+    position: absolute;
+}
+.banner-control .banner-prev, .banner-control .banner-next {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: -49px;
+}
+.banner-control .banner-prev:hover, .banner-control .banner-next:hover {
+    cursor: pointer;
+}
+.banner-control .banner-prev {
+    background: url('/pt/assets/img/laima-pitaya/prev_next.png?1446608644') 0 0;
+}
+.banner-control .banner-next {
+    background: url('/pt/assets/img/laima-pitaya/prev_next.png?1446608644') -19px 0;
+    left: 186px;
+}
+
+#left .banner-link a {
+    display: inline-block;
+    width: 105px;
+    height: 42px;
+    margin-top: 10px;
+    background: none;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 12px;
+    line-height: 43px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+}
+.banner-link a:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 26px;
+    background: url('/pt/assets/img/laima-pitaya/go-bbliveshow.png?1444967475') 0 0;
+    vertical-align: -8px;
+    margin: 0 5px;
+}
+#left .banner-link a.banner-col-2.banner-go-lobby {
+    text-indent: -99999px;
+}
+#left .banner-link a.banner-col-2.banner-go-lobby:before {
+    display:none;
+}
+#left .banner-link a:hover {
+    background-color: #455964;
+    color: #fff;
+}
+#left .banner-link a:hover:before {
+    background-position: 0 -26px;
+}
+.banner-link a:first-child {
+    margin-right: -1px;
+}
+.banner-link a:first-child:before {
+    background: url('/pt/assets/img/laima-pitaya/go-gamelobby.png?1444967471') 0 0;
+}
+.banner-link a:first-child:hover:before {
+    background-position: 0 -26px;
+}
+
+.msgList-item:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.msgList-item.XJSC:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/XJSC.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.XJSC .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.TJSF:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/TJSF.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.TJSF .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.TJSC:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/TJSC.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.TJSC .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.SH3D:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/SH3D.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.SH3D .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.SDE5:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/SDE5.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.SDE5 .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.PL3D:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/PL3D.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.PL3D .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.LT:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/LT.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.LT .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.JXSC:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/JXSC.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.JXSC .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.JXE5:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/JXE5.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.JXE5 .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.JSQ3:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/JSQ3.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.JSQ3 .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.JLQ3:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/JLQ3.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.JLQ3 .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.GXSF:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/GXSF.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.GXSF .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.GDSF:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/GDSF.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.GDSF .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.GDE5:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/GDE5.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.GDE5 .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.CQWC:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/CQWC.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.CQWC .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.CQSF:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/CQSF.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.CQSF .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.CQSC:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/CQSC.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.CQSC .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.CAKN:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/CAKN.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.CAKN .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.BJPK:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/BJPK.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.BJPK .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.BJKN:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/BJKN.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.BJKN .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.BJ3D:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/BJ3D.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.BJ3D .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.BBRB:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/BBRB.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.BBRB .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.BBPK:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/BBPK.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.BBPK .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.BBKN:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/BBKN.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.BBKN .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.BB3D:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/BB3D.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.BB3D .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.AUKN:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/AUKN.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.AUKN .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.AHQ3:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/AHQ3.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.AHQ3 .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList-item.general:before {
+    width: 70px;
+    height: 70px;
+    background: url("/pt/assets/img/laima-charon/logo/msgList/general.png") no-repeat;
+    display: inline-block;
+    content: '';
+}
+.msgList-item.general .msgList-main {
+    width: 384px;
+    float: right;
+}
+.msgList {
+    width: 517px;
+    box-sizing: border-box;
+}
+.msgList-item.is-unread {
+    background-color: #e0e0e0;
+}
+.msgList-item.is-unread:hover {
+    background-color: #e0e0e0;
+}
+.msgList-content {
+    max-height: 396px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.msgList-title {
+    font-size: 18px;
+    color: #516073;
+    line-height: 3;
+    height: 54px;
+    padding-left: 18px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.msgList-item {
+    font-size: 14px;
+    color: #516073;
+    line-height: 1.75;
+    padding: 20px 20px 8px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.msgList-item:before {
+    float: left;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.msgList-item:hover {
+    background-color: #f0f0f0;
+    background-position: 0 -70px;
+}
+.msgList-item:hover:before {
+    background-position: 0 -70px;
+}
+.msgList-main {
+    word-wrap: break-word;
+    min-height: 70px;
+}
+.msgList-time {
+    font-size: 14px;
+    line-height: 1.4;
+    float: right;
+    margin-top: 15px;
+}
+.msgList-date {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#CQWC_rule.CQWC .pk-spades-1 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-2 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -21px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-3 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -42px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-4 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -63px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-5 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -84px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-6 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -105px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-7 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -126px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-8 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -147px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-9 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -168px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-10 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -189px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-11 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -210px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-12 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -231px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-spades-13 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -252px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-1 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -273px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-2 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -294px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-3 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -315px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-4 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -336px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-5 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -357px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-6 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -378px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-7 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -399px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-8 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -420px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-9 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -441px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-10 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -462px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-11 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -483px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-12 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -504px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-diamonds-13 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -525px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-1 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -546px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-2 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -567px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-3 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -588px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-4 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -609px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-5 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -630px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-6 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -651px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-7 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -672px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-8 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -693px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-9 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -714px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-10 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -735px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-11 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -756px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-12 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -777px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-clubs-13 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -798px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-1 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -819px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-2 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -840px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-3 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -861px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-4 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -882px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-5 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -903px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-6 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -924px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-7 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -945px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-8 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -966px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-9 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -987px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-10 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -1008px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-11 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -1029px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-12 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -1050px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC .pk-hearts-13 {
+    width: 32px;
+    height: 21px;
+    background: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692') no-repeat 0px -1071px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#CQWC_rule.CQWC [class^='pk-'] {
+    width: 32px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('/pt/assets/img/gamelobby/rule-poker_bg.jpg?1443162692');
+}
+#CQWC_rule.CQWC .pk-gold {
+    background-position: 0 -1092px;
+}
+#CQWC_rule.CQWC .pk-silver {
+    background-position: 0 -1113px;
+}
+#CQWC_rule.CQWC .pk-fold {
+    background-position: 0 -1134px;
+}
+#CQWC_rule.CQWC .pk-suits-hearts {
+    background-position: 0 -1155px;
+}
+#CQWC_rule.CQWC .pk-suits-diamonds {
+    background-position: 0 -1176px;
+}
+#CQWC_rule.CQWC .pk-suits-clubs {
+    background-position: 0 -1197px;
+}
+#CQWC_rule.CQWC .pk-suits-spades {
+    background-position: 0 -1218px;
+}
+#CQWC_rule.CQWC th {
+    width: auto;
+    text-align: center;
+    border: 1px solid #333;
+}
+#CQWC_rule.CQWC td {
+    text-align: center;
+}
+
+/*
+== malihu jquery custom scrollbar plugin ==
+Plugin URI: http://manos.malihu.gr/jquery-custom-content-scroller
+*/
+/*
+CONTENTS: 1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited). 2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar. 3. HORIZONTAL SCROLLBAR - Positioning and dimensions of horizontal scrollbar. 4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars. 5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars. 6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS 6.1 THEMES - Scrollbar colors, opacity, dimensions, backgrounds etc. via ready-to-use themes.
+*/
+/*
+------------------------------------------------------------------------------------------------------------------------
+1. BASIC STYLE
+------------------------------------------------------------------------------------------------------------------------
+*/
+.mCustomScrollbar {
+    -ms-touch-action: none;
+    touch-action: none;
+    /* MSPointer events - direct all pointer events to js */ 
+}
+
+.mCustomScrollbar.mCS_no_scrollbar, .mCustomScrollbar.mCS_touch_action {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+.mCustomScrollBox {
+    /* contains plugin's markup */ position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: ltr;
+}
+
+.mCSB_container {
+    /* contains the original content */ overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+2. VERTICAL SCROLLBAR
+y-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+.mCSB_inside > .mCSB_container {
+    margin-right: 30px;
+}
+
+.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0;
+}
+
+/* non-visible scrollbar */
+.mCS-dir-rtl > .mCSB_inside > .mCSB_container {
+    /* RTL direction/left-side scrollbar */ margin-right: 0;
+    margin-left: 30px;
+}
+
+.mCS-dir-rtl > .mCSB_inside > .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-left: 0;
+}
+
+/* RTL direction/left-side scrollbar */
+.mCSB_scrollTools {
+    /* contains scrollbar markup (draggable element, dragger rail, buttons etc.) */ position: absolute;
+    width: 16px;
+    height: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mCSB_outside + .mCSB_scrollTools {
+    right: -26px;
+}
+
+/* scrollbar position: outside */
+.mCS-dir-rtl > .mCSB_inside > .mCSB_scrollTools, .mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools {
+    /* RTL direction/left-side scrollbar */ right: auto;
+    left: 0;
+}
+
+.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools {
+    left: -26px;
+}
+
+/* RTL direction/left-side scrollbar (scrollbar position: outside) */
+.mCSB_scrollTools .mCSB_draggerContainer {
+    /* contains the draggable element and dragger rail markup */ position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+}
+
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+    margin: 20px 0;
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 2px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+}
+
+.mCSB_scrollTools .mCSB_dragger {
+    /* the draggable element */ cursor: pointer;
+    width: 100%;
+    height: 30px;
+    /* minimum dragger height */ z-index: 1;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    /* the dragger element */ position: relative;
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    width: 12px;
+    /* auto-expanded scrollbar */ 
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    width: 8px;
+    /* auto-expanded scrollbar */ 
+}
+
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+    bottom: 0;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+3. HORIZONTAL SCROLLBAR
+x-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+.mCSB_horizontal.mCSB_inside > .mCSB_container {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.mCSB_horizontal.mCSB_outside > .mCSB_container {
+    min-height: 100%;
+}
+
+.mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0;
+}
+
+/* non-visible scrollbar */
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: auto;
+    height: 16px;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.mCustomScrollBox + .mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCustomScrollBox + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: -26px;
+}
+
+/* scrollbar position: outside */
+.mCSB_scrollTools.mCSB_scrollTools_horizontal a + .mCSB_draggerContainer {
+    margin: 0 20px;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 2px;
+    margin: 7px 0;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 30px;
+    /* minimum dragger width */ height: 100%;
+    left: 0;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto;
+}
+
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    height: 12px;
+    /* auto-expanded scrollbar */ margin: 2px auto;
+}
+
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    height: 8px;
+    /* auto-expanded scrollbar */ margin: 4px 0;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft, .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft {
+    left: 0;
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    right: 0;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+4. VERTICAL AND HORIZONTAL SCROLLBARS
+yx-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+.mCSB_container_wrapper {
+    position: absolute;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.mCSB_container_wrapper > .mCSB_container {
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.mCSB_vertical_horizontal > .mCSB_scrollTools.mCSB_scrollTools_vertical {
+    bottom: 20px;
+}
+
+.mCSB_vertical_horizontal > .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    right: 20px;
+}
+
+/* non-visible horizontal scrollbar */
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden + .mCSB_scrollTools.mCSB_scrollTools_vertical {
+    bottom: 0;
+}
+
+/* non-visible vertical scrollbar/RTL direction/left-side scrollbar */
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden + .mCSB_scrollTools ~ .mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCS-dir-rtl > .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    right: 0;
+}
+
+/* RTL direction/left-side scrollbar */
+.mCS-dir-rtl > .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    left: 20px;
+}
+
+/* non-visible scrollbar/RTL direction/left-side scrollbar */
+.mCS-dir-rtl > .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden + .mCSB_scrollTools ~ .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    left: 0;
+}
+
+.mCS-dir-rtl > .mCSB_inside > .mCSB_container_wrapper {
+    /* RTL direction/left-side scrollbar */ margin-right: 0;
+    margin-left: 30px;
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden > .mCSB_container {
+    padding-right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden > .mCSB_container {
+    padding-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0;
+    /* non-visible scrollbar */ margin-left: 0;
+}
+
+/* non-visible horizontal scrollbar */
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+5. TRANSITIONS
+------------------------------------------------------------------------------------------------------------------------
+*/
+.mCSB_scrollTools, .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight {
+    -webkit-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar, .mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail, .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar, .mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
+    -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -moz-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -o-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------
+6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS
+------------------------------------------------------------------------------------------------------------------------
+*/
+/* ---------------------------------------- 6.1 THEMES ---------------------------------------- */
+/* default theme ("light") */
+.mCSB_scrollTools {
+    opacity: 0.75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+}
+
+.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools, .mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 0;
+    filter: "alpha(opacity=0)";
+    -ms-filter: "alpha(opacity=0)";
+}
+
+.mCustomScrollbar > .mCustomScrollBox > .mCSB_scrollTools.mCSB_scrollTools_onDrag, .mCustomScrollbar > .mCustomScrollBox ~ .mCSB_scrollTools.mCSB_scrollTools_onDrag, .mCustomScrollBox:hover > .mCSB_scrollTools, .mCustomScrollBox:hover ~ .mCSB_scrollTools, .mCS-autoHide:hover > .mCustomScrollBox > .mCSB_scrollTools, .mCS-autoHide:hover > .mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)";
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75);
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+}
+
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+    filter: "alpha(opacity=85)";
+    -ms-filter: "alpha(opacity=85)";
+}
+
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    filter: "alpha(opacity=90)";
+    -ms-filter: "alpha(opacity=90)";
+}
+
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight {
+    background-image: url("/pt/assets/img/laima-charon/vendor/mCustomScrollbar/mCSB_buttons.png");
+    /* css sprites */ background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)";
+}
+
+.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: 0 0;
+    /* sprites locations light: 0 0, -16px 0, -32px 0, -48px 0, 0 -72px, -16px -72px, -32px -72px dark: -80px 0, -96px 0, -112px 0, -128px 0, -80px -72px, -96px -72px, -112px -72px */ 
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: 0 -20px;
+    /* sprites locations light: 0 -20px, -16px -20px, -32px -20px, -48px -20px, 0 -92px, -16px -92px, -32px -92px dark: -80px -20px, -96px -20px, -112px -20px, -128px -20px, -80px -92px, -96px -92px, -112 -92px */ 
+}
+
+.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: 0 -40px;
+    /* sprites locations light: 0 -40px, -20px -40px, -40px -40px, -60px -40px, 0 -112px, -20px -112px, -40px -112px dark: -80px -40px, -100px -40px, -120px -40px, -140px -40px, -80px -112px, -100px -112px, -120px -112px */ 
+}
+
+.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: 0 -56px;
+    /* sprites locations light: 0 -56px, -20px -56px, -40px -56px, -60px -56px, 0 -128px, -20px -128px, -40px -128px dark: -80px -56px, -100px -56px, -120px -56px, -140px -56px, -80px -128px, -100px -128px, -120px -128px */ 
+}
+
+.mCSB_scrollTools .mCSB_buttonUp:hover, .mCSB_scrollTools .mCSB_buttonDown:hover, .mCSB_scrollTools .mCSB_buttonLeft:hover, .mCSB_scrollTools .mCSB_buttonRight:hover {
+    opacity: 0.75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+}
+
+.mCSB_scrollTools .mCSB_buttonUp:active, .mCSB_scrollTools .mCSB_buttonDown:active, .mCSB_scrollTools .mCSB_buttonLeft:active, .mCSB_scrollTools .mCSB_buttonRight:active {
+    opacity: 0.9;
+    filter: "alpha(opacity=90)";
+    -ms-filter: "alpha(opacity=90)";
+}
+
+/* theme: "dark" */
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px 0;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -20px;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -40px;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -56px;
+}
+
+/* ---------------------------------------- */
+/* theme: "light-2", "dark-2" */
+.mCS-light-2.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.mCS-light-2.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-dark-2.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-light-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto;
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-light-2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px 0;
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -20px;
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -40px;
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -56px;
+}
+
+/* theme: "dark-2" */
+.mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px 0;
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -20px;
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -40px;
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -56px;
+}
+
+/* ---------------------------------------- */
+/* theme: "light-thick", "dark-thick" */
+.mCS-light-thick.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.mCS-light-thick.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-dark-thick.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 4px;
+    margin: 6px 0;
+}
+
+.mCS-light-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 6px;
+    margin: 5px auto;
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-light-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -16px 0;
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -16px -20px;
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -20px -40px;
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -20px -56px;
+}
+
+/* theme: "dark-thick" */
+.mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -96px 0;
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -96px -20px;
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -100px -40px;
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -100px -56px;
+}
+
+/* ---------------------------------------- */
+/* theme: "light-thin", "dark-thin" */
+.mCS-light-thin.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.mCS-light-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 2px;
+}
+
+.mCS-light-thin.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-dark-thin.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+}
+
+.mCS-light-thin.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 2px;
+    margin: 7px auto;
+}
+
+/* theme "dark-thin" */
+.mCS-dark-thin.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px 0;
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -20px;
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -40px;
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -56px;
+}
+
+/* ---------------------------------------- */
+/* theme "rounded", "rounded-dark", "rounded-dots", "rounded-dots-dark" */
+.mCS-rounded.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_dragger, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger, .mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger {
+    height: 14px;
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 14px;
+    margin: 0 1px;
+}
+
+.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger, .mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger, .mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger, .mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 14px;
+}
+
+.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 14px;
+    margin: 1px 0;
+}
+
+.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    width: 16px;
+    /* auto-expanded scrollbar */ height: 16px;
+    margin: -1px 0;
+}
+
+.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail, .mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    width: 4px;
+    /* auto-expanded scrollbar */ 
+}
+
+.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    height: 16px;
+    /* auto-expanded scrollbar */ width: 16px;
+    margin: 0 -1px;
+}
+
+.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail, .mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    height: 4px;
+    /* auto-expanded scrollbar */ margin: 6px 0;
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: 0 -72px;
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: 0 -92px;
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: 0 -112px;
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: 0 -128px;
+}
+
+/* theme "rounded-dark", "rounded-dots-dark" */
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px -72px;
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -92px;
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -112px;
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -128px;
+}
+
+/* theme "rounded-dots", "rounded-dots-dark" */
+.mCS-rounded-dots.mCSB_scrollTools_vertical .mCSB_draggerRail, .mCS-rounded-dots-dark.mCSB_scrollTools_vertical .mCSB_draggerRail {
+    width: 4px;
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_draggerRail, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    background-color: transparent;
+    background-position: center;
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_draggerRail, .mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQYV2NkIAAYiVbw//9/Y6DiM1ANJoyMjGdBbLgJQAX/kU0DKgDLkaQAvxW4HEvQFwCRcxIJK1XznAAAAABJRU5ErkJggg==");
+    background-repeat: repeat-y;
+    opacity: 0.3;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)";
+}
+
+.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    height: 4px;
+    margin: 6px 0;
+    background-repeat: repeat-x;
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -16px -72px;
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -16px -92px;
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -20px -112px;
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -20px -128px;
+}
+
+/* theme "rounded-dots-dark" */
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALElEQVQYV2NkIAAYSVFgDFR8BqrBBEifBbGRTfiPZhpYjiQFBK3A6l6CvgAAE9kGCd1mvgEAAAAASUVORK5CYII=");
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -96px -72px;
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -96px -92px;
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -100px -112px;
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -100px -128px;
+}
+
+/* ---------------------------------------- */
+/* theme "3d", "3d-dark", "3d-thick", "3d-thick-dark" */
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-repeat: repeat-y;
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* theme "3d", "3d-dark" */
+.mCS-3d.mCSB_scrollTools_vertical .mCSB_dragger, .mCS-3d-dark.mCSB_scrollTools_vertical .mCSB_dragger {
+    height: 70px;
+}
+
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger, .mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 70px;
+}
+
+.mCS-3d.mCSB_scrollTools, .mCS-3d-dark.mCSB_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)";
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_draggerRail, .mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_draggerRail, .mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail {
+    width: 8px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, 0.5), inset -1px 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-3d.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-3d.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #555;
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 8px;
+}
+
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 8px;
+    margin: 4px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5), inset 0 -1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 8px;
+    margin: 4px auto;
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px;
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px;
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px;
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px;
+}
+
+/* theme "3d-dark" */
+.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px;
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px;
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px;
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px;
+}
+
+/* ---------------------------------------- */
+/* theme: "3d-thick", "3d-thick-dark" */
+.mCS-3d-thick.mCSB_scrollTools, .mCS-3d-thick-dark.mCSB_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)";
+}
+
+.mCS-3d-thick.mCSB_scrollTools, .mCS-3d-thick-dark.mCSB_scrollTools, .mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerContainer {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.mCSB_inside + .mCS-3d-thick.mCSB_scrollTools_vertical, .mCSB_inside + .mCS-3d-thick-dark.mCSB_scrollTools_vertical {
+    right: 1px;
+}
+
+.mCS-3d-thick.mCSB_scrollTools_vertical, .mCS-3d-thick-dark.mCSB_scrollTools_vertical {
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, 0.1), inset 0 0 14px rgba(0, 0, 0, 0.5);
+}
+
+.mCS-3d-thick.mCSB_scrollTools_horizontal, .mCS-3d-thick-dark.mCSB_scrollTools_horizontal {
+    bottom: 1px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), inset 0 0 14px rgba(0, 0, 0, 0.5);
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.4);
+    width: 12px;
+    margin: 2px;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mCS-3d-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-3d-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-3d-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #555;
+}
+
+.mCS-3d-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 12px;
+    width: auto;
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 1px 1px 16px rgba(0, 0, 0, 0.1);
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent;
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px;
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px;
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px;
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px;
+}
+
+/* theme: "3d-thick-dark" */
+.mCS-3d-thick-dark.mCSB_scrollTools {
+    box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.2);
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools_horizontal {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), inset 0 0 14px rgba(0, 0, 0, 0.2);
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    box-shadow: inset 1px 0 0 rgba(255, 255, 255, 0.4), inset -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #777;
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 1px 1px 16px rgba(0, 0, 0, 0.1);
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent;
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px;
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px;
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px;
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px;
+}
+
+/* ---------------------------------------- */
+/* theme: "minimal", "minimal-dark" */
+.mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical {
+    right: 0;
+    margin: 12px 0;
+}
+
+.mCustomScrollBox.mCS-minimal + .mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCustomScrollBox.mCS-minimal + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCustomScrollBox.mCS-minimal-dark + .mCSB_scrollTools.mCSB_scrollTools_horizontal, .mCustomScrollBox.mCS-minimal-dark + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: 0;
+    margin: 0 12px;
+}
+
+/* RTL direction/left-side scrollbar */
+.mCS-dir-rtl > .mCSB_outside + .mCS-minimal.mCSB_scrollTools_vertical, .mCS-dir-rtl > .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical {
+    left: 0;
+    right: auto;
+}
+
+.mCS-minimal.mCSB_scrollTools .mCSB_draggerRail, .mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent;
+}
+
+.mCS-minimal.mCSB_scrollTools_vertical .mCSB_dragger, .mCS-minimal-dark.mCSB_scrollTools_vertical .mCSB_dragger {
+    height: 50px;
+}
+
+.mCS-minimal.mCSB_scrollTools_horizontal .mCSB_dragger, .mCS-minimal-dark.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 50px;
+}
+
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)";
+}
+
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-minimal.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    filter: "alpha(opacity=50)";
+    -ms-filter: "alpha(opacity=50)";
+}
+
+/* theme: "minimal-dark" */
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)";
+}
+
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: "alpha(opacity=50)";
+    -ms-filter: "alpha(opacity=50)";
+}
+
+/* ---------------------------------------- */
+/* theme "light-3", "dark-3" */
+.mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 6px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px;
+}
+
+.mCS-light-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-light-3.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 6px;
+    margin: 5px 0;
+}
+
+.mCS-light-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-light-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    width: 12px;
+}
+
+.mCS-light-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-light-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    height: 12px;
+    margin: 2px 0;
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px;
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px;
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px;
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px;
+}
+
+/* theme "dark-3" */
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-dark-3.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px;
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px;
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px;
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px;
+}
+
+/* ---------------------------------------- */
+/* theme "inset", "inset-dark", "inset-2", "inset-2-dark", "inset-3", "inset-3-dark" */
+.mCS-inset.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail {
+    width: 12px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mCS-inset.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px;
+    margin: 3px 5px;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mCS-inset.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-2-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-3-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 6px;
+    margin: 5px 3px;
+    position: absolute;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mCS-inset.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-inset-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-inset-2.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-inset-2-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-inset-3.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-inset-3-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 12px;
+    margin: 2px 0;
+}
+
+.mCS-inset.mCSB_scrollTools .mCSB_buttonUp, .mCS-inset-2.mCSB_scrollTools .mCSB_buttonUp, .mCS-inset-3.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px;
+}
+
+.mCS-inset.mCSB_scrollTools .mCSB_buttonDown, .mCS-inset-2.mCSB_scrollTools .mCSB_buttonDown, .mCS-inset-3.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px;
+}
+
+.mCS-inset.mCSB_scrollTools .mCSB_buttonLeft, .mCS-inset-2.mCSB_scrollTools .mCSB_buttonLeft, .mCS-inset-3.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px;
+}
+
+.mCS-inset.mCSB_scrollTools .mCSB_buttonRight, .mCS-inset-2.mCSB_scrollTools .mCSB_buttonRight, .mCS-inset-3.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px;
+}
+
+/* theme "inset-dark", "inset-2-dark", "inset-3-dark" */
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-inset-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-inset-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonUp, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonUp, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px;
+}
+
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonDown, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonDown, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px;
+}
+
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonLeft, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonLeft, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px;
+}
+
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonRight, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonRight, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px;
+}
+
+/* theme "inset-2", "inset-2-dark" */
+.mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail, .mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, 0.2);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail {
+    border-color: #000;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* theme "inset-3", "inset-3-dark" */
+.mCS-inset-3.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-inset-3.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* ---------------------------------------- */
+.cardFilter .mCSB_outside + .mCSB_scrollTools {
+    right: -21px;
+}
+
+.msgList .mCSB_outside + .mCSB_scrollTools {
+    right: 0;
+}
+
+.tipsy {
+    font-size: 15px;
+    position: absolute;
+    padding: 5px;
+    word-wrap: break-word;
+    z-index: 100000;
+}
+
+.tipsy-inner {
+    background-color: #000;
+    color: #FFF;
+    max-width: 200px;
+    padding: 5px 8px 4px 8px;
+    text-align: center;
+}
+
+/* Rounded corners */
+.tipsy-inner {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/* Uncomment for shadow */
+/*.tipsy-inner {
+    box-shadow: 0 0 5px #000000;
+    -webkit-box-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 5px #000000;
+}*/
+.tipsy-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 5px dashed #000;
+}
+
+/* Rules to colour arrows */
+.tipsy-arrow-n {
+    border-bottom-color: #000;
+}
+
+.tipsy-arrow-s {
+    border-top-color: #000;
+}
+
+.tipsy-arrow-e {
+    border-left-color: #000;
+}
+
+.tipsy-arrow-w {
+    border-right-color: #000;
+}
+
+.tipsy-n .tipsy-arrow {
+    top: 0px;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.tipsy-nw .tipsy-arrow {
+    top: 0;
+    left: 10px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.tipsy-ne .tipsy-arrow {
+    top: 0;
+    right: 10px;
+    border-bottom-style: solid;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.tipsy-s .tipsy-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.tipsy-sw .tipsy-arrow {
+    bottom: 0;
+    left: 10px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.tipsy-se .tipsy-arrow {
+    bottom: 0;
+    right: 10px;
+    border-top-style: solid;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.tipsy-e .tipsy-arrow {
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-left-style: solid;
+    border-right: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.tipsy-w .tipsy-arrow {
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+    border-right-style: solid;
+    border-left: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+.cursor-box {
+    background-color:rgb(0,255,0);
+    display:inline-block;
+    width:6px;
+    height:12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:4px 0 0 0;
+    animation:curs 1s infinite;
+    -webkit-animation:curs 1s  infinite;
+    vertical-align:bottom;
+}
+
+
+.aniDissolve{
+    animation:solve 1s 1;
+    -o-animation:solve 1s 1; /* Opera */
+    -moz-animation:solve 1s 1; /* Firefox */
+    -webkit-animation:solve 1s 1; /* Safari and Chrome */
+}
+.toTop{
+    animation:bottomstart 0.5s 1;
+    -o-animation:bottomstart 0.5s 1; /* Opera */
+    -moz-animation:bottomstart 0.5s 1; /* Firefox */
+    -webkit-animation:bottomstart 0.5s 1; /* Safari and Chrome */
+}
+.toBottom{
+    animation:bottomend 0.5s 1;
+    -o-animation:bottomend 0.5s 1; /* Opera */
+    -moz-animation:bottomend 0.5s 1; /* Firefox */
+    -webkit-animation:bottomend 0.5s 1; /* Safari and Chrome */
+}
+@-webkit-keyframes solve {
+    0% { opacity: 1; }
+    10% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes solve {
+    0% { opacity: 1; }
+    10% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes solve {
+    0% { opacity: 1; }
+    10% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes solve {
+    0% { opacity: 1; }
+    10% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes bottomstart{
+    0%   { -webkit-transform: translateY(100%) translateZ(0); }
+    100% { -webkit-transform: translateY(0) translateZ(0); }
+}
+@-moz-keyframes bottomstart{
+    0%   { -moz-transform: translateY(100%) translateZ(0); }
+    100% { -moz-transform: translateY(0) translateZ(0); }
+}
+@-o-keyframes bottomstart{
+    0%   { -o-transform: translate(0,100%); }
+    100% { -o-transform: translate(0,0);}
+}
+@keyframes bottomstart{
+    0%   { transform: translateY(100%) translateZ(0); }
+    100% { transform: translateY(0) translateZ(0); }
+}
+@-webkit-keyframes bottomend{
+    from { -webkit-transform: translateY(0) translateZ(0); }
+    to   { -webkit-transform: translateY(100%) translateZ(0); }
+}
+@-moz-keyframes bottomend{
+    from { -moz-transform: translateY(0) translateZ(0); }
+    to   { -moz-transform: translateY(100%) translateZ(0); }
+}
+@-o-keyframes bottomend{
+    from { -o-transform: translate(0,0);}
+    to   { -o-transform: translate(0,100%); }
+}
+@keyframes bottomend{
+    from { transform: translateY(0) translateZ(0); }
+    to   { transform: translateY(100%) translateZ(0); }
+}
+@-webkit-keyframes allstart {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes allstart {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes allstart {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes curs {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes curs {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}

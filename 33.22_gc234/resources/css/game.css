@@ -1,0 +1,53 @@
+.caicontainer {margin: 20px auto 0 auto;width: 100%;max-width: 1200px;min-height:700px;border: 1px solid #d3d3d3;height: auto;}
+.cainav {width: 250px;float: left;border-right: 1px solid #ccc;}
+.caicontent {width: 948px;float: right;background-color: #FFF;font-size: 14px;}
+.caihead {margin: 15px;height: 20px;line-height: 20px;}
+.caihead h2 {font-size: 16px;font-weight: bold;float: left;}
+#cai-info {float: right; font-weight: bold;}
+#ui-countdown {color: red;}
+.container-fluid .brand {height:74px;width:1200px;margin: 10px auto;background-color: #333; color: #fff;font-size: 18px;}
+.gamecontainer {
+    margin: 0px auto 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 700px;
+    border: 1px solid #d3d3d3;
+    height: auto;
+}
+.gamehead {height: 35px;width: 100%; background-color: #666;color: #fff; font-size: 17px;line-height: 35px;margin-bottom: 20px;}
+.gamehead a {display: inline-block;padding: 0 20px;}
+.gamehead a:link {color: #fff;}
+.gamehead a:visited {color: #fff;}
+.gamehead li {float: left;}
+.gamehead .active {background-color: #fff;}
+.gamehead .active a {color: #000000}
+.gamecontent {clear: both;text-align: center;}
+.gamecontent img {width: 285px;}
+.gamecontent h3 {font-size: 16px;}
+.gamecontent li{width: 285px;float: left; margin: 10px 7.5px;}
+
+#locate-box a:link {
+    color:#666;
+}
+#locate-box a:visited {
+    color:#666;
+}
+#locate-box a:hover {
+    color:#666;
+}
+#locate-box a:active {
+    color:#666;
+}
+
+/*游戏hover显示按钮*/
+.ghover{ position:relative;width:285px; height:110px; margin:0 auto;}
+.ghover span{display:none; text-decoration:none}
+.ghover p{display:none; text-decoration:none}
+.ghover a{text-decoration:none;color: #fff;width: 100px;display:inline-block; border-radius: 4px;margin: 0 14px;}
+.ghover a.start {background: url("../img/game/start.png") no-repeat left center;}
+.ghover a.try {background: url("../img/game/try.png") no-repeat left center;}
+.ghover:hover span{ display:block;position:absolute; bottom:0; left:0;color:#FFF;width:285px; z-index:10;height:110px; line-height:110px; background:#000;filter:alpha(opacity=60);-moz-opacity:0.5;opacity: 0.5;
+    border-radius:10px; -webkit-border-radius: 10px; -moz-border-radius: 10px;}
+.ghover:hover p{ display:block;position:absolute; bottom:0; left:0;width:285px; z-index:10;line-height:110px;}
+/* 设置显示文字定位位置，背景半透明 */
+

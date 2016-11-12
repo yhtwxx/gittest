@@ -1,0 +1,186 @@
+{"code":0,"gameData":[
+{
+"gameName": "Aces & Faces",
+"zhName": "王牌和牌面",
+"gameCode": "acesfaces",
+"gameImgName": "BTN_AcesFaces1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Aces & Faces (multiplayer 4 hands)",
+"zhName": "王牌和牌面(4手多人游戏)",
+"gameCode": "AcesfacesPwrPoker",
+"gameImgName": "BTN_AcesFacesPowerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Deuces & Joker",
+"zhName": "两点和小丑卡",
+"gameCode": "DeucesandJoker",
+"gameImgName": "BTN_DeucesJoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Deuces & Joker (PP)",
+"zhName": "两点和小丑卡扑克力量",
+"gameCode": "DeucesJokerPwrPoker",
+"gameImgName": "BTN_DeucesJokerPowerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Deuces Wild",
+"zhName": "狂放双点",
+"gameCode": "deuceswi",
+"gameImgName": "BTN_DeucesWild1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Deuces Wild (PP)",
+"zhName": "狂放双点扑克力量",
+"gameCode": "DeucesWildPwrPoker",
+"gameImgName": "BTN_DeucesWildPowerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Dbl Dbl Bonus",
+"zhName": "双重红利扑克",
+"gameCode": "DoubleDoubleBonus",
+"gameImgName": "BTN_DoubleDoubleBonus1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Double Joker",
+"zhName": "双重百搭卡",
+"gameCode": "DoubleJoker",
+"gameImgName": "BTN_DoubleJoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Double Joker (PP)",
+"zhName": "双重百搭卡",
+"gameCode": "DoubleJokerPwrPoker",
+"gameImgName": "BTN_DoubleJokerPowerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Jacks or Better",
+"zhName": "杰克或更好",
+"gameCode": "jacks",
+"gameImgName": "BTN_JacksOrBetter1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Jacks or Better (PP)",
+"zhName": "杰克或更好（扑克力量）",
+"gameCode": "Jackspwrpoker",
+"gameImgName": "BTN_JacksorBetterPowerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Joker",
+"zhName": "小丑扑克",
+"gameCode": "Jokerpok",
+"gameImgName": "BTN_JokerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Louisiana Double",
+"zhName": "路易斯安那双扑克",
+"gameCode": "LouisianaDouble",
+"gameImgName": "BTN_LouisianaDouble1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Aces and Eights",
+"zhName": "王牌和八",
+"gameCode": "RubyAcesAndEights",
+"gameImgName": "BTN_AcesAndEights1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "All Aces Poker",
+"zhName": "所有王牌扑克",
+"gameCode": "RubyAllAces",
+"gameImgName": "BTN_AllAces1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "All American",
+"zhName": "美国式扑克",
+"gameCode": "RubyAllAmerican",
+"gameImgName": "BTN_AllAmerican1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Bonus Deuces Wild",
+"zhName": "红利局末平分狂放",
+"gameCode": "RubyBonusDeucesWild",
+"gameImgName": "BTN_BonusDeucesWild1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Bonus Poker",
+"zhName": "红利扑克",
+"gameCode": "RubyBonusPoker",
+"gameImgName": "BTN_BonusPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Bonus Poker Deluxe",
+"zhName": "豪华红利扑克",
+"gameCode": "RubyBonusPokerDeluxe",
+"gameImgName": "BTN_BonusPokerDeluxe1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Double Bonus Poker",
+"zhName": "双重红利扑克",
+"gameCode": "RubyDoubleBonusPoker",
+"gameImgName": "BTN_DoubleBonus1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Tens or Better",
+"zhName": "十或更好",
+"gameCode": "TensorBetter",
+"gameImgName": "BTN_TensOrBetter1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Tens or Better (PP)",
+"zhName": "十或更好扑克力量",
+"gameCode": "TensorBetterPwrPoker",
+"gameImgName": "BTN_TensOrBetterPowerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+,{
+"gameName": "Joker Poker",
+"zhName": "",
+"gameCode": "JokerPwrPoker",
+"gameImgName": "BTN_JokerPokerPowerPoker1.png",
+"gameType": "VIDEO POKER",
+"gameShi": "0"
+}
+]}

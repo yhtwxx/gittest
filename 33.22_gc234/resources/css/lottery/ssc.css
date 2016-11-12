@@ -1,0 +1,1595 @@
+@charset "utf-8";
+
+.caicontainer {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1170px;
+	min-height: 700px;
+	padding:15px;
+	height: auto;
+	color: #666;
+	background: #fff;
+}
+
+.caicontainer a {
+	color: #666;
+	text-decoration: none;
+}
+
+.cainav {
+	width: 250px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+
+.caicontent {
+	width: 948px;
+	float: right;
+	background-color: #FFF;
+	font-size: 14px;
+}
+
+.caihead {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 30px;
+}
+
+.caihead h2 {
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+
+#cai-info {
+	float: right;
+	font-weight: bold;
+}
+
+#ui-countdown {
+	color: red;
+}
+
+.tabs {
+	height: 40px;
+	border-bottom: 1px solid #a5a5a5;
+	margin-bottom: 5px;
+}
+
+.tabs li {
+	border: 1px solid #a5a5a5;
+	border-bottom: 0px solid #a5a5a5;
+	width: 57px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	background-color: #efefef;
+	top: 13px;
+	float: left;
+	margin-top: 13px;
+	cursor: pointer;
+}
+
+.tabs .active {
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+
+.quick-bet {
+	margin: 15px;
+	font-size: 12px;
+}
+
+.quick-bet-h, .quick-bet-t {
+	margin: 5px 0;
+}
+
+.quick-bet-title, .quick-bet-head, .quick-bet-tail {
+	display: inline-block;
+	width: 10%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.quick-bet span[type] {
+	display: inline-block;
+	background-color: #838180;
+	color: #fff;
+	width: 5%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.quick-bet span[type]:hover {
+	cursor: pointer
+}
+
+.quick-bet input {
+	border: 1px solid #ccc;
+	height: 22px;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.order-table {
+	font-size: 12px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+
+.order-table th {
+	background-color: #efefef;
+	padding: 1em;
+	border: 1px solid #cbcbcb;
+	text-align: center;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.order-table tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.order-table tbody {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.order-table td {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #cbcbcb;
+	padding: 0.5em;
+	font-weight: normal;
+	vertical-align: middle;
+	margin: 0;
+	line-height: 1.62;
+	font-family: Tahoma, "Microsoft YaHei", "HelveticaNeue-Light",
+		"Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+#luzi td {
+	width: 15px;
+}
+
+.order-table input, .gold-input .bet-gold {
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	color: #555555;
+	width: 45px;
+	border: 1px solid #ccc;
+	height: 19px;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.odds {
+	color: #c7254e;
+	font-weight: bold;
+}
+
+#order-info {
+	text-align: right;
+	width: 96%;
+	margin: 15px;
+}
+
+button.btn-cancel {
+	color: #fff;
+	background-color: #c9302c;
+	border-color: #ac2925;
+	padding: 6px 12px;
+	font-weight: 400;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button.btn-submit, input.msg-btn-hide {
+	color: #fff;
+	background-color: #286090;
+	border-color: #204d74;
+	padding: 6px 12px;
+	font-weight: 400;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.tabs .active1 {
+	border-bottom: 1px solid #fff;
+	background-color: #ccc;
+}
+
+/*��ർ��?*/
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+.accordion {
+	width: 100%;
+	max-width: 250px;
+	background: #F8F8F8;
+}
+
+.accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 15px 15px 15px 42px;
+	color: #4D4D4D;
+	font-size: 14px;
+	font-weight: 700;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion li i {
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	font-size: 18px;
+	color: #595959;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+	right: 12px;
+	left: auto;
+	font-size: 16px;
+}
+
+.accordion li.open .link {
+	color: #717074;
+}
+
+.accordion li.open i {
+	color: #717074;
+}
+
+.accordion li.open i.fa-chevron-down {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+.submenu {
+	display: none;
+	background: #FFF;
+	font-size: 14px;
+}
+
+.submenu li {
+	border-bottom: 1px solid #D3D3D3;
+}
+
+.submenu a {
+	display: block;
+	text-decoration: none;
+	color: #666;
+	padding: 12px;
+	padding-left: 42px;
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+	background: #717074;
+	color: #FFF;
+}
+
+.submenu .on {
+	background: #717074;
+	color: #FFF;
+}
+
+.choose-item-cnt {
+	float: right;
+}
+
+.display-ctl {
+	text-align: center;
+	background: url('../../img/lottery/gradient.png?1423206031') repeat-x;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.menu-icon {
+	background: url('../../img/lottery/menuIcon.png?1423206031');
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+}
+
+.display-ctl-title {
+	display: inline-block;
+	vertical-align: super;
+	margin-right: 5px;
+}
+
+.up-and-down {
+	display: inline-block;
+	width: 16px;
+	height: 10px;
+	vertical-align: super;
+	background: url('../../img/lottery/down.png?1423206031');
+}
+
+.active .up-and-down {
+	background: url('../../img/lottery/up.png?1423206031');
+}
+
+.display-area td {
+	border: 1px solid #cbcbcb;
+	width: 16%;
+	text-align: center;
+	padding: 3px;
+}
+
+.display-area td input[type="radio"] {
+	margin: 0;
+	padding: 0;
+	width: 14px;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-appearance: radio;
+	box-sizing: border-box;
+	background-color: initial;
+	border: initial;
+}
+
+.display-area td input[type="checkbox"] {
+	margin: 0;
+	padding: 0;
+	width: 14px;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-appearance: checkbox;
+	box-sizing: border-box;
+	background-color: initial;
+	border: initial;
+}
+
+.display-area .check-box-group span {
+	display: inline-block;
+	padding: 5px;
+	width: 12%;
+	vertical-align: inherit;
+}
+
+.check-box-group input[type="checkbox"] {
+	width: 12px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.display-area .btn-quick-select, .display-area .btn-quick-reset,
+	.display-area .btn-quick-submit {
+	color: #fff;
+	border: 0;
+	width: 8%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background-color: #50709a;
+	padding: 1px 6px;
+	cursor: pointer;
+}
+
+.btn-all-in {
+	height: 30px;
+	width: auto;
+	background-color: #50709a;
+	color: #fff;
+	border: 1px solid #2d3f57;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	padding: 0 10px;
+	align-items: flex-start;
+	text-align: center;
+}
+
+.rule-descript {
+	display: inline-block;
+	font-size: 14px;
+	padding-bottom: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.order-table caption {
+	background: url('../../img/lottery/caption.jpg?1420427671') #fff repeat-x bottom;
+	height: 36px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #333;
+	border: 1px solid #cbcbcb;
+	border-bottom: none;
+}
+
+#order-box .quick-bet .active {
+	background-color: #000;
+}
+
+.order-table .active {
+	background-color: #ffff00;
+}
+
+/*����ҳ��*/
+#result table {
+	width: 97%;
+	font-size: 12px;
+	margin: 20px 1.5%;
+	border-collapse: collapse;
+	border: 0;
+	padding: 0;
+}
+
+#result table th, #result table td {
+	border: 1px solid #cbcbcb;
+	text-align: center;
+	padding: 0.3em 0.5em;
+}
+
+#result table th {
+	background: #efefef;
+}
+
+.choose-item-cnt {
+	display: none
+}
+
+.choose-item.disabled {
+	background-color: #808080;
+}
+
+.caihead .sg {
+	color: #FFF;
+	background-color: #ED2804;
+	padding: 2px 4px;
+	margin-left: 20px;
+	border-radius: 2px;
+	font-size: 12px;
+}
+
+.caihead .prevSGSpan {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.caihead .prevSGSpan #lastSg {
+	font-size: 18px;
+}
+
+div.round-table {
+	width: 97%;
+	max-width: 97%;
+	margin: 20px 1.5%;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+div.round-table table {
+	_border: 0;
+	_border-collapse: collapse;
+	_width: 100%;
+	_font-size: 12px;
+}
+
+div.round-table>table {
+	border: 0;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 12px;
+}
+
+div.round-table>table>tbody>tr {
+	height: 24px;
+}
+
+tr.title_tr td {
+	background-color: #efefef;
+	font-size: 12px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+}
+
+div.round-table>table td {
+	padding: 0;
+	border: 1px solid #cbcbcb;
+	text-align: center;
+}
+
+table.order-table td.choose .num, #lastSg .num {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background-repeat: no-repeat;
+}
+
+td.choose span.ball, td.choose span.ball, #lastSg span.ball {
+	background-image: url('../../img/lottery/b.gif');
+}
+
+td.choose span.ballR, td.choose span.ballR, #lastSg span.ballR {
+	background: #F4F8F9 url("../../img/lottery/r.gif") center center no-repeat;
+}
+
+td.choose span.ballG, td.choose span.ballG, #lastSg span.ballG {
+	background: #F4F8F9 url("../../img/lottery/g.gif") center center no-repeat;
+}
+
+td.choose span.ballB, td.choose span.ballB, #lastSg span.ballB {
+	background: #F4F8F9 url("../../img/lottery/b.gif") center center no-repeat;
+}
+
+.choose .choose-name {
+	border: none;
+	background: none;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	width: 30px;
+}
+
+.choose .num-group {
+	border: none;
+	background: none;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	width: 30px;
+}
+
+.choose .odds {
+	font-size: 12px;
+	padding: 0.3em 0.5em;
+	font-weight: bold;
+	color: #cc0000;
+}
+
+/*��������*/
+.dice, .dice {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 2px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.dice.dice-num-1, .dice.dice-num-1 {
+	background: url('../../img/lottery/dice.png') no-repeat 0px 0px;
+}
+
+.dice.dice-num-2, .dice.dice-num-2 {
+	background: url('../../img/lottery/dice.png') no-repeat 0px -26px;
+}
+
+.dice.dice-num-3, .dice.dice-num-3 {
+	background: url('../../img/lottery/dice.png') no-repeat 0px -52px;
+}
+
+.dice.dice-num-4, .dice.dice-num-4 {
+	background: url('../../img/lottery/dice.png') no-repeat 0px -78px;
+}
+
+.dice.dice-num-5, .dice.dice-num-5 {
+	background: url('../../img/lottery/dice.png') no-repeat 0px -104px;
+}
+
+.dice.dice-num-6, .dice.dice-num-6 {
+	background: url('../../img/lottery/dice.png') no-repeat 0px -130px;
+}
+
+/*������*/
+span.ball {
+	cursor: pointer;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	text-shadow: 1px 1px 0px black;
+	color: white;
+}
+
+.quick-order-info {
+	width: 730px !important;
+	background-color: #d6d6d6;
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee),
+		color-stop(50%, #cecece), color-stop(100%, #eeeeee));
+	background-image: -moz-linear-gradient(#eeeeee, #cecece, #eeeeee);
+	background-image: -webkit-linear-gradient(#eeeeee, #cecece, #eeeeee);
+	background-image: linear-gradient(#eeeeee, #cecece, #eeeeee);
+	border-radius: 0 0 3px 3px;
+	border: 1px solid #262626;
+	margin: -7px 0 0 6px;
+}
+
+.quick-order-info .inner {
+	padding: 2px;
+}
+
+.multi-locate-order-info {
+	width: 552px !important;
+	background-color: #d6d6d6;
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee),
+		color-stop(50%, #cecece), color-stop(100%, #eeeeee));
+	background-image: -moz-linear-gradient(#eeeeee, #cecece, #eeeeee);
+	background-image: -webkit-linear-gradient(#eeeeee, #cecece, #eeeeee);
+	background-image: linear-gradient(#eeeeee, #cecece, #eeeeee);
+	border-radius: 0 0 3px 3px;
+	border: 5px solid #262626;
+	border-top-width: 1px;
+	margin: -1px 0 0 1px;
+}
+
+.multi-locate-order-info .inner {
+	padding: 2px;
+}
+
+#orders .ball-num-1 {
+	background: #d9c100 !important;
+}
+
+#orders .ball-num-2 {
+	background: #0089ff !important;
+}
+
+#orders .ball-num-3 {
+	background: #4e4e4e !important;
+}
+
+#orders .ball-num-4 {
+	background: #ff7000 !important;
+}
+
+#orders .ball-num-5 {
+	background: #39d0cb !important;
+}
+
+#orders .ball-num-6 {
+	background: #4b00ff !important;
+}
+
+#orders .ball-num-7 {
+	background: #b6b2b3 !important;
+}
+
+#orders .ball-num-8 {
+	background: #fb0102 !important;
+}
+
+#orders .ball-num-9 {
+	background: #710000 !important;
+}
+
+#orders .ball-num-10 {
+	background: #2ebf00 !important;
+}
+
+.ball-num-1 {
+	background: #d9c100 !important;
+}
+
+.ball-num-2 {
+	background: #0089ff !important;
+}
+
+.ball-num-3 {
+	background: #4e4e4e !important;
+}
+
+.ball-num-4 {
+	background: #ff7000 !important;
+}
+
+.ball-num-5 {
+	background: #39d0cb !important;
+}
+
+.ball-num-6 {
+	background: #4b00ff !important;
+}
+
+.ball-num-7 {
+	background: #b6b2b3 !important;
+}
+
+.ball-num-8 {
+	background: #fb0102 !important;
+}
+
+.ball-num-9 {
+	background: #710000 !important;
+}
+
+.ball-num-10 {
+	background: #2ebf00 !important;
+}
+
+#orders .disabled {
+	background: #999 !important;
+	text-shadow: 1px 1px 1px #777;
+	color: #AAA;
+	box-shadow: 1px 1px 0px #555;
+}
+
+.multi-locate-order {
+	border: 1px solid #ddd;
+	width: 97%;
+}
+
+.multi-locate-order h3 {
+	border-bottom: 1px solid #ddd;
+	width: 97%;
+}
+
+.multi-locate-order hr {
+	margin: 0;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.multi-locate-order table.choose-group-block tbody th {
+	background-color: #efefef;
+	text-align: center;
+	color: #3a3a3a;
+	width: 65px;
+	line-height: 24px;
+	font-size: 12px;
+	white-space: nowrap;
+	border-right: 1px solid #ddd;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.multi-locate-order .choose-group-table {
+	width: 190px;
+	margin: 0 10px;
+}
+
+.multi-locate-order .choose-group-table .choose-group-name {
+	width: 30%;
+	text-align: center;
+	font-size: 18px;
+	padding: 0 5px;
+}
+
+.multi-locate-order table.choose-group-block tbody .row-name {
+	padding: 5px 10px;
+	text-align: justify;
+	width: 50px;
+}
+
+.multi-locate-order table.choose-group-block tbody .gold-input {
+	padding: 5px 10px;
+}
+
+.multi-locate-order table.choose-group-block tbody td {
+	font-size: 12px;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+/*��������8*/
+.multi-order {
+	margin: 15px 0 5px 15px;
+	border-radius: 7px;
+	width: 710px;
+	padding: 7px;
+}
+
+.multi-order #button-block {
+	width: 230px;
+	margin-right: 3px;
+	float: left;
+	font-size: 11px;
+}
+
+.multi-order #button-block .btn-choose-group {
+	margin: 0 0 3px 0;
+	text-align: center;
+	vertical-align: bottom;
+	border-radius: 5px;
+	border: 1px solid #888;
+	width: 100%;
+	background: #DDD url('../../img/lottery/btn_multi_group.jpg') repeat-x center;
+	cursor: pointer;
+}
+
+.multi-order #button-block .btn-choose-group.active {
+	background: #DDD url('../../img/lottery/btn_multi_group_checked.jpg') repeat-x
+		center;
+}
+
+.multi-order #button-block .btn-choose-group .choose-group-table {
+	width: 100%;
+}
+
+.multi-order #button-block .btn-choose-group .choose-group-name {
+	text-align: center;
+	white-space: 5px;
+	width: 100%;
+	line-height: 72px;
+	font-size: 18px;
+	text-shadow: 1px 1px 0px #222;
+	color: #FFF;
+}
+
+.multi-order #button-block .btn-choose-group.active .choose-group-name {
+	text-shadow: 1px 1px 0px #FFF;
+	color: #666;
+	width: 100px;
+	display: inline-block;
+}
+
+.multi-order #button-block .btn-choose-group .odds-box {
+	text-align: left;
+}
+
+.multi-order #button-block .btn-choose-group.active .odds-box {
+	display: inline-block;
+	width: 125px;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.multi-order .ball-bg {
+	text-align: center;
+	margin-left: 5px;
+	float: left;
+	background: #FFF;
+	border: 5px solid #FFF;
+	border-radius: 3px;
+}
+
+.multi-order #balls-block {
+	width: 400px;
+	border-radius: 3px;
+	background: #cecece;
+}
+
+.multi-order #balls-block .ball {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 0 8px 8px;
+	padding: 0;
+	height: 32px;
+	width: 32px;
+	line-height: 32px;
+	border-radius: 16px;
+	font-size: 18px;
+	background: #666;
+	color: #DDD;
+}
+
+.multi-order #balls-block .checked {
+	background: #B00;
+	color: #FFF;
+}
+
+.multi-order #balls-block hr {
+	border: none;
+	border-top: 1px solid #FFF;
+	margin: 8px 0;
+}
+
+.multi-order .ball-bg label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.multi-order div.chk-show-bets {
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #555;
+	text-shadow: 1px 1px 0px #FFF;
+	background: #FFF url('../../img/lottery/bg_ffffff_v_c6c6c6.jpg') repeat-x center;
+}
+
+.multi-order div.checked {
+	color: #FFF;
+	text-shadow: 1px 1px 0px #000;
+	background: #000 url('../../img/lottery/bg_555555_v_292929.jpg') repeat-x center;
+}
+
+.multi-order .clear {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	content: ".";
+	clear: both;
+}
+
+/*六合彩快选*/
+div#QuickMenu {
+	color: black;
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+}
+
+div#QuickMenu div {
+	font-size: 14px;
+	border: 1px dotted black;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-repeat: initial;
+	margin: 4px;
+	padding: 4px;
+	text-align: center;
+	clear: both;
+	width: 95%;
+}
+
+#QuickMenu fieldset {
+	margin: 4px;
+	padding: 0px;
+	border: 1px dotted black;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	background-color: rgb(255, 255, 255);
+}
+
+div#QuickMenu fieldset {
+	width: 47%;
+	float: left;
+}
+
+div#QuickMenu fieldset.ball49 {
+	width: 95%;
+}
+
+div#QuickMenu fieldset p {
+	margin: 5px;
+	padding: 0px;
+	line-height: 20px;
+}
+
+div#QuickMenu fieldset.ball49 p {
+	line-height: 20px;
+	text-align: left;
+	padding-left: 100px;
+}
+
+#QuickMenu fieldset a {
+	font-size: 14px;
+	color: black;
+	border: 1px solid rgb(187, 187, 187);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	background: url('../../img/lottery/tab_bg.png') 50% 100% repeat-x
+		rgb(255, 255, 255);
+}
+
+#QuickMenu fieldset a:hover {
+	background-position: top;
+}
+
+#QuickMenu fieldset p a {
+	padding: 3px;
+	margin: 2px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#QuickMenu fieldset.ball49 a {
+	font-size: 14px;
+	padding: 2px;
+	margin: 1px;
+	border-radius: 12px;
+}
+
+#QuickMenu fieldset a.b01, #QuickMenu fieldset a.b02, #QuickMenu fieldset a.b07,
+	#QuickMenu fieldset a.b08, #QuickMenu fieldset a.b12, #QuickMenu fieldset a.b13,
+	#QuickMenu fieldset a.b18, #QuickMenu fieldset a.b19, #QuickMenu fieldset a.b23,
+	#QuickMenu fieldset a.b24, #QuickMenu fieldset a.b29, #QuickMenu fieldset a.b30,
+	#QuickMenu fieldset a.b34, #QuickMenu fieldset a.b35, #QuickMenu fieldset a.b40,
+	#QuickMenu fieldset a.b45, #QuickMenu fieldset a.b46 {
+	color: red;
+}
+
+#QuickMenu fieldset a.b03, #QuickMenu fieldset a.b04, #QuickMenu fieldset a.b09,
+	#QuickMenu fieldset a.b10, #QuickMenu fieldset a.b14, #QuickMenu fieldset a.b15,
+	#QuickMenu fieldset a.b20, #QuickMenu fieldset a.b25, #QuickMenu fieldset a.b26,
+	#QuickMenu fieldset a.b31, #QuickMenu fieldset a.b36, #QuickMenu fieldset a.b37,
+	#QuickMenu fieldset a.b41, #QuickMenu fieldset a.b42, #QuickMenu fieldset a.b47,
+	#QuickMenu fieldset a.b48 {
+	color: blue;
+}
+
+#QuickMenu fieldset a.b05, #QuickMenu fieldset a.b06, #QuickMenu fieldset a.b11,
+	#QuickMenu fieldset a.b16, #QuickMenu fieldset a.b17, #QuickMenu fieldset a.b21,
+	#QuickMenu fieldset a.b22, #QuickMenu fieldset a.b27, #QuickMenu fieldset a.b28,
+	#QuickMenu fieldset a.b32, #QuickMenu fieldset a.b33, #QuickMenu fieldset a.b38,
+	#QuickMenu fieldset a.b39, #QuickMenu fieldset a.b43, #QuickMenu fieldset a.b44,
+	#QuickMenu fieldset a.b49 {
+	color: green;
+}
+
+#QuickMenu fieldset a.hasGold {
+	background: yellow;
+}
+
+#QuickMenu fieldset a.RED {
+	color: red;
+}
+
+#QuickMenu fieldset a.BLUE {
+	color: blue;
+}
+
+#QuickMenu fieldset a.GREEN {
+	color: green;
+}
+
+#QuickMenu fieldset.HB, #QuickMenu fieldset.SPA {
+	width: 95%;
+}
+
+legend {
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	font-size: 14px;
+	width: auto;
+}
+
+.scrollResults {
+	display: none;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+}
+
+td.choose .num {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background-repeat: no-repeat;
+}
+
+ul.showFastMoney {
+	/* background-color: #111; */
+	background: -moz-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(128,128,128,0.7)), color-stop(100%,rgba(17,17,17,1))); */
+	background: -webkit-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	background: -o-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	/* background: linear-gradient(to bottom, rgba(128,128,128,0.7) 0%,rgba(17,17,17,1) 100%); */
+	position: absolute;
+	z-index: 10005;
+	border-radius: 8px;
+	padding: 7px;
+	/* border: 1px solid #111; */
+	display: none;
+	box-shadow: 9px 9px 9px rgba(17, 17, 17, 0.3);
+	background-color: transparent \9;
+	padding: 0 \9;
+	margin: 0 \9;
+	width: 130px \9;
+}
+
+ul.showFastMoney::before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 15px solid #111;
+	background-color: transparent;
+	display: block;
+	position: absolute;
+	top: -15px;
+	left: 55px;
+}
+
+ul.showFastMoney li {
+	display: block;
+	width: 118px;
+	margin: 0 auto;
+	color: black;
+	font-size: 10pt;
+	height: 24px;
+	line-height: 24px;
+	text-decoration: none;
+	font-weight: normal;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+ul.showFastMoney li:hover {
+	background-color: #ccc;
+}
+
+ul.showFastMoney li a {
+	display: block;
+}
+
+td.choose-item.bc{
+	background-color: #fce9c9;
+	cursor: pointer;
+}
+td.choose-item.selected-bet{
+	background-color: #f4d835;
+	cursor: pointer;
+}
+
+.my-container{
+	background: #fff;
+}
+
+.display-area tr.check-box-group td div{
+	display: inline-block;
+	height: 30px;
+	line-height: 2.5;
+}
+.display-area tr.check-box-group td div label {
+	width: 74px;
+	font-weight: normal;
+}
+
+.sscnumber {
+	width:26px;
+	height:26px;
+	display:inline-block;
+	background:url(../../img/lottery/ball-ssc.png) no-repeat;
+	margin:0 1px;
+}
+.sscnum0 {
+	background-position:0 0;
+}
+.sscnum1 {
+	background-position:0 -27px;
+}
+.sscnum2 {
+	background-position:0 -54px;
+}
+.sscnum3 {
+	background-position:0 -81px;
+}
+.sscnum4 {
+	background-position:0 -108px;
+}
+.sscnum5 {
+	background-position:-28px 0;
+}
+.sscnum6 {
+	background-position:-28px -27px;
+}
+.sscnum7 {
+	background-position:-28px -54px;
+}
+.sscnum8 {
+	background-position:-28px -81px;
+}
+.sscnum9 {
+	background-position:-28px -108px;
+}
+.gxkcnumber {
+	width:26px;
+	height:27px;
+	display:inline-block;
+	background:url(../../img/lottery/ball-gxkc.png) no-repeat;
+	margin:0 1px 0 0;
+	vertical-align:middle;
+}
+.gxkcnum1 {
+	background-position:0 0;
+}
+.gxkcnum2 {
+	background-position:0 -27px;
+}
+.gxkcnum3 {
+	background-position:0 -54px;
+}
+.gxkcnum4 {
+	background-position:0 -81px;
+}
+.gxkcnum5 {
+	background-position:0 -108px;
+}
+.gxkcnum6 {
+	background-position:0 -135px;
+}
+.gxkcnum7 {
+	background-position:0 -162px;
+}
+.gxkcnum8 {
+	background-position:0 -189px;
+}
+.gxkcnum9 {
+	background-position:0 -216px;
+}
+.gxkcnum10 {
+	background-position:0 -243px;
+}
+.gxkcnum11 {
+	background-position:0 -270px;
+}
+.gxkcnum12 {
+	background-position:0 -297px;
+}
+.gxkcnum13 {
+	background-position:0 -324px;
+}
+.gxkcnum14 {
+	background-position:0 -351px;
+}
+.gxkcnum15 {
+	background-position:0 -378px;
+}
+.gxkcnum16 {
+	background-position:0 -405px;
+}
+.gxkcnum17 {
+	background-position:0 -432px;
+}
+.gxkcnum18 {
+	background-position:0 -459px;
+}
+.gxkcnum19 {
+	background-position:0 -486px;
+}
+.gxkcnum20 {
+	background-position:0 -513px;
+}
+.gxkcnum21 {
+	background-position:0 -540px;
+}
+
+.gxkcnum22 {
+	background-position:0 -567px;
+}
+.gxkcnum23 {
+	background-position:0 -594px;
+}
+.gxkcnum24 {
+	background-position:0 -621px;
+}
+.gxkcnum25 {
+	background-position:0 -648px;
+}
+.gxkcnum26 {
+	background-position:0 -675px;
+}
+.gxkcnum27 {
+	background-position:0 -700px;
+}
+.gxkcnum28 {
+	background-position:0 -727px;
+}
+.gxkcnum29 {
+	background-position:0 -754px;
+}
+.gxkcnum30 {
+	background-position:0 -781px;
+}
+.gxkcnum31 {
+	background-position:0 -808px;
+}
+.gxkcnum32 {
+	background-position:0 -835px;
+}
+.gxkcnum33 {
+	background-position:0 -862px;
+}
+.gxkcnum34 {
+	background-position:0 -889px;
+}
+.gxkcnum35 {
+	background-position:0 -916px;
+}
+.gxkcnum36 {
+	background-position:0 -943px;
+}
+.gxkcnum37 {
+	background-position:0 -970px;
+}
+.gxkcnum38 {
+	background-position:0 -997px;
+}
+.gxkcnum39 {
+	background-position:0 -1024px;
+}
+.gxkcnum40 {
+	background-position:0 -1051px;
+}
+.gxkcnum41 {
+	background-position:0 -1078px;
+}
+.gxkcnum42 {
+	background-position:0 -1105px;
+}
+.gxkcnum43 {
+	background-position:0 -1132px;
+}
+.gxkcnum44 {
+	background-position:0 -1159px;
+}
+.gxkcnum45 {
+	background-position:0 -1186px;
+}
+.gxkcnum46 {
+	background-position:0 -1213px;
+}
+.gxkcnum47 {
+	background-position:0 -1240px;
+}
+.gxkcnum48 {
+	background-position:0 -1267px;
+}
+.gxkcnum49 {
+	background-position:0 -1294px;
+}
+.gxkcnum50 {
+	background-position:0 -1321px;
+}
+.gxkcnum51 {
+	background-position:0 -1349px;
+}
+.gxkcnum52 {
+	background-position:0 -1375px;
+}
+.gxkcnum53 {
+	background-position:0 -1402px;
+}
+.gxkcnum54 {
+	background-position:0 -1429px;
+}
+.gxkcnum55 {
+	background-position:0 -1456px;
+}
+.gxkcnum56 {
+	background-position:0 -1483px;
+}
+.gxkcnum57 {
+	background-position:0 -1510px;
+}
+.gxkcnum58 {
+	background-position:0 -1537px;
+}
+.gxkcnum59 {
+	background-position:0 -1564px;
+}
+.gxkcnum60 {
+	background-position:0 -1591px;
+}
+.gxkcnum61 {
+	background-position:0 -1618px;
+}
+.gxkcnum62 {
+	background-position:0 -1645px;
+}
+.gxkcnum63 {
+	background-position:0 -1672px;
+}
+.gxkcnum64 {
+	background-position:0 -1699px;
+}
+.gxkcnum65 {
+	background-position:0 -1726px;
+}
+.gxkcnum66 {
+	background-position:0 -1753px;
+}
+.gxkcnum67 {
+	background-position:0 -1780px;
+}
+.gxkcnum68 {
+	background-position:0 -1807px;
+}
+.gxkcnum69 {
+	background-position:0 -1834px;
+}
+.gxkcnum70 {
+	background-position:0 -1862px;
+}
+.gxkcnum71 {
+	background-position:0 -1888px;
+}
+.gxkcnum72 {
+	background-position:0 -1915px;
+}
+.gxkcnum73 {
+	background-position:0 -1942px;
+}
+.gxkcnum74 {
+	background-position:0 -1969px;
+}
+.gxkcnum75 {
+	background-position:0 -1996px;
+}
+.gxkcnum76 {
+	background-position:0 -2023px;
+}
+
+.gxkcnum77 {
+	background-position:0 -2050px;
+}
+.gxkcnum78 {
+	background-position:0 -2077px;
+}
+.gxkcnum79 {
+	background-position:0 -2104px;
+}
+.gxkcnum80 {
+	background-position:0 -2131px;
+}
+.gxkcnum0 {
+	background-position:0 -2158px;
+}
+
+
+
+
+/*GC彩票所有球的优化 开始 @timi 20160808*/
+
+/*球用标签 b 加上class=“.ball_数字” 表示*/
+.ball_0,.ball_1,.ball_2,.ball_3,.ball_4,.ball_5,.ball_6,.ball_7{
+	display: inline-block;
+	text-align: center;
+	width: 23px;
+	height: 23px;
+	line-height: 22px;
+	border-radius: 23px;
+	color:#fff;
+}
+.ball_0{
+	background-color:#e41b1b;
+}
+.ball_1{
+	background-color:#1ca01c;
+}
+.ball_2{
+	background-color:#2a74dd;
+}
+.ball_3{
+	background-color:#aaaaaa;
+}
+.ball_4{
+	background-color:#853f8a;
+}
+.ball_5{
+	background-color:#ff9314;
+}
+.ball_6{
+	background-color:#1fa4c7;
+}
+.ball_7{
+	background-color:#9966cc;
+}
+/*球中是汉字，宽度自动*/
+.ball_txt{
+	width: auto;
+	padding: 0 6px;
+}
+
+/*GC彩票所有球的优化 结束 @timi 20160808*/
+
+/*幸运28 开始 @timi 20160808*/
+th.table_title{
+	position: relative;
+	background-color: #40a494;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+th.table_title.tm {
+	width: 522px;
+	background-color: #39c6af;
+}
+th.table_title.hh {
+	width: 522px;
+	background-color: #39c6af;
+}
+th.table_title.bs {
+	width: 248px;
+	background-color: #39b9a4;
+}
+th.table_title.bz {
+	width: 246px;
+}
+td select{
+	font-size:14px;
+	font-weight:bold;
+	background:#aaaaaa;
+	color:#fff;
+	width: 56px;
+}
+/*幸运28 结束 @timi 20160808*/

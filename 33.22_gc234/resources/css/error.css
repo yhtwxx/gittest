@@ -1,0 +1,24 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    background: url("../img/bg.gif");
+}
+
+.col-md-4.cn {
+    border-right: 1px solid #ccc;
+    height: 170px;
+    margin: 20px 0;
+}
+.col-md-4.en {
+    border-right: 1px solid #ccc;
+    height: 170px;
+    margin: 20px 0;
+}
+.col-md-4.kh {
+    border-right: none;
+    margin: 20px 0;
+}

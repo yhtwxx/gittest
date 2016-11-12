@@ -1,0 +1,856 @@
+{"code":0,"gameData":[
+  {
+    "gameName": "古怪猴子",
+    "gameCode": "fm",
+    "gameImgName": "smallicon/fm.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "网球明星",
+    "gameCode": "tst",
+    "gameImgName": "smallicon/tennis.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "金色召集",
+    "gameCode": "grel",
+    "gameImgName": "smallicon/gold_r.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "龙舌兰扑克",
+    "gameCode": "tqp",
+    "gameImgName": "smallicon/tqp.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "摇摆舞",
+    "gameCode": "rnr",
+    "gameImgName": "smallicon/rnr.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "苏丹的财富",
+    "gameCode": "sf",
+    "gameImgName": "smallicon/sf.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "黄金游戏",
+    "gameCode": "glg",
+    "gameImgName": "smallicon/golden_g.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "湛蓝深海",
+    "gameCode": "bib",
+    "gameImgName": "smallicon/great.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "苏丹的财富",
+    "gameCode": "gtsstg",
+    "gameImgName": "smallicon/sultan.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "绿巨人",
+    "gameCode": "hlk2",
+    "gameImgName": "smallicon/hlk2.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "万圣节财务",
+    "gameCode": "hlf",
+    "gameImgName": "smallicon/halloween.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "鬼屋",
+    "gameCode": "hh",
+    "gameImgName": "smallicon/hh.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "木乃伊迷城",
+    "gameCode": "mmy",
+    "gameImgName": "smallicon/mmy.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "硬币投掷赌博游戏",
+    "gameCode": "head",
+    "gameImgName": "smallicon/head.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "强大的复仇者雷神",
+    "gameCode": "trm",
+    "gameImgName": "smallicon/thor.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "时空过客",
+    "gameCode": "ts",
+    "gameImgName": "smallicon/ts.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "超级高速公路之王",
+    "gameCode": "gtshwkp",
+    "gameImgName": "smallicon/gtshwkp.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "热力宝石",
+    "gameCode": "gts50",
+    "gameImgName": "smallicon/gts50.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "冰球游戏",
+    "gameCode": "iceh",
+    "gameImgName": "smallicon/ice_h.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "顶级王牌-明星",
+    "gameCode": "ttc",
+    "gameImgName": "smallicon/ttc.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "顶级王牌-明星",
+    "gameCode": "ttcsc",
+    "gameImgName": "smallicon/ttcsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "顶级王牌-传奇",
+    "gameCode": "ttl",
+    "gameImgName": "smallicon/ttl.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人2",
+    "gameCode": "irm3",
+    "gameImgName": "smallicon/irm3.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "顶级王牌-全星",
+    "gameCode": "tfs",
+    "gameImgName": "smallicon/tfs.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人2刮刮乐",
+    "gameCode": "irm3sc",
+    "gameImgName": "smallicon/irm3sc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人3",
+    "gameCode": "irmn3",
+    "gameImgName": "smallicon/irmn3.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "三个朋友",
+    "gameCode": "ta",
+    "gameImgName": "smallicon/ta.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人3刮刮乐",
+    "gameCode": "irmn3sc",
+    "gameImgName": "smallicon/irmn3sc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "飞镖投掷赌博游戏",
+    "gameCode": "drts",
+    "gameImgName": "smallicon/drts.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "开心假期",
+    "gameCode": "er",
+    "gameImgName": "smallicon/er.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "丛林摇摆",
+    "gameCode": "jb",
+    "gameImgName": "smallicon/jb.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "基诺",
+    "gameCode": "kn",
+    "gameImgName": "smallicon/kn.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "无敌金刚",
+    "gameCode": "kkg",
+    "gameImgName": "smallicon/kkg.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "疯狂乐透",
+    "gameCode": "lm",
+    "gameImgName": "smallicon/lotto.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "爱情配对",
+    "gameCode": "lom",
+    "gameImgName": "smallicon/lom.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "百万幸运球",
+    "gameCode": "bls",
+    "gameImgName": "smallicon/bls.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "迷你轮盘赌",
+    "gameCode": "mro",
+    "gameImgName": "smallicon/mro.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Cash back先生",
+    "gameCode": "mcb",
+    "gameImgName": "smallicon/mcb.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "牌九扑克",
+    "gameCode": "pg",
+    "gameImgName": "smallicon/pg.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "舞线",
+    "gameCode": "pl",
+    "gameImgName": "smallicon/pl.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "罚点球游戏",
+    "gameCode": "pso",
+    "gameImgName": "smallicon/pso.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "粉红豹",
+    "gameCode": "pnp",
+    "gameImgName": "smallicon/pink.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "宾果",
+    "gameCode": "pop",
+    "gameImgName": "smallicon/pop.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "美式奖金轮盘赌",
+    "gameCode": "rodz_g",
+    "gameImgName": "smallicon/rodz_g.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "欧式奖金轮盘赌",
+    "gameCode": "ro_g",
+    "gameImgName": "smallicon/ro_g.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "奖金轮盘赌专家",
+    "gameCode": "rop_g",
+    "gameImgName": "smallicon/rop_g.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "战争特区刮刮乐",
+    "gameCode": "gtspwzsc",
+    "gameImgName": "smallicon/gtspwzsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "金字塔女王",
+    "gameCode": "qop",
+    "gameImgName": "smallicon/queen.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "红狗",
+    "gameCode": "rd",
+    "gameImgName": "smallicon/rd.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "转轴经典3",
+    "gameCode": "ssl",
+    "gameImgName": "smallicon/ssl.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "石头、剪刀、纸游戏",
+    "gameCode": "rps",
+    "gameImgName": "smallicon/rps.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "洛基传奇刮刮乐",
+    "gameCode": "gtsrkysc",
+    "gameImgName": "smallicon/gtsrkysc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "掷骰子赌博游戏",
+    "gameCode": "rcd",
+    "gameImgName": "smallicon/rcd.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "超级轮盘",
+    "gameCode": "rop",
+    "gameImgName": "smallicon/rop.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "保险箱探宝",
+    "gameCode": "sc",
+    "gameImgName": "smallicon/sc.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "圣诞刮刮乐",
+    "gameCode": "ssa",
+    "gameImgName": "smallicon/ssa.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "圣诞奇迹",
+    "gameCode": "ssp",
+    "gameImgName": "smallicon/santa.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "骰宝",
+    "gameCode": "sb",
+    "gameImgName": "smallicon/sb.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "银弹",
+    "gameCode": "sib",
+    "gameImgName": "smallicon/sib.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "轮盘旋转赌博游戏",
+    "gameCode": "lwh",
+    "gameImgName": "smallicon/lwh.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "我心狂野",
+    "gameCode": "wis",
+    "gameImgName": "smallicon/wild3.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "野蛮海盗",
+    "gameCode": "wv",
+    "gameImgName": "smallicon/wv.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "黄金翅膀",
+    "gameCode": "gtswng",
+    "gameImgName": "smallicon/gtswng.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "舞龙",
+    "gameCode": "wlg",
+    "gameImgName": "smallicon/wlg.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "X战警",
+    "gameCode": "xmn",
+    "gameImgName": "smallicon/xmen.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "招财进宝",
+    "gameCode": "zcjb",
+    "gameImgName": "smallicon/zcjb.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "翡翠公主",
+    "gameCode": "fcgz",
+    "gameImgName": "smallicon/fcgz.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "炼金术士实验室",
+    "gameCode": "al",
+    "gameImgName": "smallicon/al.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "10线对J高手",
+    "gameCode": "jb10p",
+    "gameImgName": "smallicon/deal.png",
+    "gameType": "VideoPoker",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "25线A及花牌",
+    "gameCode": "af25",
+    "gameImgName": "smallicon/af25.png",
+    "gameType": "VideoPoker",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "3D轮盘赌",
+    "gameCode": "ro3d",
+    "gameImgName": "smallicon/ro3d.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "50线对J高手",
+    "gameCode": "jb50",
+    "gameImgName": "smallicon/jb50.png",
+    "gameType": "VideoPoker",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "8球吃角子老虎",
+    "gameCode": "8bs",
+    "gameImgName": "smallicon/8bs.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "一夜奇遇",
+    "gameCode": "hb",
+    "gameImgName": "smallicon/anight.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "一夜奇遇刮刮乐",
+    "gameCode": "gts39",
+    "gameImgName": "smallicon/gts39.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "异性猎手",
+    "gameCode": "ah2",
+    "gameImgName": "smallicon/ah2.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "美式轮盘",
+    "gameCode": "rodz",
+    "gameImgName": "smallicon/rodz.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "周游列国",
+    "gameCode": "atw",
+    "gameImgName": "smallicon/atw.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "海滨嘉年华",
+    "gameCode": "bl",
+    "gameImgName": "smallicon/beach.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "甲虫宾果",
+    "gameCode": "bbn",
+    "gameImgName": "smallicon/bbn.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "百幕大三角",
+    "gameCode": "bt",
+    "gameImgName": "smallicon/bt.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "21点",
+    "gameCode": "sbj",
+    "gameImgName": "smallicon/sbj.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "加勒比海梭哈扑克",
+    "gameCode": "car",
+    "gameImgName": "smallicon/car.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "中国厨房",
+    "gameCode": "cm",
+    "gameImgName": "smallicon/cm.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "全景电影",
+    "gameCode": "cifr",
+    "gameImgName": "smallicon/cifr.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "经典老虎机刮刮乐",
+    "gameCode": "scs",
+    "gameImgName": "smallicon/scs.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "俱乐部轮盘赌",
+    "gameCode": "rouk",
+    "gameImgName": "smallicon/rouk.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "夜魔侠",
+    "gameCode": "drd",
+    "gameImgName": "smallicon/darevil.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "打比日",
+    "gameCode": "hr",
+    "gameImgName": "smallicon/hr.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "沙漠宝藏",
+    "gameCode": "dt",
+    "gameImgName": "smallicon/desert1.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "沙漠宝藏2",
+    "gameCode": "dt2",
+    "gameImgName": "smallicon/desert2.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钻石谷",
+    "gameCode": "gs",
+    "gameImgName": "smallicon/diamond.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "转骰子游戏",
+    "gameCode": "dctw",
+    "gameImgName": "smallicon/dctw.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "情圣博士",
+    "gameCode": "dlm",
+    "gameImgName": "smallicon/dr.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "惊喜复活节",
+    "gameCode": "eas",
+    "gameImgName": "smallicon/easter.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "艾丽卡",
+    "gameCode": "elr",
+    "gameImgName": "smallicon/elektra.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "欧洲轮盘",
+    "gameCode": "ro",
+    "gameImgName": "smallicon/ro.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "神奇四侠",
+    "gameCode": "fnf",
+    "gameImgName": "smallicon/ff.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "神奇四侠50条线",
+    "gameCode": "fnf50",
+    "gameImgName": "smallicon/fnf50.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "狂热足球",
+    "gameCode": "fbm",
+    "gameImgName": "smallicon/fbm.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "终极足球",
+    "gameCode": "fbr",
+    "gameImgName": "smallicon/football3.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "惊异之林",
+    "gameCode": "fow",
+    "gameImgName": "smallicon/fow.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "青春之泉",
+    "gameCode": "foy",
+    "gameImgName": "smallicon/foy.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "水果狂",
+    "gameCode": "fmn",
+    "gameImgName": "smallicon/fmn.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "酷炫水果农场",
+    "gameCode": "fff",
+    "gameImgName": "smallicon/fff.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "猜扑克牌游戏",
+    "gameCode": "ghl",
+    "gameImgName": "smallicon/ghl.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "猜扑克牌彩池游戏",
+    "gameCode": "ghlj",
+    "gameImgName": "smallicon/ghlj.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "恶灵骑士",
+    "gameCode": "ghr",
+    "gameImgName": "smallicon/ghost.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "海王星王国",
+    "gameCode": "nk",
+    "gameImgName": "smallicon/nk.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "年年有余",
+    "gameCode": "nian_k",
+    "gameImgName": "smallicon/nian_k.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "保龄猜球游戏",
+    "gameCode": "bowl",
+    "gameImgName": "smallicon/bowl.png",
+    "gameType": "Arcades",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "刀锋战士",
+    "gameCode": "bld",
+    "gameImgName": "smallicon/blade.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "刀锋战士50条线",
+    "gameCode": "bld50",
+    "gameImgName": "smallicon/bld50.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人",
+    "gameCode": "irm2",
+    "gameImgName": "smallicon/irm2.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人2 50条线",
+    "gameCode": "irm50",
+    "gameImgName": "smallicon/irm50.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "魔幻吃角子老虎",
+    "gameCode": "ms",
+    "gameImgName": "smallicon/ms.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "复仇者联盟",
+    "gameCode": "avng",
+    "gameImgName": "smallicon/avng.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "绿巨人50条线",
+    "gameCode": "hlk50",
+    "gameImgName": "smallicon/hlk50.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "X战警50条线",
+    "gameCode": "xmn50",
+    "gameImgName": "smallicon/xmn50.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "高速公路之王",
+    "gameCode": "hk",
+    "gameImgName": "smallicon/highway.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "洛基传奇",
+    "gameCode": "rky",
+    "gameImgName": "smallicon/rocky.png",
+    "gameType": "SlotMachines",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "轮盘赌刮刮乐",
+    "gameCode": "sro",
+    "gameImgName": "smallicon/sro.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  }
+]}

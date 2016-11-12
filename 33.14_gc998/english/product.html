@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="renderer" content="webkit"><!-- 360浏览器极速模式 -->
+    <title>Product - GC Gaming</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <!-- 全局CSS-->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <style>*{font-family: 'Titillium Web', sans-serif;}</style>
+
+    <!-- 模块CSS -->
+
+    <!-- 全局JS -->
+    <script src="../js/jquery.min.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="product">
+  <div class="header">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="../img/logo.png"></a>
+        </div>
+        <div id="navbar">
+          <style>
+            .header .navbar-default .navbar-nav>li {padding: 0 12px;}
+          </style>
+          <ul class="nav navbar-nav dh">
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="business.html">BUSINESS COOPERATION</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li class="active"><a href="news.html">NEWS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right lang">
+            <a href="../index.html" role="button"><img src="../img/icon-chinese.png">&nbsp;</a>
+            <a href="../english/index.html" role="button"><img src="../img/icon-english.png"></a>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+
+  <div class="product_1">
+    <div class="container">
+        <h1 class="text-center">PRODUCTS</h1>
+        <div class="say text-center"><img src="../img/des_l.png">&nbsp;A world of Entertainment&nbsp;
+<img src="../img/des_r.png"></div>
+        <div class="say text-center live_img">
+          <a href="#golive"><img src="../img/en/live-casino-icon-bg.png"></a>
+          <a href="#goslot"><img src="../img/en/slot-icon-bg.png"></a>
+          <a href="#golottery"><img src="../img/en/lottery-icon-bg.png"></a>
+          <a href="#gosport"><img src="../img/en/sport-icon-bg.png"></a>
+		</div>
+      <script>
+        $(function(){
+          $(".say a").click(function(){
+            var hr = $(this).attr("href");
+            var anh = $(hr).offset().top;
+            $("html,body").stop().animate({scrollTop:anh},1000);
+          })
+        })
+      </script>
+    </div>
+  </div>
+
+  <div class="product_2" id="golive">
+    <div class="container">
+      <h2 class="text-center">LIVE CASINO</h2>
+      <p class="text-center">We have products featuring live casino 24 hours a day. Our product diversity is one of the largest and most comprehensive in Asia. HD live video streaming provides Baccarat, VIP Baccarat, Roulette, Dragon Tiger and many other popular games. We guarantee that the products viewed online are real-time and fair play. You will experience exciting and pleasant entertainment as if you were actually playing in the casino. GC GAMING provides trustworthy service, the provider you can relied on.</p>
+      <div class="row">
+        <div class="col-xs-6">
+          <img src="../img/product_2_1.jpg">
+          <h3>GC VIP</h3>
+          <p>GC VIP is designed according to international gaming specifications. Attractive dealers are selected to provide players with the exclusive quality of service you would get if you were playing in a casino at a high roller's table. All you have to do is click to instantly access and enjoy all the VIP Room functions, such as Private Table, Reserve Table, Peek Card, Side Bet, Skip, Change Dealer and Change Dealing Shoe for each individual player. Furthermore, you can interact with your own exclusive dealer without waiting. It is as if you were playing in your very own private casino!</p>
+        </div>
+        <div class="col-xs-6">
+          <img src="../img/product_2_2.jpg">
+          <h3>Simply the best<br>
+GC GAMING │ GC LIVE</h3>
+          <p>GC LIVE offer the finest online gaming service. We create a perfect visual experience through our high standard HD gaming interface which you can easily select a variety of popular games and experience the thrill of instant betting. With Live Video Dealers online 24 hours, players can enjoy instant fair and Live-Bet gaming quality</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product_3" id="goslot">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6" style="margin-top: -74px;">
+          <img src="../img/product_3.png">
+        </div>
+        <div class="col-xs-6" style="margin-top: 50px;">
+          <h2>ELECTRONIC GAMES</h2>
+		  <p>Variety of games to choose from</p>
+          <p>GC GAMING provides hundreds of electronic games, including Slot Games, Table , Lottery and Poker. We hope to provide you with the best entertainment by enhancing user interaction experience, and providing superior visual effects. With the jackpot and the interesting bonus games, creative characters with different styles in combination with current events and festivals, GC GAMING wants to give you a unique game-playing experiences.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product_4" id="golottery">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 pull-right" style="margin-top: -74px;">
+          <img src="../img/product_4.png">
+        </div>
+        <div class="col-xs-6" style="margin-top: 50px;">
+          <h2>LOTTERY</h2>
+		  <p>Creative lottery games!</p>
+          <p>GC GAMING has been devoted to the development of many kinds of lottery games. GC Best Bet Running were researched and developed independently by GC GAMING to satisfy the various needs of players.</p>
+          <p>GC GAMING provides real-time information for lottery draws, including 3D lottery in China and Mark Six in Hong Kong. All lottery programs are fair, transparent and based on official drawing results so that you can immediately get the results.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product_5" id="gosport">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6" style="margin-top: -74px;">
+          <img src="../img/product_5.png">
+        </div>
+        <div class="col-xs-6" style="margin-top: 80px;">
+          <h2>SPORTS BOOK</h2>
+		  <p>Variety Of More Than 5,000 Sporting Events To Bet On</p>
+		  <p>Betting on more than 5,000 organized sports around the world is available here each and every day. GC GAMING offers the opportunity to bet on multiple sports, including major soccer, baseball, basketball and football games throughout the world. Our professional information management team provides the most accurate real-time game results and online betting services to supply Asian, Hong Kong, Indonesian, and Malaysian odds formats from which players can choose from.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="product_6">
+    <div class="container">
+      <h2 class="text-center">MOBILE APPLICATION</h2>
+	  <p class="text-center">Enjoy a Casino experience anytime, anywhere.</p>
+      <p class="text-center">GC GAMING has been developing mobile devices . In order to satisfy the constantly changing needs of players, the first mobile APP - GC Casino was developed. 3D real-time operation is used to create real scenery and to combine images. The cross-system entertainment platform is fully planned to synchronously integrate accounts and data transmissions for non-stop entertainment.<br>
+<br>
+</p>
+      <div class="row text-center">
+          <img src="../img/Product-Mobile-Casino.png">
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="partner_t">Partners</p>
+      <p class="partner"><img src="../img/bbin-logo.png"><img src="../img/ag-gaming-logo.png"><img src="../img/playtech-logo.png"><img src="../img/microgaming-logo.png"><img src="../img/allbet-logo.png"><img src="../img/gd-gaming-logo.png"><img src="../img/xin-tian-di-logo.png"></p>
+    </div>
+    <div class="container-fluid copyright">&copy; 2016 GC Gaming. All rights reserved.</div>
+  </footer>
+
+  <script>
+    $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+    });
+  </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    //改变浏览器大小
+    $(window).resize(function () {
+      $('.product_1').height($(window).height());
+    });
+    //首次加载完成后
+    window.onload = function (){
+      $('.product_1').height($(window).height());
+    }
+  </script>
+  </body>
+</html>

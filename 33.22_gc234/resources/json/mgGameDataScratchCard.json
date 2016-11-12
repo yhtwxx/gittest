@@ -1,0 +1,154 @@
+{"code":0,"gameData":[
+{
+"gameName": "Beer Fest",
+"zhName": "啤酒巨星",
+"gameCode": "RubyBeerFest",
+"gameImgName": "BTN_BeerFest1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Bowled Over",
+"zhName": "击倒",
+"gameCode": "RubyBowledOver",
+"gameImgName": "BTN_BowledOver1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Bunny Boiler Gold",
+"zhName": "兔子锅炉金系列",
+"gameCode": "RubyBunnyBoilerGold",
+"gameImgName": "BTN_BunnyBoilerGold1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Crypt Crusade Gold",
+"zhName": "地穴的远征金系列",
+"gameCode": "RubyCryptCrusadeGold",
+"gameImgName": "BTN_CryptCrusadeGold1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Dawn Of The Bread",
+"zhName": "黎明的面包",
+"gameCode": "RubyDawnOfTheBread",
+"gameImgName": "BTN_DawnoftheBread1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Foamy Fortunes",
+"zhName": "泡沫财富",
+"gameCode": "RubyFoamyFortunes",
+"gameImgName": "BTN_FoamyFortunes1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Freezing Fuzzballs",
+"zhName": "冻结绒毛球",
+"gameCode": "RubyFreezingFuzzballs",
+"gameImgName": "BTN_FreezingFuzzballs1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Game Set And Scratch",
+"zhName": "游戏设置和刮",
+"gameCode": "RubyGameSetAndScratch",
+"gameImgName": "BTN_GameSetandScratch1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Golden Ghouls",
+"zhName": "金食尸鬼",
+"gameCode": "RubyGoldenGhouls",
+"gameImgName": "BTN_GoldenGhouls1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Granny Prix",
+"zhName": "老太太大奖赛",
+"gameCode": "RubyGrannyPrix",
+"gameImgName": "BTN_GrannyPrix1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Hairy Fairies",
+"zhName": "毛仙女",
+"gameCode": "RubyHairyFairies",
+"gameImgName": "BTN_HairyFairies1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Mumbai Magic",
+"zhName": "孟买魔术",
+"gameCode": "RubyMumbaiMagic",
+"gameImgName": "BTN_MumbaiMagic1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Offside And Seek",
+"zhName": "越位并寻求",
+"gameCode": "RubyOffsideAndSeek",
+"gameImgName": "BTN_OffsideandSeek1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Plunder The Sea",
+"zhName": "掠夺海洋",
+"gameCode": "RubyPlunderTheSea",
+"gameImgName": "BTN_PlundertheSea1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Six-Shooter Looter Gold",
+"zhName": "六枪手掠夺者金系列",
+"gameCode": "RubySixShooterLooterGold",
+"gameImgName": "BTN_SixShooterLooterGold1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Slam Funk",
+"zhName": "大满贯芬克",
+"gameCode": "RubySlamFunk",
+"gameImgName": "BTN_SlamFunk1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Space Evader Gold",
+"zhName": "太空规避者金系列",
+"gameCode": "RubySpaceEvaderGold",
+"gameImgName": "BTN_SpaceEvaderGold1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Super Zeroes",
+"zhName": "超级零点",
+"gameCode": "RubySuperZeroes",
+"gameImgName": "BTN_SuperZeroes1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+,{
+"gameName": "Whack a Jackpot",
+"zhName": "捶一个大奖",
+"gameCode": "RubyWhackAJackpot",
+"gameImgName": "BTN_WhackaJackpot1.png",
+"gameType": "SCRATCH CARD",
+"gameShi": "0"
+}
+]}

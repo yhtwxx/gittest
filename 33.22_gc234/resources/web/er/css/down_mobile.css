@@ -1,0 +1,17 @@
+@charset "utf-8";
+*{margin:0;padding:0; }
+html{background:url(../images/login_background.jpg) center #000;color:#fff;overflow-y:scroll;}
+body{font-family:Arial,sans-serif,STHeiti; font-family:"微软雅黑"; font-size:1.3em; font-weight:bold; line-height:36px;}
+img{border:0 none; vertical-align:top;border:none;}
+.clear{ clear:both;}
+.half{ width:44%; float:left; padding:3%;}
+.half .step_tittle{ color:#c96f16; padding-bottom:20px;}
+.half p{ padding-bottom:20px;}
+.half .step_img{ padding-top:20px;}
+.half .step_img .mobile_img{ width:67%; float:left; padding-right:3%;}
+.half .step_img .mobile_img img{ width:100%;}
+.half .step_img .gc-qr-code{ width:30%; float:left;}
+.half .step_img .gc-qr-code img{ width:100%;}
+.half .step_img .gc-qr-code p{ font-size:12px; line-height:18px; font-weight:normal; text-align:center; padding-top:5px;}
+.half .install_tittle{ color:#c96f16; border-bottom:1px solid #c96f16;}
+.half .install{ width:100%; padding-top:10px;}

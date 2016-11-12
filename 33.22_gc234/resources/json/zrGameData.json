@@ -1,0 +1,79 @@
+{"code":0,"gameData":[
+  {
+    "gameName": "真人百家乐",
+    "gameCode": "7bal",
+    "gameImgName": "zhenren/zrbjl.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "真人21点",
+    "gameCode": "bjl",
+    "gameImgName": "zhenren/zreryid.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "独家轮盘赌",
+    "gameCode": "rodl",
+    "gameImgName": "zhenren/djlpd.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "实况法式轮盘",
+    "gameCode": "rofl",
+    "gameImgName": "zhenren/skfslp.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },{
+    "gameName": "Live Casino Hold'Em",
+    "gameCode": "chel",
+    "gameImgName": "zhenren/casino.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "双轮盘赌",
+    "gameCode": "dual_rol",
+    "gameImgName": "zhenren/slpd.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },{
+    "gameName": "迷你百家乐",
+    "gameCode": "bal",
+    "gameImgName": "zhenren/mnbjl.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },{
+    "gameName": "累积真人百家乐",
+    "gameCode": "plba",
+    "gameImgName": "zhenren/ljzrbjl.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },{
+    "gameName": "真人轮盘赌",
+    "gameCode": "rol",
+    "gameImgName": "zhenren/rol.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },{
+    "gameName": "真人骰子",
+    "gameCode": "sbl",
+    "gameImgName": "zhenren/zrsz.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },{
+    "gameName": "无限制二十一点",
+    "gameCode": "ubjl",
+    "gameImgName": "zhenren/wxzesyd.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  },{
+    "gameName": "VIP百家乐",
+    "gameCode": "vbal",
+    "gameImgName": "zhenren/vipbjl.png",
+    "gameType": "LiveGames",
+    "gameShi":"1"
+  }
+]}

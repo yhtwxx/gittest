@@ -1,0 +1,30 @@
+{"code":0,"gameData":[
+  {
+    "gameName": "10线对J高手",
+    "gameCode": "jb10p",
+    "gameImgName": "smallicon/jb10p.png",
+    "gameType": "VideoPoker",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "25线A及花牌",
+    "gameCode": "af25",
+    "gameImgName": "smallicon/af25.png",
+    "gameType": "VideoPoker",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "50线对J高手",
+    "gameCode": "jb50",
+    "gameImgName": "smallicon/jb50.png",
+    "gameType": "VideoPoker",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Jacks or Better Multi Hand",
+    "gameCode": "jb_mh",
+    "gameImgName": "smallicon/jb_mh.png",
+    "gameType": "VideoPoker",
+    "gameShi":"1"
+  }
+]}

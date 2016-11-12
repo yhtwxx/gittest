@@ -1,0 +1,2282 @@
+{"code":0,"gameData":[
+{
+"gameName": "Alaskan Fishing",
+"zhName": "阿拉斯加钓鱼",
+"gameCode": "AlaskanFishing",
+"gameImgName": "BTN_AlaskanFishing1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Arctic Fortune",
+"zhName": "北极财富",
+"gameCode": "ArcticFortune",
+"gameImgName": "BTN_ArcticFortune.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Asian Beauty",
+"zhName": "亚洲美女",
+"gameCode": "AsianBeauty",
+"gameImgName": "BTN_AsianBeauty1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Avalon",
+"zhName": "阿瓦隆",
+"gameCode": "Avalon",
+"gameImgName": "BTN_Avalon_HD.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Avalon 2",
+"zhName": "阿瓦隆2",
+"gameCode": "Avalon2",
+"gameImgName": "BTN_AvalonII.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Avalon",
+"zhName": "阿瓦隆",
+"gameCode": "AvalonV90",
+"gameImgName": "BTN_Avalon1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bars And Stripes",
+"zhName": "酒吧与星条旗",
+"gameCode": "BarsAndStripesV90",
+"gameImgName": "BTN_Bars&Stripes1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Battlestar Galactica",
+"zhName": "太空堡垒卡拉狄加",
+"gameCode": "BattlestarGalactica",
+"gameImgName": "BTN_BattlestarGalactica1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Belissimo!",
+"zhName": "非常漂亮",
+"gameCode": "Belissimo",
+"gameImgName": "BTN_Belissimo17.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Big 5",
+"zhName": "大五",
+"gameCode": "big5",
+"gameImgName": "BTN_BigFive1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Big Kahuna",
+"zhName": "大心灵导师",
+"gameCode": "BigKahunav90",
+"gameImgName": "BTN_BigKahuna1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Big Top",
+"zhName": "马戏团大顶",
+"gameCode": "BigTopV90",
+"gameImgName": "BTN_BigTop1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Blackjack Bonanza",
+"zhName": "21点富矿带",
+"gameCode": "BlackjackBonanza",
+"gameImgName": "BTN_BlackjackBonanza5.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bobby 7s",
+"zhName": "鲍比7s",
+"gameCode": "Bobby7s",
+"gameImgName": "BTN_Bobby7s.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Booty Time",
+"zhName": "战利品时间",
+"gameCode": "BootyTime",
+"gameImgName": "BTN_BootyTime.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Break Away",
+"zhName": "摆脱",
+"gameCode": "breakaway",
+"gameImgName": "BTN_BreakAway1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Break da Bank",
+"zhName": "打破大银行",
+"gameCode": "BreakDaBank",
+"gameImgName": "BTN_BreakDaBank1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bridezilla",
+"zhName": "苛刻的新娘",
+"gameCode": "Bridezilla",
+"gameImgName": "BTN_BrideZilla.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bubble Bonanza",
+"zhName": "气泡富矿带",
+"gameCode": "BubbleBonanza",
+"gameImgName": "BTN_BubbleBonanza.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bush Telegraph",
+"zhName": "八卦电报",
+"gameCode": "BushTelegraph",
+"gameImgName": "BTN_BushTelegraph1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bust the Bank",
+"zhName": "打破银行",
+"gameCode": "BustTheBank",
+"gameImgName": "BTN_BustTheBank1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "ButterFlies",
+"zhName": "蝴蝶",
+"gameCode": "ButterFlies",
+"gameImgName": "BTN_Butterflies.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Carnaval",
+"zhName": "嘉年华会",
+"gameCode": "Carnavalv90",
+"gameImgName": "BTN_Carnaval2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cashanova",
+"zhName": "现金新星",
+"gameCode": "CashanovaV90",
+"gameImgName": "BTN_Cashanova1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cash Clams",
+"zhName": "现金蛤蜊",
+"gameCode": "CashClams",
+"gameImgName": "BTN_CashClams2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cash Crazy",
+"zhName": "现金疯狂",
+"gameCode": "CashCrazy",
+"gameImgName": "BTN_CashCrazy9.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cashville",
+"zhName": "现金村",
+"gameCode": "Cashville",
+"gameImgName": "BTN_Cashville1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Castle Builder",
+"zhName": "城堡营造商",
+"gameCode": "CastleBuilder",
+"gameImgName": "BTN_CastleBuilder.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cherry Red",
+"zhName": "樱桃红",
+"gameCode": "CherryRed",
+"gameImgName": "BTN_CherryRed15.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Chief's Magic",
+"zhName": "酋长的法宝",
+"gameCode": "chiefsmagic",
+"gameImgName": "BTN_ChiefsMagic1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cool Buck",
+"zhName": "酷钱",
+"gameCode": "coolbuck",
+"gameImgName": "BTN_CoolBuck1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cool Wolf",
+"zhName": "酷狼",
+"gameCode": "coolwolf",
+"gameImgName": "BTN_coolwolf2.jpg",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cosmic Cat",
+"zhName": "宇宙猫",
+"gameCode": "cosmicc",
+"gameImgName": "BTN_CosmicCat1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Couch Potato",
+"zhName": "沙发土豆",
+"gameCode": "CouchPotato",
+"gameImgName": "BTN_CouchPotato2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cracker Jack",
+"zhName": "能干的杰克",
+"gameCode": "crackerjack",
+"gameImgName": "BTN_CrackerJack1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Crocodopolis",
+"zhName": "鳄鱼城邦",
+"gameCode": "Crocodopolis",
+"gameImgName": "BTN_Crocodopolis.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Crazy Crocs",
+"zhName": "疯狂鳄鱼",
+"gameCode": "crocs",
+"gameImgName": "BTN_CrazyCrocs1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Dino Might",
+"zhName": "恐龙威力",
+"gameCode": "DinoMight",
+"gameImgName": "BTN_DinoMight1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Double Magic",
+"zhName": "双重魔法",
+"gameCode": "dm",
+"gameImgName": "BTN_DoubleMagic1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Doctor Love",
+"zhName": "爱医圣",
+"gameCode": "DoctorLove",
+"gameImgName": "BTN_DoctorLove.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Dolphin Quest",
+"zhName": "寻求海豚",
+"gameCode": "DolphinQuest",
+"gameImgName": "BTN_DolphinQuest.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Double Wammy",
+"zhName": "双重打击",
+"gameCode": "DoubleWammy",
+"gameImgName": "BTN_DoubleWammy1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Dr. Watts Up",
+"zhName": "瓦上医生",
+"gameCode": "DrWattsUp",
+"gameImgName": "BTN_DrWattsUp1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Eagles Wings",
+"zhName": "鹰的翅膀",
+"gameCode": "EaglesWings",
+"gameImgName": "BTN_EaglesWings1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Enchanted Mermaid",
+"zhName": "魔法美人鱼",
+"gameCode": "EnchantedMermaid",
+"gameImgName": "BTN_EnchantedMermaid1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fantastic 7's",
+"zhName": "神奇7s",
+"gameCode": "fan7",
+"gameImgName": "BTN_FantasticSevens1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fat Lady Sings",
+"zhName": "胖夫人唱歌",
+"gameCode": "FatLadySings",
+"gameImgName": "BTN_FatLadySings1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Feathered Frenzy",
+"zhName": "羽毛狂潮",
+"gameCode": "FeatheredFrenzy",
+"gameImgName": "BTN_FeatheredFrenzy.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "FireHawk",
+"zhName": "火鹰",
+"gameCode": "FireHawk",
+"gameImgName": "BTN_FireHawk.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fish Party",
+"zhName": "鱼派对",
+"gameCode": "fishparty",
+"gameImgName": "BTN_FishParty_SquareButton.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Flower Power",
+"zhName": "花之力量",
+"gameCode": "flowerpower",
+"gameImgName": "BTN_FlowerPower1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Football Star",
+"zhName": "足球明星",
+"gameCode": "footballstar",
+"gameImgName": "BTN_FootballStar2.jpg",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fortune Cookie",
+"zhName": "幸运之饼",
+"gameCode": "FortuneCookie",
+"gameImgName": "BTN_FortuneCookie7.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fruit Slots",
+"zhName": "水果老虎机",
+"gameCode": "fruits",
+"gameImgName": "BTN_FruitSlots1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Galacticons",
+"zhName": "银河之战",
+"gameCode": "Galacticons",
+"gameImgName": "BTN_Galacticons.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Golden Dragon",
+"zhName": "金龙",
+"gameCode": "gdragon",
+"gameImgName": "BTN_GoldenDragon6.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Genie's Gems",
+"zhName": "精灵的宝石",
+"gameCode": "geniesgems",
+"gameImgName": "BTN_GeniesGems2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Gift Rap",
+"zhName": "礼品说唱",
+"gameCode": "GiftRap",
+"gameImgName": "BTN_GiftRap2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Girls With Guns Jungle Heat",
+"zhName": "拥枪女孩之丛林暑气",
+"gameCode": "GirlsWithGuns",
+"gameImgName": "BTN_GirlswithGuns1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Girls With Guns Frozen Dawn",
+"zhName": "拥枪女孩之冷冻黎明",
+"gameCode": "girlswithgunsfrozenDawn",
+"gameImgName": "BTN_GirlswithGuns2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Gladiators Gold",
+"zhName": "角斗士金系列",
+"gameCode": "GladiatorsGold",
+"gameImgName": "BTN_GladiatorGold9.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Goblins Gold",
+"zhName": "小妖精金系列",
+"gameCode": "goblinsgold",
+"gameImgName": "BTN_GoblinsGold1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Gold Factory",
+"zhName": "黄金厂",
+"gameCode": "GoldFactoryV90",
+"gameImgName": "BTN_GoldFactory1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Gopher Gold",
+"zhName": "地鼠金",
+"gameCode": "GopherGoldV90",
+"gameImgName": "BTN_GopherGold2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Great Griffin",
+"zhName": "伟大的格里芬",
+"gameCode": "GreatGriffin",
+"gameImgName": "BTN_GreatGriffin1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "High Five",
+"zhName": "举手击掌",
+"gameCode": "HighFive",
+"gameImgName": "BTN_HighFive1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "High Society",
+"zhName": "上流社会",
+"gameCode": "Highsociety",
+"gameImgName": "BTN_HighSociety.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Ho Ho Ho",
+"zhName": "吼吼吼",
+"gameCode": "hohoho",
+"gameImgName": "BTN_Hohoho1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Hot Ink",
+"zhName": "热油墨",
+"gameCode": "HotInk",
+"gameImgName": "BTN_HotInk1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "House of Dragons",
+"zhName": "龙宫",
+"gameCode": "houseofdragons",
+"gameImgName": "HouseofDragons.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Immortal Romance",
+"zhName": "不朽浪漫史",
+"gameCode": "ImmortalRomancev90",
+"gameImgName": "BTN_ImmortalRomance1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Irish Eyes",
+"zhName": "爱尔兰眼睛",
+"gameCode": "IrishEyes",
+"gameImgName": "BTN_IrishEyes.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Isis",
+"zhName": "伊西斯",
+"gameCode": "Isis",
+"gameImgName": "BTN_Isis1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jason And The Golden Fleece",
+"zhName": "贾森和金羊毛",
+"gameCode": "JasonAndTheGoldenFleece",
+"gameImgName": "BTN_JasonGoldenFleece1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jester's Jackpot",
+"zhName": "小丑大奖",
+"gameCode": "jesters",
+"gameImgName": "BTN_JestersJackpot6.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jewels Of The Orient",
+"zhName": "东方之珠",
+"gameCode": "JewelsOfTheOrient",
+"gameImgName": "BTN_JewelsoftheOrient1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jackpot Express",
+"zhName": "大奖快递",
+"gameCode": "jexpress",
+"gameImgName": "BTN_JackpotExpress1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jurassic Jackpot (big)",
+"zhName": "侏罗纪大奖（大）",
+"gameCode": "jurassicbr",
+"gameImgName": "BTN_JurassicJackpot1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jurassic Jackpot",
+"zhName": "侏罗纪大奖",
+"gameCode": "jurassicjackpot",
+"gameImgName": "BTN_JurassicJackpot1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jurassic Park",
+"zhName": "侏罗纪公园",
+"gameCode": "jurassicpark",
+"gameImgName": "BTN_JurassicPark.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Karate Pig",
+"zhName": "空手道猪",
+"gameCode": "KaratePigv90",
+"gameImgName": "BTN_KaratePig1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Kings Of Cash",
+"zhName": "现金之王",
+"gameCode": "KingsOfCash",
+"gameImgName": "BTN_KingsofCash1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Ladies Nite",
+"zhName": "女士之夜",
+"gameCode": "LadiesNite",
+"gameImgName": "BTN_LadiesNite5.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lady In Red",
+"zhName": "红衣女郎",
+"gameCode": "LadyInRed",
+"gameImgName": "BTN_LadyInRed2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lions Share",
+"zhName": "狮子分享",
+"gameCode": "lions",
+"gameImgName": "BTN_LionsShare1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Loaded",
+"zhName": "富裕",
+"gameCode": "Loaded",
+"gameImgName": "BTN_Loaded1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Loose Cannon",
+"zhName": "松散的大炮",
+"gameCode": "LooseCannon",
+"gameImgName": "BTN_LooseCannon1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Love Bugs",
+"zhName": "爱虫虫",
+"gameCode": "LoveBugs",
+"gameImgName": "LoveBugs.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Charmer",
+"zhName": "幸运魔术师",
+"gameCode": "LuckyCharmer",
+"gameImgName": "BTN_LuckyCharmer1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Koi",
+"zhName": "幸运的锦鲤",
+"gameCode": "LuckyKoi",
+"gameImgName": "BTN_LuckyKoi.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Leprechan鈥檚 loot ",
+"zhName": "幸运妖精的战利品",
+"gameCode": "LuckyLeprechaunsLoot",
+"gameImgName": "BTN_LuckyLeprechaunsLoot.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Witch",
+"zhName": "幸运女巫",
+"gameCode": "LuckyWitchv90",
+"gameImgName": "BTN_LuckyWitch1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Mad Hatters",
+"zhName": "疯帽商",
+"gameCode": "MadHatters",
+"gameImgName": "BTN_MadHatters1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Mayan Princess",
+"zhName": "玛雅公主",
+"gameCode": "MayanPrincess",
+"gameImgName": "BTN_MayanPrincess1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Merlin's Millions",
+"zhName": "梅林的数以百万计",
+"gameCode": "MerlinsMillions",
+"gameImgName": "BTN_MerlinsMillions.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Mermaids Millions",
+"zhName": "百万美人鱼",
+"gameCode": "MermaidsMillionsV90",
+"gameImgName": "BTN_MermaidsMillions1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Monkey's Money",
+"zhName": "猴子的钱",
+"gameCode": "monkeys",
+"gameImgName": "BTN_MonkeysMoney1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Monster Mania",
+"zhName": "怪物疯狂",
+"gameCode": "MonsterMania",
+"gameImgName": "BTN_MonsterMania1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Riviera Riches",
+"zhName": "里维埃拉财富",
+"gameCode": "MonteCarloRiches",
+"gameImgName": "BTN_RivieraRiches1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Moonshine",
+"zhName": "空想",
+"gameCode": "MoonshineV90",
+"gameImgName": "BTN_Moonshine1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Mugshot Madness",
+"zhName": "嫌疑犯照片的疯狂",
+"gameCode": "MugshotMadness",
+"gameImgName": "BTN_MugshotMadness1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Mystic Dreams",
+"zhName": "神秘的梦",
+"gameCode": "MysticDreams",
+"gameImgName": "BTN_MysticDreams1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "7 Oceans",
+"zhName": "7海洋",
+"gameCode": "oceans",
+"gameImgName": "BTN_7Oceans1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Octopays",
+"zhName": "章鱼自付",
+"gameCode": "octopays",
+"gameImgName": "BTN_Octopays.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Oriental Fortune",
+"zhName": "东方财富",
+"gameCode": "OrientalFortune",
+"gameImgName": "BTN_OrientalFortune2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Paradise Found ",
+"zhName": "天堂再现",
+"gameCode": "ParadiseFound ",
+"gameImgName": "BTN_ParadiseFound.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Party Time",
+"zhName": "派对时间",
+"gameCode": "partytime",
+"gameImgName": "BTN_PartyTime1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Phantom Cash",
+"zhName": "幻影现金",
+"gameCode": "phantomcash",
+"gameImgName": "BTN_PhantomCash.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Pharaoh Bingo",
+"zhName": "法老宾果",
+"gameCode": "PharaohBingo",
+"gameImgName": "BTN_PharaohBingo1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Pharaoh's Fortune",
+"zhName": "法老财富",
+"gameCode": "pharaohs",
+"gameImgName": "BTN_PharaohsFortune2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Piggy fortunes",
+"zhName": "小猪的命运",
+"gameCode": "PiggyFortunes",
+"gameImgName": "BTN_PiggyFortunes.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Pirates Paradise",
+"zhName": "海盗天堂",
+"gameCode": "pirates",
+"gameImgName": "BTN_PiratesParadise4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Playboy",
+"zhName": "花花公子",
+"gameCode": "playboy",
+"gameImgName": "BTN_Playboy1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Pollen Nation",
+"zhName": "花粉国家",
+"gameCode": "PollenNation",
+"gameImgName": "BTN_PollenNation1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Pure Platinum",
+"zhName": "纯铂",
+"gameCode": "PurePlatinum",
+"gameImgName": "BTN_PurePlatinum1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Racing For Pinks",
+"zhName": "赛车争夺赛",
+"gameCode": "RacingForPinks",
+"gameImgName": "BTN_RacingForPinks.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Ramesses Riches",
+"zhName": "拉美西斯财富",
+"gameCode": "RamessesRiches",
+"gameImgName": "BTN_RamessesRiches.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Red Hot Devil",
+"zhName": "红热魔鬼",
+"gameCode": "redhotdevil",
+"gameImgName": "BTN_RedHotDevil.jpg",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Reel Gems",
+"zhName": "卷轴宝石",
+"gameCode": "ReelGems",
+"gameImgName": "BTN_ReelGems1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Reel Strike",
+"zhName": "卷击",
+"gameCode": "ReelStrike",
+"gameImgName": "BTN_ReelStrike1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Reel Thunder",
+"zhName": "卷轴雷霆",
+"gameCode": "ReelThunder",
+"gameImgName": "BTN_ReelThunder2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Retro Reels",
+"zhName": "复古卷轴",
+"gameCode": "RetroReels",
+"gameImgName": "BTN_RetroReels1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Retro Reels Diamond Glitz",
+"zhName": "复古卷轴钻石浮华",
+"gameCode": "RetroReelsDiamondGlitz",
+"gameImgName": "BTN_RRDiamondGlitz1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Retro Reels Extreme Heat",
+"zhName": "复古卷轴极度",
+"gameCode": "RetroReelsExtremeHeat",
+"gameImgName": "BTN_RRExtreme1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Robo Jack",
+"zhName": "机器人杰克",
+"gameCode": "robojack",
+"gameImgName": "BTN_Robojack_SquareButton.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Rock The Boat",
+"zhName": "晃动小船",
+"gameCode": "RockTheBoat",
+"gameImgName": "BTN_RocktheBoat18.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Roman Riches",
+"zhName": "罗马的财富",
+"gameCode": "romanriches",
+"gameImgName": "BTN_RomanRiches11.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Reels Royce",
+"zhName": "卷轴罗伊斯",
+"gameCode": "royce",
+"gameImgName": "BTN_ReelsRoyce1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Rhyming Reels Georgie Porgie",
+"zhName": "押韵卷轴乔吉波尔吉 ",
+"gameCode": "RRGeorgiePorgie",
+"gameImgName": "BTN_RRGeorgiePorgie.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jack & Jill",
+"zhName": "杰克和吉尔",
+"gameCode": "RRJackAndJill",
+"gameImgName": "BTN_RRJack&Jill1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Old King Cole",
+"zhName": "老金•科尔",
+"gameCode": "RROldKingColeV90",
+"gameImgName": "BTN_RRKing1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Rhyming Reels -L- Queen Of Hearts",
+"zhName": "押韵的卷轴-L-红心皇后",
+"gameCode": "RRQueenOfHearts",
+"gameImgName": "BTN_RRHearts&Tarts1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Agent Jane Blonde",
+"zhName": "间谍金发建简",
+"gameCode": "RubyAgentJaneBlonde",
+"gameImgName": "BTN_AgentJaneBlonde7.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Age of Discovery",
+"zhName": "大航海时代",
+"gameCode": "RubyAgeOfDiscovery",
+"gameImgName": "BTN_AgeofDiscovery3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Around the World",
+"zhName": "环游世界",
+"gameCode": "RubyAroundTheWorld",
+"gameImgName": "BTN_AroundTheWorld.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Astronomical",
+"zhName": "天文",
+"gameCode": "RubyAstronomical",
+"gameImgName": "BTN_Astronomical2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bar Bar Black Sheep",
+"zhName": "铸块黑羊",
+"gameCode": "RubyBarBarBlackSheep",
+"gameImgName": "BTN_BarBarBlacksheep1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Big Break",
+"zhName": "重大突破",
+"gameCode": "RubyBigBreak",
+"gameImgName": "BTN_BigBreak1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Big Kahuna -L- Snakes & Ladders",
+"zhName": "大心灵导师-L-蛇和梯子",
+"gameCode": "RubyBigKahunaSnakesAndLadders",
+"gameImgName": "BTN_BigKahuna_SL1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Break da Bank Again",
+"zhName": "再次打破大银行",
+"gameCode": "RubyBreakDaBankAgainV90",
+"gameImgName": "BTN_BreakDaBankAgain1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bulls Eye",
+"zhName": "靶心",
+"gameCode": "RubyBullsEye",
+"gameImgName": "BTN_BullsEye2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Burning Desire",
+"zhName": "强烈的欲望",
+"gameCode": "RubyBurningDesireV90",
+"gameImgName": "BTN_BurningDesire1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cabin Fever",
+"zhName": "幽闭症",
+"gameCode": "RubyCabinFever",
+"gameImgName": "BTN_CabinFever1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Captain Cash",
+"zhName": "现金船长",
+"gameCode": "RubyCaptainCash",
+"gameImgName": "BTN_CaptainCash16.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Centre Court",
+"zhName": "中心球场",
+"gameCode": "RubyCentreCourt",
+"gameImgName": "BTN_CentreCourt1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Chiefs Fortune",
+"zhName": "酋长财富",
+"gameCode": "RubyChiefsFortune",
+"gameImgName": "BTN_ChiefsFortune1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "City of Gold",
+"zhName": "黄金之城",
+"gameCode": "RubyCityofGold",
+"gameImgName": "BTN_CityOfGold17.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Crazy 80s",
+"zhName": "疯狂的80年代",
+"gameCode": "RubyCrazy80s",
+"gameImgName": "BTN_Crazy80s4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cutesy Pie",
+"zhName": "娇媚馅饼",
+"gameCode": "RubyCutesyPie",
+"gameImgName": "BTN_CutesyPie17.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Deck The Halls",
+"zhName": "甲板大厅",
+"gameCode": "RubyDeckTheHallsV90",
+"gameImgName": "BTN_DeckTheHalls1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Diamond 7s",
+"zhName": "钻石7S",
+"gameCode": "RubyDiamond7s",
+"gameImgName": "BTN_DiamondSevens15.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Diamond Deal",
+"zhName": "钻石交易",
+"gameCode": "RubyDiamondDeal",
+"gameImgName": "BTN_DiamondDeal1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Dogfather",
+"zhName": "狗教父",
+"gameCode": "RubyDogfather",
+"gameImgName": "BTN_Dogfather2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "DonDeal",
+"zhName": "木已成舟",
+"gameCode": "RubyDonDeal",
+"gameImgName": "BTN_DonDeal11.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Double Dose",
+"zhName": "剂量加倍",
+"gameCode": "RubyDoubleDose",
+"gameImgName": "BTN_DoubleDose14.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Elementals",
+"zhName": "元素生物",
+"gameCode": "RubyElementals",
+"gameImgName": "BTN_Elementals2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fairy Ring",
+"zhName": "精灵之戒",
+"gameCode": "RubyFairyRing",
+"gameImgName": "BTN_FairyRing3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Floridita Fandango",
+"zhName": "弗洛里迪达-凡丹戈",
+"gameCode": "RubyFloriditaFandango",
+"gameImgName": "BTN_FloriditaFandango11.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Flos Diner",
+"zhName": "金银花餐车",
+"gameCode": "RubyFlosDiner",
+"gameImgName": "BTN_FlosDiner3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Flying Ace",
+"zhName": "飞行王牌",
+"gameCode": "RubyFlyingAce",
+"gameImgName": "BTN_FlyingAce2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fortuna",
+"zhName": "财神",
+"gameCode": "RubyFortuna",
+"gameImgName": "BTN_Fortuna4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Free Spirit -L- Wheel of Wealth",
+"zhName": "自由精神-L-财富之轮",
+"gameCode": "RubyFreeSpirit",
+"gameImgName": "BTN_FreeSpiritWOW2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Froot Loot",
+"zhName": "水果战利品",
+"gameCode": "RubyFrootLoot",
+"gameImgName": "BTN_FrootLoot1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Frost Bite",
+"zhName": "冻疮",
+"gameCode": "RubyFrostBite",
+"gameImgName": "BTN_FrostBite6.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Fruit Salad",
+"zhName": "水果沙拉",
+"gameCode": "RubyFruitSalad",
+"gameImgName": "BTN_FruitSalad2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Funhouse",
+"zhName": "游乐园里",
+"gameCode": "RubyFunHouse",
+"gameImgName": "BTN_FunHouse8.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Gold Coast",
+"zhName": "黄金海岸",
+"gameCode": "RubyGoldCoast",
+"gameImgName": "BTN_GoldCoast3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Good To Go",
+"zhName": "好去",
+"gameCode": "RubyGoodToGo",
+"gameImgName": "BTN_GoodToGo2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Grand7s",
+"zhName": "盛大7 s ",
+"gameCode": "RubyGrand7s",
+"gameImgName": "BTN_GrandSevens13.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Halloweenies",
+"zhName": "万圣节怪人",
+"gameCode": "RubyHalloweenies",
+"gameImgName": "BTN_Halloweenies1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Happy New Year",
+"zhName": "新年快乐",
+"gameCode": "RubyHappyNewYear",
+"gameImgName": "BTN_HappyNewYear3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Harveys",
+"zhName": "哈维",
+"gameCode": "RubyHarveys",
+"gameImgName": "BTN_Harveys1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Heavy Metal",
+"zhName": "重金属",
+"gameCode": "RubyHeavyMetal",
+"gameImgName": "BTN_HeavyMetal7.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "HellBoy",
+"zhName": "地狱男爵",
+"gameCode": "RubyHellBoy",
+"gameImgName": "BTN_HellBoy1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "HitMan",
+"zhName": "杀手",
+"gameCode": "RubyHitman",
+"gameImgName": "BTN_Hitman1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Hot Shot",
+"zhName": "热拍",
+"gameCode": "RubyHotShot",
+"gameImgName": "BTN_HotShot3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jack in the Box",
+"zhName": "杰克在框中",
+"gameCode": "RubyJackintheBox",
+"gameImgName": "BTN_JackintheBox4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jewel Thief",
+"zhName": "珠宝大盗",
+"gameCode": "RubyJewelThief",
+"gameImgName": "BTN_JewelThief2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Jingle Bells",
+"zhName": "铃儿响叮当",
+"gameCode": "RubyJingleBells",
+"gameImgName": "BTN_JingleBells6.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Joker 8000",
+"zhName": "小丑8000 ",
+"gameCode": "RubyJoker8000",
+"gameImgName": "BTN_Joker80001.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "JungleJim",
+"zhName": "丛林吉姆",
+"gameCode": "RubyJungleJim",
+"gameImgName": "BTN_JungleJim1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Kathmandu",
+"zhName": "加德满都",
+"gameCode": "RubyKathmandu",
+"gameImgName": "BTN_Kathmandu1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "King Arthur",
+"zhName": "亚瑟王",
+"gameCode": "RubyKingArthur",
+"gameImgName": "BTN_KingArthur.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Legacy",
+"zhName": "遗产",
+"gameCode": "RubyLegacy",
+"gameImgName": "BTN_Legacy2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Magic Spell",
+"zhName": "紧箍咒",
+"gameCode": "RubyMagicSpell",
+"gameImgName": "BTN_MagicSpell1_Rev2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Mocha Orange",
+"zhName": "摩卡橙色",
+"gameCode": "RubyMochaOrange",
+"gameImgName": "BTN_MochaOrange16.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Money Mad Monkey",
+"zhName": "金钱疯狂的猴子",
+"gameCode": "RubyMoneyMadMonkey",
+"gameImgName": "BTN_MoneyMadMonkey.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Munchkins",
+"zhName": "梦境",
+"gameCode": "RubyMunchkins",
+"gameImgName": "BTN_Munchkins2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Peek-a-Boo",
+"zhName": "躲猫猫",
+"gameCode": "RubyPeekaBoo",
+"gameImgName": "BTN_PeekaBoo3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Prime Property",
+"zhName": "优质物业",
+"gameCode": "RubyPrimePropertyV90",
+"gameImgName": "BTN_PrimeProperty1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Rapid Reels",
+"zhName": "快速卷轴",
+"gameCode": "RubyRapidReels",
+"gameImgName": "BTN_RapidReels5.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Rings and Roses",
+"zhName": "戒指和玫瑰",
+"gameCode": "RubyRingsnRoses",
+"gameImgName": "BTN_RingsnRoses2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Samurai Sevens",
+"zhName": "武士七",
+"gameCode": "RubySamuraiSevens",
+"gameImgName": "BTN_SamuraiSevens5.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Santa Paws",
+"zhName": "圣诞爪",
+"gameCode": "RubySantaPaws",
+"gameImgName": "BTN_SantaPaws1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Scrooge",
+"zhName": "守财奴",
+"gameCode": "RubyScrooge",
+"gameImgName": "BTN_Scrooge1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Sizzling Scorpions",
+"zhName": "铁板蝎子",
+"gameCode": "RubySizzlingScorpions",
+"gameImgName": "BTN_SizzlingScorpions1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Soccer Safari",
+"zhName": "足球萨发里",
+"gameCode": "RubySoccerSafari",
+"gameImgName": "BTN_SoccerSafari1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Sonic Boom",
+"zhName": "音爆",
+"gameCode": "RubySonicBoom",
+"gameImgName": "BTN_SonicBoom1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Spell Bound",
+"zhName": "法术界",
+"gameCode": "RubySpellBound",
+"gameImgName": "BTN_SpellBound4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Summertime",
+"zhName": "夏令",
+"gameCode": "RubySummertime",
+"gameImgName": "BTN_Summertime9.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Supe It Up",
+"zhName": "苏佩起来",
+"gameCode": "RubySupeItUp",
+"gameImgName": "BTN_SupeItUp2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Sure Win",
+"zhName": "必胜",
+"gameCode": "RubySureWin",
+"gameImgName": "BTN_SureWin6.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "The Osbournes",
+"zhName": "欧氏伯尔内斯",
+"gameCode": "RubyTheOsbournes",
+"gameImgName": "BTN_TheOsbournes1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "The Rat Pack",
+"zhName": "鼠包",
+"gameCode": "RubyTheRatPack",
+"gameImgName": "BTN_RatPack1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Thousand Islands",
+"zhName": "千岛群岛",
+"gameCode": "RubyThousandIslands",
+"gameImgName": "BTN_ThousandIslands5.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Tomb Raider 2",
+"zhName": "古墓丽影2",
+"gameCode": "RubyTombRaiderII",
+"gameImgName": "BTN_TombRaiderSotS1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Totem Treasure",
+"zhName": "图腾宝藏",
+"gameCode": "RubyTotemTreasureV90",
+"gameImgName": "BTN_TotemTreasure1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Twister",
+"zhName": "龙卷风",
+"gameCode": "RubyTwister",
+"gameImgName": "BTN_Twister3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Wasabi San",
+"zhName": "芥末圣",
+"gameCode": "RubyWasabiSan",
+"gameImgName": "BTN_WasabiSan4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Witches Wealth",
+"zhName": "女巫财富",
+"gameCode": "RubyWitchesWealth",
+"gameImgName": "BTN_WitchesWealth1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Worldcup Mania",
+"zhName": "世界杯疯狂",
+"gameCode": "RubyWorldCupMania",
+"gameImgName": "BTN_WorldcupMania5.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Santas Wild Ride",
+"zhName": "圣诞老人的疯狂之旅",
+"gameCode": "SantasWildRide",
+"gameImgName": "BTN_SantasWildRide1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Secret Admirer",
+"zhName": "暗恋人",
+"gameCode": "SecretAdmirer",
+"gameImgName": "BTN_SecretAdmirer1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Secret Santa",
+"zhName": "神秘圣诞老人",
+"gameCode": "SecretSanta",
+"gameImgName": "BTN_SecretSanta.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Shoot!",
+"zhName": "射击",
+"gameCode": "Shoot",
+"gameImgName": "BTN_Shoot.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Silver Fang",
+"zhName": "银芳牙",
+"gameCode": "Silverfang",
+"gameImgName": "BTN_SilverFang1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Skull Duggery",
+"zhName": "骷髅挖格里",
+"gameCode": "SkullDuggery",
+"gameImgName": "BTN_SkullDuggery1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Spectacular",
+"zhName": "壮观",
+"gameCode": "Spectacular",
+"gameImgName": "BTN_Spectacular3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Starscape",
+"zhName": "星景观",
+"gameCode": "StarscapeV90",
+"gameImgName": "BTN_StarScape1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Stash of the Titans",
+"zhName": "泰坦的藏匿处",
+"gameCode": "StashoftheTitans",
+"gameImgName": "BTN_StashoftheTitans1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Sterling Silver 3D",
+"zhName": "纯银3D ",
+"gameCode": "SterlingSilver3D",
+"gameImgName": "BTN_SterlingSilver3D1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "SunQuest",
+"zhName": "太阳探秘",
+"gameCode": "SunQuest",
+"gameImgName": "BTN_SunQuest3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Tally Ho",
+"zhName": "泰利豪",
+"gameCode": "TallyHo",
+"gameImgName": "BTN_TallyHo1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Terminator 2",
+"zhName": "终结者2",
+"gameCode": "Terminator2",
+"gameImgName": "BTN_Terminator2_SquareButton_option.jpg",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "The Bermuda Mysteries",
+"zhName": "百慕大之谜",
+"gameCode": "TheBermudaMysteries",
+"gameImgName": "BTN_TheBermudaMysteries",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "The Finer Reels of Life",
+"zhName": "生活的细微卷轴",
+"gameCode": "TheFinerReelsOfLife",
+"gameImgName": "BTN_FinerReelsofLife1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "The Twisted Circus",
+"zhName": "扭曲的马戏团",
+"gameCode": "thetwistedcircus",
+"gameImgName": "BTN_TwistedCircus1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Throne Of Egypt",
+"zhName": "埃及王座",
+"gameCode": "ThroneOfEgyptv90",
+"gameImgName": "BTN_ThroneOfEgypt1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Thunderstruck",
+"zhName": "霹雳",
+"gameCode": "ThunderStruckV90",
+"gameImgName": "BTN_Thunderstruck1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Tomb Raider",
+"zhName": "古墓丽影",
+"gameCode": "TombRaiderV90",
+"gameImgName": "BTN_TombRaider2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Trick Or Treat",
+"zhName": "捣蛋",
+"gameCode": "trickortreat",
+"gameImgName": "BTN_TrickOrTreat2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Triple Magic",
+"zhName": "三重魔力",
+"gameCode": "TripleMagic",
+"gameImgName": "BTN_TripleMagic1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Untamed Bengal Tiger",
+"zhName": "野性孟加拉虎",
+"gameCode": "UntamedBengalTiger",
+"gameImgName": "BTN_UntamedBengalTiger1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Untamed Crowned Eagle",
+"zhName": "野性冠鹰",
+"gameCode": "UntamedCrownedEagle",
+"gameImgName": "BTN_UntamedCrownedEagle.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Untamed - GiantPanda",
+"zhName": "野性 - 大熊猫",
+"gameCode": "UntamedGiantPandav90",
+"gameImgName": "BTN_UntamedGiantPanda.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Untamed - Wolf Pack",
+"zhName": "野性 - 狼群",
+"gameCode": "untamedwolfpack",
+"gameImgName": "BTN_UntamedWolfPack1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Vinyl Countdown",
+"zhName": "乙烯基倒计时",
+"gameCode": "VinylCountdown",
+"gameImgName": "BTN_VinylCountdown4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "What A Hoot",
+"zhName": "什么叫声",
+"gameCode": "WhatAHoot",
+"gameImgName": "BTN_WhataHoot3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "What on Earth",
+"zhName": "到底怎么回事",
+"gameCode": "WhatonEarth",
+"gameImgName": "BTN_WhatonEarth1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Wheel Of Wealth",
+"zhName": "财富之轮",
+"gameCode": "WheelOfWealthSEV90",
+"gameImgName": "BTN_WheelOfWealth1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Winning Wizards",
+"zhName": "胜出奇才",
+"gameCode": "wwizards",
+"gameImgName": "BTN_WinningWizards1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Zany Zebra",
+"zhName": "滑稽斑马",
+"gameCode": "zebra",
+"gameImgName": "BTN_ZanyZebra1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Vegas Dreams",
+"zhName": "拉斯维加斯梦",
+"gameCode": "VegasDreams",
+"gameImgName": "BTN_VegasDreams.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Gold",
+"zhName": "黄金",
+"gameCode": "Gold",
+"gameImgName": "",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Fire Cracker",
+"zhName": "幸运鞭炮",
+"gameCode": "luckyfirecracker",
+"gameImgName": "BTN_LuckyFirecracker.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Adventure Palace (HD)",
+"zhName": "冒险宫（高清）",
+"gameCode": "adventurepalace",
+"gameImgName": "BTN_AdventurePalace(HD).png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Ariana",
+"zhName": "阿丽亚娜",
+"gameCode": "Ariana",
+"gameImgName": "BTN_Ariana.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Big Chef",
+"zhName": "大厨师",
+"gameCode": "BigChef",
+"gameImgName": "BTN_BigChef.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Forsaken Kingdom",
+"zhName": "被遗忘的王国",
+"gameCode": "ForsakenKingdom",
+"gameImgName": "BTN_ForsakenKingdom.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "The Dark Knight Rises",
+"zhName": "黑暗骑士崛起",
+"gameCode": "thedarkknightrises",
+"gameImgName": "BTN_TheDarkKnightRises.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bridesmaids",
+"zhName": "伴娘",
+"gameCode": "Bridesmaids",
+"gameImgName": "BTN_Bridesmaids.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Rugby Star",
+"zhName": "橄榄球明星",
+"gameCode": "RugbyStar",
+"gameImgName": "BTN_RugbyStar.png ; BTN_RugbyStar_ZH.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Zodiac",
+"zhName": "幸运的星座",
+"gameCode": "Luckyzodiac",
+"gameImgName": "BTN_LuckyZodiac.png ;BTN_LuckyZodiac_ZH.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Titans of the Sun - Hyperion",
+"zhName": "太阳悍将 - 海波",
+"gameCode": "TitansoftheSunHyperion",
+"gameImgName": "BTN_TitansoftheSunHyperion.png ; BTN_TitansoftheSunHyperion_ZH.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Titans of the Sun - Theia",
+"zhName": "太阳悍将 - 忒伊亚",
+"gameCode": "TitansoftheSunTheia",
+"gameImgName": "BTN_TitansoftheSunTheia.png; BTN_TitansoftheSunTheia_ZH.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Alaskan Fishing",
+"zhName": "阿拉斯加钓鱼",
+"gameCode": "AlaskanFishingV90",
+"gameImgName": "BTN_AlaskanFishing1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Break Away",
+"zhName": "摆脱",
+"gameCode": "BreakAwayV90",
+"gameImgName": "BTN_BreakAway1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Bush Telegraph",
+"zhName": "八卦电报",
+"gameCode": "BushTelegraphV90",
+"gameImgName": "BTN_BushTelegraph1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Cashapillar",
+"zhName": "现金毛虫",
+"gameCode": "CashapillarV90",
+"gameImgName": "BTN_Cashapillar1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Crazy Chameleons",
+"zhName": "疯狂变色龙",
+"gameCode": "CrazyChameleonsV90",
+"gameImgName": "BTN_CrazyChameleons1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Girls With Guns Jungle Heat",
+"zhName": "拥枪女孩之丛林暑气",
+"gameCode": "GirlsWithGunsV90",
+"gameImgName": "BTN_GirlswithGuns1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Ho Ho Ho",
+"zhName": "吼吼吼",
+"gameCode": "HoHoHoV90",
+"gameImgName": "BTN_Hohoho1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Hot Ink",
+"zhName": "热油墨",
+"gameCode": "HotInkV90",
+"gameImgName": "BTN_HotInk1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Ladies Nite",
+"zhName": "女士之夜",
+"gameCode": "LadiesNiteV90",
+"gameImgName": "BTN_LadiesNite5.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Lucky Koi",
+"zhName": "幸运的锦鲤",
+"gameCode": "LuckyKoiV90",
+"gameImgName": "BTN_LuckyKoi.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Mystic Dreams",
+"zhName": "神秘的梦",
+"gameCode": "MysticDreamsv90",
+"gameImgName": "BTN_MysticDreams1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Octopays",
+"zhName": "章鱼自付",
+"gameCode": "OctopaysV90",
+"gameImgName": "BTN_Octopays.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Racing For Pinks",
+"zhName": "赛车争夺赛",
+"gameCode": "RacingForPinksV90",
+"gameImgName": "BTN_RacingForPinks.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Reel Gems",
+"zhName": "卷轴宝石",
+"gameCode": "ReelGemsV90",
+"gameImgName": "BTN_ReelGems1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Reel Strike",
+"zhName": "卷击",
+"gameCode": "ReelStrikeV90",
+"gameImgName": "BTN_ReelStrike1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Retro Reels",
+"zhName": "复古卷轴",
+"gameCode": "RetroReelsV90",
+"gameImgName": "BTN_RetroReels1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Silver Fang",
+"zhName": "银芳牙",
+"gameCode": "SilverFangV90",
+"gameImgName": "BTN_SilverFang1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Spring Break",
+"zhName": "春假",
+"gameCode": "SpringBreakV90",
+"gameImgName": "BTN_SpringBreak2.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Starlight Kiss",
+"zhName": "星光之吻",
+"gameCode": "StarlightKissV90",
+"gameImgName": "BTN_StarlightKiss1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "SunQuest",
+"zhName": "太阳探秘",
+"gameCode": "SunQuestV90",
+"gameImgName": "BTN_SunQuest3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "The Finer Reels of Life",
+"zhName": "生活的细微卷轴",
+"gameCode": "TheFinerReelsOfLifeV90",
+"gameImgName": "BTN_FinerReelsofLife1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Untamed Bengal Tiger",
+"zhName": "野性孟加拉虎",
+"gameCode": "UntamedBengalTigerV90",
+"gameImgName": "BTN_UntamedBengalTiger1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Untamed Crowned Eagle",
+"zhName": "野性冠鹰",
+"gameCode": "UntamedCrownedEagleV90",
+"gameImgName": "BTN_UntamedCrownedEagle.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Untamed - Wolf Pack",
+"zhName": "野性 - 狼群",
+"gameCode": "UntamedWolfPackV90",
+"gameImgName": "BTN_UntamedWolfPack1.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Vinyl Countdown",
+"zhName": "乙烯基倒计时",
+"gameCode": "VinylCountDownV90",
+"gameImgName": "BTN_VinylCountdown4.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "What A Hoot",
+"zhName": "什么叫声",
+"gameCode": "WhatAHootV90",
+"gameImgName": "BTN_WhataHoot3.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Gung Pow",
+"zhName": "",
+"gameCode": "GungPow",
+"gameImgName": "BTN_GungPow.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "So Much Candy",
+"zhName": "",
+"gameCode": "SoMuchCandy",
+"gameImgName": "BTN_SoMuchCandy",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "So Much Sushi",
+"zhName": "",
+"gameCode": "SoMuchSushi",
+"gameImgName": "BTN_SoMuchSushi.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+,{
+"gameName": "Sweet Harvest",
+"zhName": "",
+"gameCode": "SweetHarvest",
+"gameImgName": "BTN_SweetHarvest.png",
+"gameType": "SLOTS",
+"gameShi": "0"
+}
+]}

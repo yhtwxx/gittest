@@ -1,0 +1,63 @@
+/*ÓÑÇéÁ´½ÓÇøÓò*/
+.links {
+    height: 100px;
+    line-height: 100px;
+    background: #39320b;
+    border-top: 1px solid #666239;
+    border-bottom: 1px solid #666239;
+}
+
+
+
+.about .row {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background: #F8F8F8;
+    font-size: 14px;
+}
+.about .col-sm-2 {
+    background: #F8F8F8;
+    color: #e3d8ab;
+    height: 100%;
+}
+.about .col-sm-10 {
+    color: #666;
+    background: #fff;
+    min-height: 250px;
+    border-left: solid 1px #ccc;
+}
+.col-sm-2 {
+    padding: 0;
+}
+.about .nav > li > a {
+    background: url(../img/about/menu_bg2.gif) repeat-x;
+    height: 40px;
+    border-radius: 0;
+    color: #4D4D4D;
+    font-size: 16px;
+}
+.about .nav-pills > li.active > a, .about .nav-pills > li.active > a:focus, .about .nav-pills > li.active > a:hover {
+    color: #FFF;
+    background: #717074;
+    border-radius: 0;
+}
+.about h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #a5a5a5;
+    padding: 20px;
+}
+.about h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #c96f16;
+}
+.about .txt {
+    font-size: 14px;
+    padding: 20px;
+}
+.about .txt p {
+    margin: 1em 0;
+}
+.about .txt strong {
+    color: #ff860f;
+}

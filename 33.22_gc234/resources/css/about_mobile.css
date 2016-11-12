@@ -1,0 +1,39 @@
+.col-title {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.col-content {
+    text-align: center;
+}
+.col-bg {
+    display: block;
+    background: #eaeaea;
+    width: 252px;
+    min-height: 28px;
+    color: #4d4d4d;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+    margin: 22px auto;
+    line-height: 20px;
+    border-radius: 3px;
+}
+.brdr1 {
+    width: 1px;
+    height: 594px;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    top: 38px;
+    right: 0;
+}
+.brdr2 {
+    width: 1px;
+    height: 312px;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    top: 38px;
+    right: 0;
+}

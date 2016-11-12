@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'microsoft yahei', sans-serif,'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** =======================
+ * 玩法规则说明样式
+ ===========================*/
+.slide-index {
+    padding: 0px;
+    margin: 5px auto 15px;
+    width: 95%;
+    overflow: hidden;
+    display: block;
+}
+h2 {
+    margin: 0px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    border-top: 3px solid rgb(130, 130, 130);
+    background-color: #efefef;
+}
+ul {
+    margin: 7px 0px;
+    list-style-type: disc;
+    padding-left: 2em;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion {
+    width: 100%;
+    margin: 30px auto 20px;
+    background: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.accordion .link {
+    cursor: pointer;
+    display: block;
+    padding: 15px 15px 15px 15px;
+    color: #4D4D4D;
+    font-size: 14px;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+    border-bottom: 0;
+}
+
+.accordion li i {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    font-size: 18px;
+    color: #595959;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+    font-size: 16px;
+}
+
+.accordion li.open .link {
+
+}
+
+.accordion li.open i {
+
+}
+.accordion li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/**
+ * slide-index
+ -----------------------------*/
+.slide-index {
+    display: none;
+    font-size: 14px;
+    color: #666;
+}
+
+.slide-index li {
+    border-bottom: 0px solid #4b4a5e;
+}
+
+.slide-index a {
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    padding-left: 42px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.slide-index a:hover {
+
+}
+
+
+
+.slide-index table {
+    width: 100%;
+    border: 1px solid rgb(82, 82, 82);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-collapse: collapse;
+}
+
+.slideMenu-zone th.subtitle2 {
+    text-align: center;
+    font-weight: bold;
+}
+.rule_style_set table th {
+    width: 50%;
+    background-color: rgb(175, 175, 228);
+}
+.slideMenu-zone td.point {
+    text-align: center;
+}
+.slide-index table td {
+    padding: 4px;
+    border: 1px solid rgb(82, 82, 82);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="renderer" content="webkit"><!-- 360浏览器极速模式 -->
+    <title>产品介绍 - 黄金世纪</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <!-- 全局CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+
+    <!-- 模块CSS -->
+
+    <!-- 全局JS -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="product">
+  <div class="header">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <div id="navbar">
+          <ul class="nav navbar-nav dh">
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="business.html">业务合作</a></li>
+            <li class="active"><a href="product.html">产品介绍</a></li>
+            <li><a href="services.html">服务支持</a></li>
+            <li><a href="news.html">最新信息</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right lang">
+            <a href="../index.html" role="button"><img src="img/icon-chinese.png">&nbsp;</a>
+            <a href="../english/index.html" role="button"><img src="img/icon-english.png"></a>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+
+  <div class="product_1">
+    <div class="container">
+        <h1 class="text-center">产品介绍</h1>
+        <div class="say text-center"><img src="img/des_l.png">&nbsp;&nbsp;娱乐世界在您的指尖&nbsp;&nbsp;<img src="img/des_r.png"></div>
+        <div class="say text-center live_img">
+          <a href="#golive"><img src="../img/live-casino-icon-bg.png"></a>
+          <a href="#goslot"><img src="../img/slot-icon-bg.png"></a>
+          <a href="#golottery"><img src="../img/lottery-icon-bg.png"></a>
+          <a href="#gosport"><img src="../img/sport-icon-bg.png"></a>
+        </div>
+      <script>
+        $(function(){
+          $(".say a").click(function(){
+            var hr = $(this).attr("href");
+            var anh = $(hr).offset().top;
+            $("html,body").stop().animate({scrollTop:anh},1000);
+          })
+        })
+      </script>
+    </div>
+  </div>
+
+  <div class="product_2" id="golive">
+    <div class="container">
+      <h2 class="text-center">视讯直播</h2>
+      <p class="text-center">24小时营运的视讯直播产品，品项多样为亚洲之冠，以清晰的直播画面提供百家乐、德州扑克、温州牌九、轮盘、番摊或骰宝等多款热门产品，保证玩家在线上浏览的是最即时且公平的游戏实况，在任何地点都能体验如亲临现场般刺激愉快的感官享受。<br><br>
+        黄金世纪是您值得信赖的服务品质。<br><br></p>
+      <div class="row">
+        <div class="col-xs-6">
+          <img src="img/product_2_1.jpg">
+          <h3>包桌厅</h3>
+          <p>黄金世纪包桌厅依据国际规范真实呈现，严选美丽荷官为所有玩家提供犹如亲临现场的专属高端服务。只需点击滑鼠即刻享有包桌厅功能，如 : 包桌、独享及眯牌，另外飞牌、专属玩家换靴功能，更有美丽荷官可供桌主更换，无需等待即可与专属荷官互动，全面满足玩家视觉享受。</p>
+        </div>
+        <div class="col-xs-6">
+          <img src="img/product_2_2.jpg">
+          <h3>旗舰厅│快速厅</h3>
+          <p>黄金世纪旗舰厅与快速厅提供可切换HD高画质之功能与流畅的直拨视讯画面，搭配上华丽高规格的介面，可轻松选择多款热门游戏，并体验即时下注的快感。真人荷官线上24小时视讯，公平即时的投注实况给予玩家百分百的娱乐品质。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product_3" id="goslot">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6" style="margin-top: -74px;">
+          <img src="img/product_3.png">
+        </div>
+        <div class="col-xs-6" style="margin-top: 50px;">
+          <h2>电子游艺 <span>百款游戏 任您选</span></h2>
+          <p>黄金世纪提供超过百款机率游戏，包含老虎机、桌上游戏、机台游戏、拟真赛事等项目，近年来更积极开发多人对战游戏，希望能以丰富的玩法、视觉及声光效果提供顶级的娱乐享受，四层彩金池及犹如电影剧情般的有趣的奖金游戏，风格独特的人物主角搭配时事、节庆等主题，黄金世纪只想给您充满娱乐享受的游戏体验。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product_4" id="golottery">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 pull-right" style="margin-top: -74px">
+          <img src="img/product_4.png">
+        </div>
+        <div class="col-xs-6" style="margin-top: 50px;">
+          <h2>彩票游戏</h2>
+          <p>黄金世纪一直致力于投资发展与开发多种类的彩票游戏，以创新的节目方式让彩票产品娱乐升级。中国双龙宝、3D时时彩、快乐彩及滚球王，皆为黄金世纪自主研发的彩票产品，满足玩家多变的需求。</p>
+          <p>同时黄金世纪提供多款彩票投注与即时彩票开奖资讯，包括中国3D彩及香港特区六合彩。所有彩票游戏公正公开，皆参照各地官方开奖结果为依据，连线同步即时开彩，让您享乐零时差。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product_5" id="gosport">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6" style="margin-top: -74px">
+          <img src="img/product_5.png">
+        </div>
+        <div class="col-xs-6" style="margin-top: 80px;">
+          <h2>多款体育博彩</h2>
+          每日支援全球超过5000种运动类型投注赛事，黄金世纪提供多元体育赛事投注，包含足球、棒球、篮球及橄榄球等世界主要体育专案，由专业的资讯管理团队提供最准确即时的赛事结果与线上投注服务，更备有亚洲盘、欧洲盘、香港盘、印尼盘及马来盘等供玩家选择。</div>
+      </div>
+    </div>
+  </div>
+<div class="product_6">
+    <div class="container">
+      <h2 class="text-center">移动装置</h2>
+      <h3 class="text-center">随时随地 玩乐趣</h3>
+      <p class="text-center">黄金世纪也一直在开发移动设备。为了满足玩家无时无刻不断变化的需求，我们更致力于行动装置的研发，开发了第一款 GC Casino 真人视讯移动装置APP。<br><br>
+        运用3D即时运算创造真实场景结合立体影像，完整规划的跨系统娱乐平台，整合同步账号和资料传输，达到随时随地不间断的游戏享乐概念。</p>
+      <div class="row text-center">
+          <img src="img/Product-Mobile-Casino.png">
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p class="partner_t">合作伙伴</p>
+      <p class="partner"><img src="img/bbin-logo.png"><img src="img/ag-gaming-logo.png"><img src="img/playtech-logo.png"><img src="img/microgaming-logo.png"><img src="img/allbet-logo.png"><img src="img/gd-gaming-logo.png"><img src="img/xin-tian-di-logo.png"></p>
+    </div>
+    <div class="container-fluid copyright">&copy; 2016 黄金世纪 版权所有</div>
+  </footer>
+
+  <script>
+    $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+    });
+  </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    //改变浏览器大小
+    $(window).resize(function () {
+      $('.product_1').height($(window).height());
+    });
+    //首次加载完成后
+    window.onload = function (){
+      $('.product_1').height($(window).height());
+    }
+  </script>
+  </body>
+</html>

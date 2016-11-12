@@ -1,0 +1,185 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0
+}
+
+ol, ul {
+    list-style: none outside none
+}
+
+html {
+    font-family: ''
+}
+
+fieldset {
+    border: none
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fff
+}
+
+#lobby {
+    cursor: default;
+    margin: 0 auto;
+    text-align: center
+}
+
+.lobby_banner {
+    background-color: #cacaca \9;
+    height: 150px;
+    background: linear-gradient(to bottom, #fff 37%, #b8b8b8 100%);
+    margin: 0 auto
+}
+
+.lobby_wrapper {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative
+}
+
+#lobby header {
+    margin: 0 auto;
+    width: 1080px;
+    height: 248px;
+    text-align: left;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    top: -6px
+}
+
+#lobby header > h2 {
+    margin: 0 auto;
+    width: 1048px;
+    height: 42px;
+    background: url('../../images/mg/title.png') center no-repeat;
+    position: relative;
+    margin-top: 30px
+}
+
+#lobby header h2 > span {
+    line-height: 40px;
+    font-size: 22px;
+    font-family: Verdana, "微軟正黑體";
+    color: #fff;
+    padding-left: 50px;
+    font-weight: normal
+}
+
+#lobby header span.Lobby_rules {
+    top: 69px;
+    position: absolute;
+    cursor: pointer;
+    right: 55px;
+    color: #684d06;
+    background-color: #0a809a;
+    padding: 6px 20px 8px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "微軟正黑體";
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: #666565;
+    background: linear-gradient(to bottom, #666565 0%, #c4c4c4 10%, #fff 33%, #4d4d4d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666565', endColorstr='#4d4d4d', GradientType=0)
+}
+
+#lobby header span.Lobby_rules:hover {
+    color: #000
+}
+
+#lobby ul {
+    margin: 0 auto;
+    padding: 0 3px;
+    position: relative;
+    top: 130px;
+    width: 1080px
+}
+
+#lobby ul > li {
+    display: inline-block;
+    position: relative
+}
+
+#lobby ul > li p {
+    color: #fff;
+    font-family: '新細明體';
+    font-size: 12px;
+    line-height: 1.5em
+}
+
+#lobby ul > li .Lobby_btn:hover {
+    background: #0b5389
+}
+
+#lobby ul > li .Lobby_btn, #lobby ul > li .Lobby_btnUp {
+    color: #d9eef7;
+    background-color: #0a809a;
+    padding: 6px 40px;
+    width: 150px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "微軟正黑體";
+    text-align: center;
+    border-radius: .5em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    letter-spacing: 2px;
+    background: #0b80c4;
+    background: linear-gradient(to bottom, #0b80c4 0%, #159ef5 22%, #0b5389 100%);
+    cursor: pointer;
+    display: inline-block;
+    right: 31px;
+    bottom: 25px;
+    position: absolute
+}
+
+#lobby ul > li .Lobby_btnUp {
+    cursor: default
+}
+
+.Lobby_btn a:link {color: #fff;}
+
+#lobby section.info {
+    margin-top: 100px
+}
+
+#lobby section.info h3 {
+    display: none
+}
+
+#lobby section.info .introduction {
+    color: #000;
+    width: 960px;
+    margin: 30px auto 0 auto;
+    text-align: justify;
+    padding: 20px;
+    display: inline-block;
+    background: #b7b7b7;
+    background: linear-gradient(to bottom, #b7b7b7 0%, #fff 18%, #5d5d5d 100%)
+}
+
+#lobby section.info p {
+    text-align: justify;
+    display: inline-block
+}
+
+#lobby section h3 {
+    text-indent: -9999px;
+    white-space: nowrap;
+    line-height: 0
+}
+
+.body {
+    width: 1000px;
+    margin: 0 auto
+}

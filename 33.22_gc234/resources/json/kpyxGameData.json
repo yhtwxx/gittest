@@ -1,0 +1,135 @@
+{"code":0,"gameData":[
+  {
+    "gameName": "牌九扑克",
+    "gameCode": "pg",
+    "gameImgName": "smallicon/pg.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "美式奖金轮盘赌",
+    "gameCode": "rodz_g",
+    "gameImgName": "smallicon/rodz_g.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "欧式奖金轮盘赌",
+    "gameCode": "ro_g",
+    "gameImgName": "smallicon/ro_g.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "奖金轮盘赌专家",
+    "gameCode": "rop_g",
+    "gameImgName": "smallicon/rop_g.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "红狗",
+    "gameCode": "rd",
+    "gameImgName": "smallicon/rd.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "超级轮盘",
+    "gameCode": "rop",
+    "gameImgName": "smallicon/rop.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "骰宝",
+    "gameCode": "sb",
+    "gameImgName": "smallicon/sb.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "野蛮海盗",
+    "gameCode": "wv",
+    "gameImgName": "smallicon/wv.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "3D轮盘赌",
+    "gameCode": "ro3d",
+    "gameImgName": "smallicon/ro3d.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "美式轮盘",
+    "gameCode": "rodz",
+    "gameImgName": "smallicon/rodz.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "加勒比海梭哈扑克",
+    "gameCode": "car",
+    "gameImgName": "smallicon/car.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "俱乐部轮盘赌",
+    "gameCode": "rouk",
+    "gameImgName": "smallicon/rouk.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "欧洲轮盘",
+    "gameCode": "ro",
+    "gameImgName": "smallicon/ro.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "龙舌兰扑克",
+    "gameCode": "tqp",
+    "gameImgName": "smallicon/tqp.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "3D Roulette Premium",
+    "gameCode": "gtsro3d",
+    "gameImgName": "smallicon/roulette.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Marvel Roulette",
+    "gameCode": "rom",
+    "gameImgName": "smallicon/rom.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Multi Wheel Roulette",
+    "gameCode": "romw",
+    "gameImgName": "smallicon/romw.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Stravaganza",
+    "gameCode": "str",
+    "gameImgName": "smallicon/str.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "龙舌兰扑克",
+    "gameCode": "tqp",
+    "gameImgName": "smallicon/tqp.png",
+    "gameType": "TableCardGames",
+    "gameShi":"1"
+  }
+]}

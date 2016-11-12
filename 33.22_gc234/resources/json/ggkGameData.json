@@ -1,0 +1,163 @@
+{"code":0,"gameData":[
+  {
+    "gameName": "顶级王牌-明星",
+    "gameCode": "ttcsc",
+    "gameImgName": "smallicon/ttcsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人2刮刮乐",
+    "gameCode": "irm3sc",
+    "gameImgName": "smallicon/irm3sc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "钢铁人3刮刮乐",
+    "gameCode": "irmn3sc",
+    "gameImgName": "smallicon/irmn3sc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "爱情配对",
+    "gameCode": "lom",
+    "gameImgName": "smallicon/lom.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "战争特区刮刮乐",
+    "gameCode": "gtspwzsc",
+    "gameImgName": "smallicon/gtspwzsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "洛基传奇刮刮乐",
+    "gameCode": "gtsrkysc",
+    "gameImgName": "smallicon/gtsrkysc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "圣诞刮刮乐",
+    "gameCode": "ssa",
+    "gameImgName": "smallicon/ssa.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "一夜奇遇刮刮乐",
+    "gameCode": "gts39",
+    "gameImgName": "smallicon/gts39.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "甲虫宾果",
+    "gameCode": "bbn",
+    "gameImgName": "smallicon/bbn.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "21点",
+    "gameCode": "sbj",
+    "gameImgName": "smallicon/sbj.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "经典老虎机刮刮乐",
+    "gameCode": "scs",
+    "gameImgName": "smallicon/scs.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "狂热足球",
+    "gameCode": "fbm",
+    "gameImgName": "smallicon/fbm.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "轮盘赌刮刮乐",
+    "gameCode": "sro",
+    "gameImgName": "smallicon/sro.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Easter Surprise Scratch",
+    "gameCode": "essc",
+    "gameImgName": "smallicon/essc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Gladiator Scratch",
+    "gameCode": "gts37",
+    "gameImgName": "smallicon/gts37.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Pink Panther Scratch",
+    "gameCode": "gts42",
+    "gameImgName": "smallicon/gts42.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Dolphin Cash Scratch",
+    "gameCode": "gts48",
+    "gameImgName": "smallicon/gts48.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Baywatch Scratch",
+    "gameCode": "gtsbwsc",
+    "gameImgName": "smallicon/gtsbwsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "The Six Million Dollar Man Scratch",
+    "gameCode": "gtssmdsc",
+    "gameImgName": "smallicon/gtssmdsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Top Trumps Football Legends Scratch",
+    "gameCode": "gtsttlsc",
+    "gameImgName": "smallicon/gtsttlsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Kong Scratch",
+    "gameCode": "kkgsc",
+    "gameImgName": "smallicon/kkgsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "Pharaoh's Kingdom Scratch",
+    "gameCode": "pks",
+    "gameImgName": "smallicon/pks.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "3 Clowns Scratch",
+    "gameCode": "tclsc",
+    "gameImgName": "smallicon/tclsc.png",
+    "gameType": "ScratchCards",
+    "gameShi":"1"
+  }
+]}

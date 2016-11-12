@@ -1,0 +1,575 @@
+/*
+add bootstrap.min.css 3.3.5
+by timi
+*/
+
+.padding-0 {
+    padding: 0
+}
+.margin-0 {
+    margin: 0;
+}
+.none a,.none a:hover,.none a:focus {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/*ÐÂÔötopbar*/
+
+
+@media (min-width: 768px) {
+    .topbar-header {
+        float: left
+    }
+}
+
+.topbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+}
+
+.topbar-collapse.in {
+    overflow-y: auto
+}
+
+@media (min-width: 768px) {
+    .topbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    .topbar-collapse.collapse {
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important
+    }
+
+    .topbar-collapse.in {
+        overflow-y: visible
+    }
+
+    .topbar-fixed-bottom .topbar-collapse, .topbar-fixed-top .topbar-collapse, .topbar-static-top .topbar-collapse {
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+
+.topbar-fixed-bottom .topbar-collapse, .topbar-fixed-top .topbar-collapse {
+    max-height: 340px
+}
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+    .topbar-fixed-bottom .topbar-collapse, .topbar-fixed-top .topbar-collapse {
+        max-height: 200px
+    }
+}
+
+.container-fluid > .topbar-collapse, .container-fluid > .topbar-header, .container > .topbar-collapse, .container > .topbar-header {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+@media (min-width: 768px) {
+    .container-fluid > .topbar-collapse, .container-fluid > .topbar-header, .container > .topbar-collapse, .container > .topbar-header {
+        margin-right: 0;
+        margin-left: 0
+    }
+}
+
+.topbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 1px
+}
+
+@media (min-width: 768px) {
+    .topbar-static-top {
+        border-radius: 0
+    }
+}
+
+.topbar-fixed-bottom, .topbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+@media (min-width: 768px) {
+    .topbar-fixed-bottom, .topbar-fixed-top {
+        border-radius: 0
+    }
+}
+
+.topbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px
+}
+
+.topbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0
+}
+
+.topbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px
+}
+
+.topbar-brand:focus, .topbar-brand:hover {
+    text-decoration: none
+}
+
+.topbar-brand > img {
+    display: block
+}
+
+@media (min-width: 768px) {
+    .topbar > .container .topbar-brand, .topbar > .container-fluid .topbar-brand {
+        margin-left: -15px
+    }
+}
+
+.topbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+.topbar-toggle:focus {
+    outline: 0
+}
+
+.topbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px
+}
+
+.topbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px
+}
+
+@media (min-width: 768px) {
+    .topbar-toggle {
+        display: none
+    }
+}
+
+.topbar-nav {
+    margin: 7.5px -15px
+}
+
+.topbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px
+}
+
+@media (max-width: 767px) {
+    .topbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    .topbar-nav .open .dropdown-menu .dropdown-header, .topbar-nav .open .dropdown-menu > li > a {
+        padding: 5px 15px 5px 25px
+    }
+
+    .topbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px
+    }
+
+    .topbar-nav .open .dropdown-menu > li > a:focus, .topbar-nav .open .dropdown-menu > li > a:hover {
+        background-image: none
+    }
+}
+
+@media (min-width: 768px) {
+    .topbar-nav {
+        float: left;
+        margin: 0
+    }
+
+    .topbar-nav > li {
+        float: left
+    }
+
+    .topbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+}
+
+.topbar-form {
+    padding: 10px 15px;
+    margin-top: 8px;
+    margin-right: -15px;
+    margin-bottom: 8px;
+    margin-left: -15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)
+}
+
+@media (min-width: 768px) {
+    .topbar-form .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    .topbar-form .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+
+    .topbar-form .form-control-static {
+        display: inline-block
+    }
+
+    .topbar-form .input-group {
+        display: inline-table;
+        vertical-align: middle
+    }
+
+    .topbar-form .input-group .form-control, .topbar-form .input-group .input-group-addon, .topbar-form .input-group .input-group-btn {
+        width: auto
+    }
+
+    .topbar-form .input-group > .form-control {
+        width: 100%
+    }
+
+    .topbar-form .control-label {
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    .topbar-form .checkbox, .topbar-form .radio {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    .topbar-form .checkbox label, .topbar-form .radio label {
+        padding-left: 0
+    }
+
+    .topbar-form .checkbox input[type=checkbox], .topbar-form .radio input[type=radio] {
+        position: relative;
+        margin-left: 0
+    }
+
+    .topbar-form .has-feedback .form-control-feedback {
+        top: 0
+    }
+}
+
+@media (max-width: 767px) {
+    .topbar-form .form-group {
+        margin-bottom: 5px
+    }
+
+    .topbar-form .form-group:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .topbar-form {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+}
+
+.topbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+.topbar-fixed-bottom .topbar-nav > li > .dropdown-menu {
+    margin-bottom: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.topbar-btn {
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+.topbar-btn.btn-sm {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.topbar-btn.btn-xs {
+    margin-top: 14px;
+    margin-bottom: 14px
+}
+
+.topbar-text {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+@media (min-width: 768px) {
+    .topbar-text {
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+@media (min-width: 768px) {
+    .topbar-left {
+        float: left !important
+    }
+
+    .topbar-right {
+        float: right !important;
+        margin-right: -15px
+    }
+
+    .topbar-right ~ .topbar-right {
+        margin-right: 0
+    }
+}
+
+.topbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7
+}
+
+.topbar-default .topbar-brand {
+    color: #777
+}
+
+.topbar-default .topbar-brand:focus, .topbar-default .topbar-brand:hover {
+    color: #5e5e5e;
+    background-color: transparent
+}
+
+.topbar-default .topbar-text {
+    color: #777
+}
+
+.topbar-default .topbar-nav > li > a {
+    color: #777
+}
+
+.topbar-default .topbar-nav > li > a:focus, .topbar-default .topbar-nav > li > a:hover {
+    color: #333;
+    background-color: transparent
+}
+
+.topbar-default .topbar-nav > .active > a, .topbar-default .topbar-nav > .active > a:focus, .topbar-default .topbar-nav > .active > a:hover {
+    color: #555;
+    background-color: #e7e7e7
+}
+
+.topbar-default .topbar-nav > .disabled > a, .topbar-default .topbar-nav > .disabled > a:focus, .topbar-default .topbar-nav > .disabled > a:hover {
+    color: #ccc;
+    background-color: transparent
+}
+
+.topbar-default .topbar-toggle {
+    border-color: #ddd
+}
+
+.topbar-default .topbar-toggle:focus, .topbar-default .topbar-toggle:hover {
+    background-color: #ddd
+}
+
+.topbar-default .topbar-toggle .icon-bar {
+    background-color: #888
+}
+
+.topbar-default .topbar-collapse, .topbar-default .topbar-form {
+    border-color: #e7e7e7
+}
+
+.topbar-default .topbar-nav > .open > a, .topbar-default .topbar-nav > .open > a:focus, .topbar-default .topbar-nav > .open > a:hover {
+    color: #555;
+    background-color: #e7e7e7
+}
+
+@media (max-width: 767px) {
+    .topbar-default .topbar-nav .open .dropdown-menu > li > a {
+        color: #777
+    }
+
+    .topbar-default .topbar-nav .open .dropdown-menu > li > a:focus, .topbar-default .topbar-nav .open .dropdown-menu > li > a:hover {
+        color: #333;
+        background-color: transparent
+    }
+
+    .topbar-default .topbar-nav .open .dropdown-menu > .active > a, .topbar-default .topbar-nav .open .dropdown-menu > .active > a:focus, .topbar-default .topbar-nav .open .dropdown-menu > .active > a:hover {
+        color: #555;
+        background-color: #e7e7e7
+    }
+
+    .topbar-default .topbar-nav .open .dropdown-menu > .disabled > a, .topbar-default .topbar-nav .open .dropdown-menu > .disabled > a:focus, .topbar-default .topbar-nav .open .dropdown-menu > .disabled > a:hover {
+        color: #ccc;
+        background-color: transparent
+    }
+}
+
+.topbar-default .topbar-link {
+    color: #777
+}
+
+.topbar-default .topbar-link:hover {
+    color: #333
+}
+
+.topbar-default .btn-link {
+    color: #777
+}
+
+.topbar-default .btn-link:focus, .topbar-default .btn-link:hover {
+    color: #333
+}
+
+.topbar-default .btn-link[disabled]:focus, .topbar-default .btn-link[disabled]:hover, fieldset[disabled] .topbar-default .btn-link:focus, fieldset[disabled] .topbar-default .btn-link:hover {
+    color: #ccc
+}
+
+.topbar-inverse .topbar-brand {
+    color: #9d9d9d
+}
+
+.topbar-inverse .topbar-brand:focus, .topbar-inverse .topbar-brand:hover {
+    color: #fff;
+    background-color: transparent
+}
+
+.topbar-inverse .topbar-text {
+    color: #9d9d9d
+}
+
+.topbar-inverse .topbar-nav > li > a {
+    color: #9d9d9d
+}
+
+.topbar-inverse .topbar-nav > li > a:focus, .topbar-inverse .topbar-nav > li > a:hover {
+    color: #fff;
+    background-color: transparent
+}
+
+.topbar-inverse .topbar-nav > .active > a, .topbar-inverse .topbar-nav > .active > a:focus, .topbar-inverse .topbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #080808
+}
+
+.topbar-inverse .topbar-nav > .disabled > a, .topbar-inverse .topbar-nav > .disabled > a:focus, .topbar-inverse .topbar-nav > .disabled > a:hover {
+    color: #444;
+    background-color: transparent
+}
+
+.topbar-inverse .topbar-toggle {
+    border-color: #333
+}
+
+.topbar-inverse .topbar-toggle:focus, .topbar-inverse .topbar-toggle:hover {
+    background-color: #333
+}
+
+.topbar-inverse .topbar-toggle .icon-bar {
+    background-color: #fff
+}
+
+.topbar-inverse .topbar-collapse, .topbar-inverse .topbar-form {
+    border-color: #101010
+}
+
+.topbar-inverse .topbar-nav > .open > a, .topbar-inverse .topbar-nav > .open > a:focus, .topbar-inverse .topbar-nav > .open > a:hover {
+    color: #fff;
+    background-color: #080808
+}
+
+@media (max-width: 767px) {
+    .topbar-inverse .topbar-nav .open .dropdown-menu > .dropdown-header {
+        border-color: #080808
+    }
+
+    .topbar-inverse .topbar-nav .open .dropdown-menu .divider {
+        background-color: #080808
+    }
+
+    .topbar-inverse .topbar-nav .open .dropdown-menu > li > a {
+        color: #9d9d9d
+    }
+
+    .topbar-inverse .topbar-nav .open .dropdown-menu > li > a:focus, .topbar-inverse .topbar-nav .open .dropdown-menu > li > a:hover {
+        color: #fff;
+        background-color: transparent
+    }
+
+    .topbar-inverse .topbar-nav .open .dropdown-menu > .active > a, .topbar-inverse .topbar-nav .open .dropdown-menu > .active > a:focus, .topbar-inverse .topbar-nav .open .dropdown-menu > .active > a:hover {
+        color: #fff;
+        background-color: #080808
+    }
+
+    .topbar-inverse .topbar-nav .open .dropdown-menu > .disabled > a, .topbar-inverse .topbar-nav .open .dropdown-menu > .disabled > a:focus, .topbar-inverse .topbar-nav .open .dropdown-menu > .disabled > a:hover {
+        color: #444;
+        background-color: transparent
+    }
+}
+
+.topbar-inverse .topbar-link {
+    color: #9d9d9d
+}
+
+.topbar-inverse .topbar-link:hover {
+    color: #fff
+}
+
+.topbar-inverse .btn-link {
+    color: #9d9d9d
+}
+
+.topbar-inverse .btn-link:focus, .topbar-inverse .btn-link:hover {
+    color: #fff
+}
+
+.topbar-inverse .btn-link[disabled]:focus, .topbar-inverse .btn-link[disabled]:hover, fieldset[disabled] .topbar-inverse .btn-link:focus, fieldset[disabled] .topbar-inverse .btn-link:hover {
+    color: #444
+}

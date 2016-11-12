@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="renderer" content="webkit"><!-- 360浏览器极速模式 -->
+    <title>About - GC Gaming</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <!-- 全局CSS-->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <style>*{font-family: 'Titillium Web', sans-serif;}</style>
+
+    <!-- 模块CSS -->
+
+    <!-- 全局JS -->
+    <script src="../js/jquery.min.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="about">
+  <div class="header">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="../img/logo.png"></a>
+        </div>
+        <div id="navbar">
+          <style>
+            .header .navbar-default .navbar-nav>li {padding: 0 12px;}
+          </style>
+          <ul class="nav navbar-nav dh">
+            <li class="active"><a href="about.html">ABOUT US</a></li>
+            <li><a href="business.html">BUSINESS COOPERATION</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right lang">
+            <a href="../index.html" role="button"><img src="../img/icon-chinese.png">&nbsp;</a>
+            <a href="../english/index.html" role="button"><img src="../img/icon-english.png"></a>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+
+  <div class="about_1">
+    <div class="container-fluid">
+      <h1>ABOUT&nbsp;US</h1>
+      <p>One of the leading iGaming software supplier in Asia.
+
+</p>
+      <p>GC GAMING, founded in 2015, has gradually grown into a successful recreation group from the leading online gaming platform and system provider in Asia. In addition to the iGaming industry, GC GAMING has also explored other recreation businesses in recent years.</p>
+      <p>GC GAMING is customer-oriented. Satisfying the needs of customers is our priority and philosophy.</p>
+    </div>
+  </div>
+
+  <div class="about_2">
+    <div class="container-fluid">
+      <h2>GC International Certified</h2>
+      <div class="row">
+        <div class="col-xs-4 about_2_1"><span style="padding: 0 0 0 8px">International Game Technology of certification bodies, providing independent testing , inspection , certification and consulting services.</span></div>
+        <div class="col-xs-4 about_2_2"><span style="padding: 0 0 0 8px">Philippines Charity Sweepstakes Lottery Ltd offers online lottery license application and lottery improvement methods.</span></div>
+        <div class="col-xs-4 about_2_3"><span style="padding: 0 0 0 8px">Philippine government recognized legally licensed entertainment system platform of application, providing independent testing , inspection, certification , advisory services and online training .</span></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="partner_t">Partners</p>
+      <p class="partner"><img src="../img/bbin-logo.png"><img src="../img/ag-gaming-logo.png"><img src="../img/playtech-logo.png"><img src="../img/microgaming-logo.png"><img src="../img/allbet-logo.png"><img src="../img/gd-gaming-logo.png"><img src="../img/xin-tian-di-logo.png"></p>
+    </div>
+    <div class="container-fluid copyright">&copy; 2016 GC Gaming. All rights reserved.</div>
+  </footer>
+
+  <script>
+    $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+    });
+  </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script>
+    //改变浏览器大小
+    $(window).resize(function () {
+      $('.about_1').height($(window).height());
+    });
+    //首次加载完成后
+    window.onload = function (){
+      $('.about_1').height($(window).height());
+    }
+  </script>
+  </body>
+</html>

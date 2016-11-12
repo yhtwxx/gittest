@@ -1,0 +1,78 @@
+label {
+    display: block;
+    font-weight:normal;
+    position: relative;
+}
+.reg-form {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.reg-form .reg-header,
+.reg-form .checkbox {
+    margin-bottom: 10px;
+}
+.reg-form .checkbox {
+    font-weight: normal;
+}
+.reg-form .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+}
+.reg-form .form-control:focus {
+    z-index: 2;
+}
+.login-form {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.login-form .login-header,
+.login-form .checkbox {
+    margin-bottom: 10px;
+}
+.login-form .checkbox {
+    font-weight: normal;
+}
+.login-form .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+}
+.login-form .form-control:focus {
+    z-index: 2;
+}
+#imgObj2{
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 39px;
+    z-index: 3;
+}
+#captchaObj{
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 39px;
+    z-index: 3;
+}
+
+
+.Validform_wrong {color: red}
+.Validform_error {border-color: red}
+.Validform_error:focus {border-color: red;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233,110,97,.6)}

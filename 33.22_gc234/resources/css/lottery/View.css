@@ -1,0 +1,2338 @@
+#RSTable tr.title_tr td {
+    background-color: #f6f6f6;
+    color: #455964;
+    font-size: 12px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+#RSTable tr.title_tr td#RS {
+    background-color:#d3d3d3;
+}
+tr.title_tr td {
+    background-color: #efefef;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+.title_td {
+    background-color: #efefef;
+    color: #666;
+}
+.title_td2 {
+    background-color: #d6d6d6;
+    color: #455964;
+}
+.title_td3 {
+    background-color: #F4F8F9;
+}
+.BallTD {
+    font-size: 12px;
+    text-align: center;
+    background-color: #F4F8F9;
+}
+.HTD {
+    font-weight: bold;
+    font-size: 11pt;
+    background-color:#d6d6d6;
+    color:#455964;
+    text-align:center;
+}
+
+/*紅色*/
+.rr {
+    color: #cc0000
+}
+/*粗體*/
+.bb {
+    font-weight: bold;
+}
+/*置中*/
+.cc {
+    text-align: center;
+}
+/*靠右*/
+.beRight{
+    text-align:right;
+}
+/*靠左*/
+.beLeft, div.round-table td.beLeft{
+    text-align:left;
+    padding:3px 0 3px 8px;
+}
+.bg1 {
+    text-align:right;
+    background-color:#d1dadf;
+}
+#table5 td, #table6 td, #table7 td, #table8 td{
+    padding:0;
+    border:1px solid #bbbbbb;
+}
+
+strong{
+    font-weight: bold;
+}
+
+div.round-table {
+    border-radius:0px;
+    border:none;
+    padding:0;
+    margin:5px 0 15px 5px;
+    width:96%;
+    clear:both;
+    font-size:11pt;
+    background-color:#fff;
+    position:relative;
+}
+div.round-table > table {
+    border:0;
+    border-collapse:collapse;
+    width:100%;
+    font-size:12px;
+}
+div.round-table > table > tbody > tr {
+    height:24px;
+}
+div.round-table > table > tr {
+    height:32px;
+}
+div.round-table > table td {
+    padding:0;
+    border:1px solid #cbcbcb;
+    text-align:center;
+    height:32px;
+    line-height:24px;
+}
+.Game div.round-table > table td {
+    line-height:16px;
+    cursor:pointer;
+}
+div.round-table > table td.bColorR,
+div.round-table > table td.bColorG,
+div.round-table > table td.bColorB {
+    color:#fff;
+}
+div.round-table div.round-top-left {
+    background:transparent url(/TPL/pitaya/images/round-white.png) no-repeat top left;
+    top:0;
+    left:0;
+    _background:transparent url() no-repeat top left;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TPL/pitaya/images/round-top-left.png', sizingMethod='image');
+}
+div.round-table div.round-top-right {
+    background:transparent url(/TPL/pitaya/images/round-white.png) no-repeat top right;
+    top:0;
+    right:0;
+    _background:transparent url() no-repeat top left;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TPL/pitaya/images/round-top-right.png', sizingMethod='image');
+    _right:-1px;
+}
+div.round-table div.round-bottom-left {
+    background:transparent url(/TPL/pitaya/images/round-white.png) no-repeat left -5px;
+    bottom:0;
+    left:0;
+    _background:transparent url() no-repeat top left;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TPL/pitaya/images/round-bottom-left.png', sizingMethod='image');
+}
+div.round-table div.round-bottom-right {
+    background:transparent url(/TPL/pitaya/images/round-white.png) no-repeat -5px -5px;
+    bottom:0;
+    right:0;
+    _background:transparent url() no-repeat top left;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/TPL/pitaya/images/round-bottom-right.png', sizingMethod='image');
+    _right:-1px;
+}
+div.round-table table {
+    _border:0;
+    _border-collapse:collapse;
+    _width:100%;
+    _font-size:12px;
+}
+div.round-table table tr {
+    _height:26px;
+}
+div.round-table table td {
+    _padding:0;
+    _border:1px solid #333;
+    _text-align:center;
+}
+#TodayTab, #HistoryTab{
+    background-color:#fff;
+}
+#TodayTab td, #HistoryTab td{
+    text-align:right;
+}
+div.Mar {
+    width: 99%;
+    color: white;
+    height: 22px;
+    line-height: 22px;
+    clear: both;
+    position:relative;
+    background-color: #828282;
+}
+input[type=text], input[type=number],input[type=password], select{
+    -moz-border-radius:3px;;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #bbbbbb;
+}
+.rule_style_set {
+    background-color:#fff;
+    font-size:10pt;
+    line-height:20px;
+}
+.rule_style_set ol {
+    list-style:url() decimal outside;
+    padding-left: 2em;
+}
+.style2 {
+    color: #990000
+}
+.subtitle {
+    color: #FFFFFF;
+    padding-top: 3px;
+    font-size: 13px;
+}
+.style1 {
+    color: #FF0000
+}
+.style9 {
+    color: #0000FF
+}
+.style8 {
+    color: #006633
+}
+/*規則說明css*/
+.style7 {
+    color: #006600
+}
+.rule_style_set h2 {
+    border-top: 3px solid #8e1914;
+    margin: 0;
+    padding: 0 0 0 23px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    border-top: 3px solid #828282;
+    background: #393430 url(/TPL/pitaya/images/rule_icon1.gif) left no-repeat;
+}
+.rule_style_set table{
+    width: 100%;
+    border: 1px solid #525252;
+    border-collapse: collapse;
+    margin-left: 1px;
+}
+.rule_style_set table td {
+    padding: 4px;
+    border: 1px solid #525252;
+}
+.rule_style_set table th {
+    width:50%;
+    background-color:#AFAFE4;
+}
+.rule_style_set dl {
+    margin-top: 0;
+}
+.rule_style_set ul {
+    margin: 7px 0;
+    list-style-type: disc;
+    padding-left: 2em;
+}
+.rule_style_set p {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+.rule_style_set p span {
+    float: left;
+}
+
+.slideMenu-zone td.point {
+    text-align: center;
+
+}
+.slideMenu-zone th.subtitle2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 拖拉下注的金額區塊css*/
+.view-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10010;
+    display: none;
+    background-color:transparent;
+    background-color:rgba(0, 0, 0, 0.3);
+    background:transparent url(/TPL/pitaya/images/apha3.png) repeat 0 0 \9;
+    _background:transparent;
+}
+/*3D顥示視窗*/
+.view-mask div#CenterView{
+    width:850px;
+    min-width:240px;
+    height:80%;
+    min-height:320px;
+    margin:5% auto;
+    z-index:30000;
+    border:none;
+    border-radius:5px;
+    background-color:rgba( 0,0,128,0.5 );
+    background-color:#fff;
+    display:block;
+    position:relative;
+    overflow:hidden;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+}
+.view-mask div#CenterView h1{
+    font-size:12pt;
+    width:100%;
+    margin:0;
+    padding:0;
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    z-index:50000;
+    padding:0;
+    color: #fff;
+    display:block;
+    font-weight:bold;
+    background:#455964;
+    font-family:思源黑體, 微軟正黑體, 新細明體, 細明體, Arial;
+}
+.view-mask div#CenterView span#ViewClose{
+    float:right;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    font-size:10pt;
+    display:block;
+    border-radius:3px;
+    text-align:center;
+    position:absolute;
+    top:5px;
+    right:7px;
+    font-weight:bold;
+    cursor:pointer;
+    color:#000;
+    background:transparent url(/TPL/pitaya/images/close_over.png) no-repeat 2px 2px;
+}
+.view-mask div#CenterView span#ViewClose:hover{
+    background:transparent url(/TPL/pitaya/images/close_over.png) no-repeat 2px 2px;
+}
+.view-mask div#CenterView div#Content3D{
+    height:97%;
+    height:-webkit-calc(100% - 32px);
+    height:calc(100% - 32px);
+    _height:expression((getElementById('CenterView').offsetHeight - 52) + 'px');
+    overflow:auto;
+    margin:0 auto;
+    background-color:#d6d6d6;
+    color:#455964;
+    font-weight:normal;
+    font-size:10pt;
+    line-height:1.2em;
+    *width:100%;
+    *overflow-y:auto;
+    *overflow-x:hidden;
+}
+.view-mask div#CenterView div#Content3D a {
+    text-decoration:none;
+}
+.view-mask div#CenterView div#Content3D div.round-table {
+    margin:15px auto;
+    _position:static;
+}
+.view-mask div#CenterView div#Content3D table.memberTable tr td:nth-child(1){
+    width:100px;
+}
+.view-mask div#CenterView div#Content3D div#Zone div table tr.title_tr td{
+    text-align:center;
+}
+.view-mask div#CenterView div#Content3D td.title_td2{
+    color:#fff;
+    text-align:right;
+}
+
+.view-mask div#CenterView div#Content3D td.histoyr_2_total_td {
+    color:#455964;
+    background: #d4dcda;
+}
+
+.view-mask div#CenterView div#Content3D fieldset{
+    background-color:#fff;
+    border:1px solid #bbbbbb;
+    background-color:#f0f0f0;
+    color:#455964;
+    width:95%;
+    margin:10px auto;
+    position: relative;\9
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result{
+    border:1px solid #bbbbbb;
+    border-top:5px solid #455964;
+    background-color:#f0f0f0;
+    color:#455964;
+    width:95%;
+    margin:40px auto 10px auto;
+    position: relative;\9
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result:before{
+    content:attr(data-bb);
+    padding:5px 20px;
+    background-color:#455964;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:9pt;
+    color:#fff;
+    position:absolute;
+    top:-28px;
+    left:10px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    overflow:hidden;
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result legend {
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result:after { 
+    content : '';
+    color:#000;
+    position:absolute;
+    top:-4px;
+    left:21px;
+    border-top:10px solid #455964;
+    border-right:5px solid transparent;
+    border-bottom:0px solid transparent;
+    border-left:5px solid transparent;
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+.view-mask div#CenterView div#Content3D fieldset ul li span input,
+.view-mask div#CenterView div#Content3D fieldset ul li span select{
+    background-color:transparent;
+}
+.view-mask div#CenterView div#Content3D fieldset ul li span select, 
+.view-mask div#CenterView div#Content3D fieldset ul li span select > option {
+    padding:0 0 0 11px;
+    font-size:12px;
+    height:20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#Frm_search_drawno + div.round-table table td:first-child {
+    background-color:#bf3a21;
+}
+
+.view-mask div#CenterView div#Content3D fieldset legend{
+    margin-left:2em;
+    position: absolute\9;
+    top: -0.5em\9;
+    left: 2em\9;
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result{
+    border:1px solid #bbbbbb;
+    border-top:5px solid #455964;
+    background-color:#f0f0f0;
+    color:#455964;
+    width:95%;
+    margin:40px auto 10px auto;
+    position: relative;\9
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result:before{
+    content:attr(data-bb);
+    padding:5px 20px;
+    background-color:#455964;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:9pt;
+    color:#fff;
+    position:absolute;
+    top:-28px;
+    left:10px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    overflow:hidden;
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result legend {
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+.view-mask div#CenterView div#Content3D fieldset#search_result:after { 
+    content : '';
+    color:#000;
+    position:absolute;
+    top:-4px;
+    left:21px;
+    border-top:10px solid #455964;
+    border-right:5px solid transparent;
+    border-bottom:0px solid transparent;
+    border-left:5px solid transparent;
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+.view-mask div#CenterView div#Content3D fieldset ul li span input,
+.view-mask div#CenterView div#Content3D fieldset ul li span select{
+    background-color:transparent;
+}
+.view-mask div#CenterView div#Content3D fieldset ul li span select, 
+.view-mask div#CenterView div#Content3D fieldset ul li span select > option {
+    padding:0 0 0 11px;
+    font-size:12px;
+    height:20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#Frm_search_drawno + div.round-table table td:first-child {
+    background-color:#f0f0f0;
+
+}
+#Frm_search_drawno + div.round-table table td a {
+    color:#d63e33;
+}
+
+.view-mask div#CenterView div#Content3D fieldset div{
+    height:24px;
+    line-height:24px;
+}
+.view-mask div#CenterView div#Content3D .footer{
+    width:100%;
+    clear:both;
+    height:10px;
+    display:block;
+}
+form.SearchForm, div.none {
+    margin:0;
+    padding:0;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+form.SearchForm {
+    background-color:#f0f0f0;
+    color:#455964;
+}
+form.SearchForm:after {
+    content: "";
+    display:block;
+    width:100%;
+    height:0;
+    clear:both;
+}
+form.SearchForm input.ViewBtn {
+    padding:0;
+    margin:0;
+    width : 80px;
+    height :22px;
+    line-height :22px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align:middle;
+}
+form.SearchForm > div {
+    float:left;
+    width:33%;
+    display:block;
+    line-height:64px;
+    height:64px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:0 0 0 20px;
+}
+
+form.SearchForm > div[data-label]:before {
+    content : attr(data-label);
+}
+form.SearchForm > div[data-label][data-extendiv]:before {
+    content : "";
+}
+
+#Frm_search_drawno select,
+form.SearchForm div input[type=text], 
+form.SearchForm div select{
+    background-color:transparent;
+    height:20px;
+    line-height:20px;
+}
+form.SearchForm div input[type="submit"]{
+    margin: 0px;
+}
+form.SearchForm div img{
+    vertical-align:middle;
+}
+form.SearchForm div.last {
+    float:right;
+    width:100%;
+    height:48px;
+    line-height:48px;
+    text-align:right;
+    background-color:#d6d6d6;
+}
+form.SearchForm input.Wid {
+    width:90px;
+}
+
+tr.R_tr td {
+    font-size: 12px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+}
+span.N1, span.N2, span.N3, span.N4, span.N5, span.N6{
+    display:none;
+}
+span.SP{
+    display:block;
+}
+.bTitle{
+    background-color:#ecf5e2;
+}
+p#Arrow{
+    font-weight:bold;
+    text-align:center;
+}
+p#Arrow a{
+    display:inline-block;
+    text-decoration:none;
+    color:#000;
+}
+p#Arrow span{
+    color:blue;
+    font-size:16px;
+    float:left;
+    width:70%;
+    text-align:center;
+}
+.MCUSN_V {
+  background:#FFFFFF;
+}
+.MCUSN div{
+  float:left;
+  width:33%;
+}
+.MCUSN {
+  display:none;
+}
+#MT, #CT, #UT, #SNT {
+  font-size:16px;
+  color:#0000FF;
+  font-weight:bold;
+}
+.SHOW {
+    display:none;
+}
+#finalB5 #Time1,#finalB5 #Time2,#finalB5 #Time3,#finalB5 #Time4,#finalB5 #Time5,#finalB5 #Time123,#finalB5 #Time234,#finalB5 #Time345 {
+    font-size:16px;
+    color:#0000FF;
+    font-weight:bold;
+    font-family: "SimSun", Arial, Helvetica, sans-serif;
+}
+#search_content ul {
+    list-style:none;
+    width:95%;
+    margin:0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#search_content ul li {
+    width:100%;
+    height:36px;
+    line-height:36px;
+    clear:both;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#search_content ul li img{
+    vertical-align:middle;
+}
+#search_content ul li label, #search_content ul li span {
+    display:inline-block;
+    float:left;
+}
+#search_content  #date_start, #search_content  #date_end{
+    width:10em;
+}
+#search_content ul li span input {
+    border:1px solid #000;
+    width:12em;
+}
+#memberData form div.round-table table tr {
+    height:30px;
+    line-height:19px;
+}
+#memberData form div.round-table table tr td.title_td2 {
+    width :142px;
+    padding-right : 5px;
+}
+#memberData form div.round-table table tr td.bg-password {
+    background-color:#d63135;
+}
+#memberData form div.round-table table tr td span#PasswdMsg {
+    background-color:#d63135;
+    color:#fff;
+}
+div.slide-index {
+    padding:0;
+    margin:5px auto 15px auto;
+    width:95%;
+    overflow:hidden;
+    display:block;
+}
+
+div.slide-index p.title{
+    font-size:14pt;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    height:26pt;
+    line-height:26pt;
+    color:#455964;
+    width:100%;
+    clear:both;
+}
+
+div.slide-index ul {
+    list-style: none;
+    width:99%;
+    border-radius:5px;
+    background-color:#fff;
+    border:1px solid #bbbbbb;
+}
+div.slide-index ul li {
+    border-bottom:1px solid #bbbbbb;
+    display:block;
+}
+div.slide-index ul li:hover {
+    background-color: #455964;
+}
+div.slide-index ul li a{
+    font-size:12pt;
+    color:#455964;
+    width:100%;
+    _width:90%;
+    height:24px;
+    line-height:24px;
+    font-weight:normal;
+    display:block;
+    padding:3px 5px 3px 8px;
+}
+div.slide-index ul li a:hover {
+    color:#fff;
+}
+div.slide-index ul li a:after{
+    content:">";
+    display:block;
+    float:right;
+    height:24px;
+    line-height:24px;
+    font-weight:bold;
+    font-size:12pt;
+    margin-right:15px;
+}
+div.slide-index ul li.last {
+    border-bottom:0;
+}
+div.slide-index > ul > li:last-child {
+    border-bottom:0;
+}
+div.slide-index ul li.last {
+    border-bottom:0 \9;
+}
+.view-mask div#CenterView div#Content3D table.history {
+    font-size: 12px;
+}
+
+.view-mask div#CenterView div#Content3D .cash_tab {
+    width: 780px;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    background-color: #f2faff;
+}
+
+.view-mask div#CenterView div#Content3D .deposit {
+    width: 780px;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    background-color: #f2faff;
+    display: none;
+}
+
+.view-mask div#CenterView div#Content3D .withdraw {
+    width: 780px;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    background-color: #f2faff;
+    display: none;
+}
+
+.view-mask div#CenterView div#Content3D tr.m_title_edit {
+    background-color: #990000;
+    color: white;
+}
+
+.view-mask div#CenterView div#Content3D td.title {
+    background-color: #4D4742;
+    border: 1px solid #e3d46e;
+    text-align: center;
+    color: white;
+}
+
+.view-mask div#CenterView div#Content3D .gold {
+    border: 1px solid #e3d46e;
+    text-align: right;
+}
+
+.view-mask div#CenterView div#Content3D .way {
+    border: 1px solid #e3d46e;
+    text-align: center
+}
+
+.view-mask div#CenterView div#Content3D .normal {
+    text-align: left
+}
+
+.view-mask div#CenterView div#Content3D .result {
+    text-align: right;
+    background-color: #d1dadf;
+}
+
+.view-mask div#CenterView div#Content3D .m_mem_ed {
+}
+
+.view-mask div#CenterView div#Content3D div.search {
+    font-size: 12px;
+    text-align: center;
+}
+
+.view-mask div#CenterView div#Content3D .m_mem_ed {
+    background-color: #98e7ae;
+    text-align: right
+}
+
+.view-mask div#CenterView div#Content3D .quick {
+    color: rgb(0, 0, 255);
+}
+
+.view-mask div#CenterView div#Content3D .box {
+    border: 1px solid black;
+    width: 780px;
+}
+
+.view-mask div#CenterView div#Content3D .cash_head {
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.view-mask div#CenterView div#Content3D span.wid {
+    color: rgb(0, 0, 255);
+}
+
+.view-mask div#CenterView div#Content3D .chg {
+    color: blue;
+    cursor: pointer;
+}
+
+.view-mask div#CenterView div#Content3D .other {
+    background-color: #d1dadf;
+}
+
+.view-mask div#CenterView div#Content3D .credit {
+    color: #ff0033
+}
+
+.view-mask div#CenterView div#Content3D .hid_q {
+    display: none;
+}
+
+.view-mask div#CenterView div#Content3D .show_q {
+    padding: 0px;
+}
+
+.view-mask div#CenterView div#Content3D .benefit {
+    color: red;
+}
+
+.view-mask div#CenterView div#Content3D table.history td{
+    border: 1px solid #333;
+    text-align:center;
+}
+.view-mask div#CenterView div#Content3D table.history td.normal{
+    text-align:left;
+}
+
+.view-mask div#CenterView div#Content3D table.history td b{
+    color:red;
+}
+.view-mask div#CenterView div#Content3D #CashLog input.date {
+    width:6em;
+}
+.bColorR, .bColorG, .bColorB {
+    font-weight: bold;
+}
+.bColorR {
+    background: #F4F8F9 url("../../img/lottery/ball/r.png") center center no-repeat;
+}
+.bColorG {
+    background: #F4F8F9 url("../../img/lottery/ball/g.png") center center no-repeat;
+}
+.bColorB {
+    background: #F4F8F9 url("../../img/lottery/ball/b.png") center center no-repeat;
+}
+.bColorR span,.bColorG span,.bColorB span {
+    font-family: "Arial Black";
+    color: #ffffff;
+    font-size:12px;
+    display:block;
+}
+#finalB5 .ball-cell {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    line-height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    border-top: none;
+}
+
+#finalB5 .ball-num-01 {
+    background: #d9c100;
+}
+#finalB5 .ball-num-02 {
+    background: #0089ff;
+}
+#finalB5 .ball-num-03 {
+    background: #4e4e4e;
+}
+#finalB5 .ball-num-04 {
+    background: #ff7000;
+}
+#finalB5 .ball-num-05 {
+    background: #39d0cb;
+}
+#finalB5 .ball-num-06 {
+    background: #4b00ff;
+}
+#finalB5 .ball-num-07 {
+    background: #b6b2b3;
+}
+#finalB5 .ball-num-08 {
+    background: #fb0102;
+}
+#finalB5 .ball-num-09 {
+    background: #710000;
+}
+#finalB5 .ball-num-10 {
+    background: #2ebf00;
+}
+#finalB5.BBPK .ball-num-01 {
+    background: #cc0000;
+}
+#finalB5.BBPK .ball-num-02 {
+    background: #cc00ff;
+}
+#finalB5.BBPK .ball-num-03 {
+    background: #009999;
+}
+#finalB5.BBPK .ball-num-04 {
+    background: #ff9900;
+}
+#finalB5.BBPK .ball-num-05 {
+    background: #333333;
+}
+#finalB5.BBPK .ball-num-06 {
+    background: #00ccff;
+}
+#finalB5.BBPK .ball-num-07 {
+    background: #cccccc;
+}
+#finalB5.BBPK .ball-num-08 {
+    background: #ffd700;
+}
+#finalB5.BBPK .ball-num-09 {
+    background: #6600ff;
+}
+#finalB5.BBPK .ball-num-10 {
+    background: #99cc00;
+}
+
+/*規則說明*/
+/*CQSF 水果物件樣式 --start*/
+.fruit-box {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.CQSF .fruit-num-01,
+.CQSF .fruit-num-1 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 0px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-02,
+.CQSF .fruit-num-2 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -27px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-03,
+.CQSF .fruit-num-3 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -54px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-04,
+.CQSF .fruit-num-4 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -81px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-05,
+.CQSF .fruit-num-5 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -108px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-06,
+.CQSF .fruit-num-6 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -135px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-07,
+.CQSF .fruit-num-7 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -162px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-08,
+.CQSF .fruit-num-8 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -189px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-09,
+.CQSF .fruit-num-9 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -216px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-10 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -243px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-11 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -270px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-12 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -297px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-13 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -324px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-14 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -351px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-15 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -378px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-16 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -405px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-17 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -432px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-18 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -459px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-19 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -486px;
+    width: 30px;
+    height: 27px;
+}
+.CQSF .fruit-num-20 {
+    background: url('/pt/assets/img/laima-pitaya/fruit_order.png?1446435659');
+    background-position: 0 -513px;
+    width: 30px;
+    height: 27px;
+}
+/*CQSF 開獎結果 水果物件樣式 --end*/
+
+#finalB5.CQWC .pk-spades-1 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px 0px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-2 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -38px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-3 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -76px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-4 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -114px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-5 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -152px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-6 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -190px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-7 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -228px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-8 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -266px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-9 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -304px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-10 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -342px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-11 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -380px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-12 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -418px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-spades-13 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -456px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-1 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -494px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-2 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -532px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-3 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -570px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-4 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -608px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-5 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -646px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-6 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -684px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-7 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -722px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-8 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -760px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-9 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -798px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-10 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -836px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-11 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -874px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-12 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -912px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-diamonds-13 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -950px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-1 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -988px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-2 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1026px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-3 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1064px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-4 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1102px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-5 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1140px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-6 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1178px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-7 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1216px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-8 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1254px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-9 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1292px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-10 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1330px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-11 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1368px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-12 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1406px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-clubs-13 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1444px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-1 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1482px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-2 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1520px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-3 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1558px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-4 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1596px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-5 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1634px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-6 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1672px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-7 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1710px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-8 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1748px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-9 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1786px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-10 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1824px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-11 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1862px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-12 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1900px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-hearts-13 {
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') no-repeat 0px -1938px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-gold, #finalB5.CQWC .pk-silver, #finalB5.CQWC .pk-fold {
+    display: inline-block;
+    width: 29px;
+    height: 38px;
+    background: url('/pt/assets/img/game/cqwc/results-pk-suits_bg.png?1443162692') 0 0;
+    margin-right: 6px;
+}
+#finalB5.CQWC .pk-gold {
+    background-position: 0 -1976px;
+}
+#finalB5.CQWC .pk-silver {
+    background-position: 0 -2014px;
+}
+#finalB5.CQWC .pk-fold {
+    background-position: 0 -2052px;
+}
+
+
+/*調整CQSF 規則說明樣式 --start*/
+#Content3D
+  .CQSF
+    .table--rule {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .td--rule {
+        text-align: center;
+        border: 1px solid #FFCA23!important;
+    }
+    .td--emphasize-1st {
+        background-color: #fcff81;
+    }
+    .icon-plus:before {
+        content: '';
+        display: inline-block;
+        background: url("/TPL/pitaya/images/icon-plus.png");
+        width: 16px;
+        height: 16px;
+    }
+/*調整 CQSF 規則說明 --end*/
+
+/*調找 CQSF en-us 語系，開獎結果 --start*/
+.en-us
+    #Content3D
+      .CQSF
+        .fruit-box-wrap {
+            width: 140px;
+}
+/*調找 CQSF en-us 語系，開獎結果 --end*/
+a.history_view_link {
+  color: #fff;
+}
+
+.view-mask div#CenterView div#Content3D input.submit_cen {
+    overflow: hidden;
+    width: auto;
+    height: 32px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 32px;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    border: 1px solid #357cbb;
+    border-radius: 5px;
+    background-color: #357cbb;
+}
+input.ViewBtn {
+    overflow: hidden;
+    width: auto;
+    height: 32px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 32px;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    background: none;
+    margin: 0;
+    padding: 0 48px;
+    color: white;
+    border: 1px solid #357cbb;
+    border-radius: 5px;
+    background-color: #357cbb;
+}
+
+/*css動畫*/
+.view-mask div.ShowD, #BlackBG div.ShowD{
+    animation:showmove 100ms 1;
+    -o-animation:showmove 100ms 1; /* Opera */
+    -moz-animation:showmove 100ms 1; /* Firefox */
+    -webkit-animation:showmove 100ms 1; /* Safari and Chrome */
+}
+.view-mask div.HiddenD, #BlackBG div.HiddenD{
+    animation:hiddenmove 250ms 1;
+    -o-animation:hiddenmove 250ms 1; /* Opera */
+    -moz-animation:hiddenmove 250ms 1; /* Firefox */
+    -webkit-animation:hiddenmove 250ms 1; /* Safari and Chrome */
+}
+@-webkit-keyframes showmove {
+    0% {-webkit-transform: scale(0.5);opacity:0.25;}
+    100% {-webkit-transform: scale(1);opacity: 1;}
+}
+@-moz-keyframes showmove {
+    0% {-moz-transform: scale(0.5);opacity:0.25;}
+    100% {-moz-transform: scale(1);opacity: 1;}
+}
+@-o-keyframes showmove {
+    0% {-o-transform: scale(0.5);opacity:0.25;}
+    100% {-o-transform: scale(1);opacity: 1;}
+}
+@keyframes showmove {
+    0% {transform: scale(0.5);opacity:0.25;}
+    100% {transform: scale(1);opacity: 1;}
+}
+@-webkit-keyframes hiddenmove {
+    0% {-webkit-transform: scale(1);opacity:1;}
+    100% {-webkit-transform: scale(0.1);opacity: 0.25;}
+}
+@-moz-keyframes hiddenmove {
+    0% {-moz-transform: scale(1);opacity:1;}
+    100% {-moz-transform: scale(0.1);opacity: 0.25;}
+}
+@-o-keyframes hiddenmove {
+    0% {-o-transform: scale(1);opacity:1;}
+    100% {-o-transform: scale(0.1);opacity: 0.25;}
+}
+@keyframes hiddenmove {
+    0% {transform: scale(1);opacity:1;}
+    100% {transform: scale(0.1);opacity: 0.25;}
+}
+
+.result-tooltip {
+    z-index: 50001 !important;
+    font-size: 12px !important;
+    color: #aaaaaa !important;
+    border: none !important;
+    background: black !important;
+    opacity: 0.8 !important;
+    filter: alpha(opacity=80) !important;
+}
+
+/*為了解決客端的歷史紀錄顯示太過透明*/
+.result-tooltip-by-history {
+    z-index: 50001 !important;
+    font-size: 12px !important;
+    color: #aaaaaa !important;
+    border: none !important;
+    background: black !important;
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.result-num-bingo, .result-num-result {
+    display:inline-block;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    margin: 1px;
+}
+
+.longdragon-active {
+    background: #FFFF00 !important;
+}
+
+#history-game-results .pk-spades-1 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px 0px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-2 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -21px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-3 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -42px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-4 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -63px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-5 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -84px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-6 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -105px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-7 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -126px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-8 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -147px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-9 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -168px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-10 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -189px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-11 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -210px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-12 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -231px;
+  display: inline-block;
+}
+
+#history-game-results .pk-spades-13 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -252px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-1 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -273px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-2 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -294px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-3 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -315px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-4 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -336px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-5 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -357px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-6 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -378px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-7 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -399px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-8 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -420px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-9 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -441px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-10 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -462px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-11 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -483px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-12 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -504px;
+  display: inline-block;
+}
+
+#history-game-results .pk-diamonds-13 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -525px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-1 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -546px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-2 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -567px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-3 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -588px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-4 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -609px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-5 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -630px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-6 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -651px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-7 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -672px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-8 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -693px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-9 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -714px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-10 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -735px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-11 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -756px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-12 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -777px;
+  display: inline-block;
+}
+
+#history-game-results .pk-clubs-13 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -798px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-1 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -819px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-2 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -840px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-3 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -861px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-4 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -882px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-5 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -903px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-6 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -924px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-7 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -945px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-8 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -966px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-9 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -987px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-10 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -1008px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-11 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -1029px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-12 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -1050px;
+  display: inline-block;
+}
+
+#history-game-results .pk-hearts-13 {
+  width: 32px;
+  height: 21px;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg) no-repeat 0px -1071px;
+  display: inline-block;
+}
+
+#history-game-results .pk-gold, #history-game-results .pk-silver, #history-game-results .pk-fold {
+  width: 32px;
+  height: 21px;
+  display: inline-block;
+  background: url(/TPL/pitaya/images/rule-poker_bg.jpg);
+}
+
+#history-game-results .pk-gold {
+  background-position: 0 -1092px;
+}
+
+#history-game-results .pk-silver {
+  background-position: 0 -1113px;
+}
+
+#history-game-results .pk-fold {
+  background-position: 0 -1134px;
+}
+
+.CQWC #CQWC-result .pk-spades-1, .Poker #Poker-result .pk-spades-1 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px 0px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-2, .Poker #Poker-result .pk-spades-2 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -38px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-3, .Poker #Poker-result .pk-spades-3 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -76px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-4, .Poker #Poker-result .pk-spades-4 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -114px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-5, .Poker #Poker-result .pk-spades-5 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -152px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-6, .Poker #Poker-result .pk-spades-6 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -190px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-7, .Poker #Poker-result .pk-spades-7 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -228px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-8, .Poker #Poker-result .pk-spades-8 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -266px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-9, .Poker #Poker-result .pk-spades-9 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -304px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-10, .Poker #Poker-result .pk-spades-10 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -342px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-11, .Poker #Poker-result .pk-spades-11 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -380px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-12, .Poker #Poker-result .pk-spades-12 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -418px; display: inline-block; }
+.CQWC #CQWC-result .pk-spades-13, .Poker #Poker-result .pk-spades-13 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -456px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-1, .Poker #Poker-result .pk-diamonds-1 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -494px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-2, .Poker #Poker-result .pk-diamonds-2 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -532px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-3, .Poker #Poker-result .pk-diamonds-3 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -570px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-4, .Poker #Poker-result .pk-diamonds-4 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -608px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-5, .Poker #Poker-result .pk-diamonds-5 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -646px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-6, .Poker #Poker-result .pk-diamonds-6 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -684px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-7, .Poker #Poker-result .pk-diamonds-7 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -722px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-8, .Poker #Poker-result .pk-diamonds-8 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -760px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-9, .Poker #Poker-result .pk-diamonds-9 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -798px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-10, .Poker #Poker-result .pk-diamonds-10 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -836px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-11, .Poker #Poker-result .pk-diamonds-11 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -874px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-12, .Poker #Poker-result .pk-diamonds-12 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -912px; display: inline-block; }
+.CQWC #CQWC-result .pk-diamonds-13, .Poker #Poker-result .pk-diamonds-13 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -950px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-1, .Poker #Poker-result .pk-clubs-1 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -988px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-2, .Poker #Poker-result .pk-clubs-2 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1026px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-3, .Poker #Poker-result .pk-clubs-3 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1064px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-4, .Poker #Poker-result .pk-clubs-4 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1102px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-5, .Poker #Poker-result .pk-clubs-5 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1140px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-6, .Poker #Poker-result .pk-clubs-6 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1178px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-7, .Poker #Poker-result .pk-clubs-7 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1216px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-8, .Poker #Poker-result .pk-clubs-8 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1254px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-9, .Poker #Poker-result .pk-clubs-9 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1292px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-10, .Poker #Poker-result .pk-clubs-10 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1330px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-11, .Poker #Poker-result .pk-clubs-11 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1368px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-12, .Poker #Poker-result .pk-clubs-12 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1406px; display: inline-block; }
+.CQWC #CQWC-result .pk-clubs-13, .Poker #Poker-result .pk-clubs-13 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1444px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-1, .Poker #Poker-result .pk-hearts-1 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1482px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-2, .Poker #Poker-result .pk-hearts-2 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1520px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-3, .Poker #Poker-result .pk-hearts-3 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1558px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-4, .Poker #Poker-result .pk-hearts-4 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1596px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-5, .Poker #Poker-result .pk-hearts-5 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1634px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-6, .Poker #Poker-result .pk-hearts-6 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1672px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-7, .Poker #Poker-result .pk-hearts-7 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1710px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-8, .Poker #Poker-result .pk-hearts-8 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1748px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-9, .Poker #Poker-result .pk-hearts-9 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1786px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-10, .Poker #Poker-result .pk-hearts-10 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1824px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-11, .Poker #Poker-result .pk-hearts-11 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1862px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-12, .Poker #Poker-result .pk-hearts-12 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1900px; display: inline-block; }
+.CQWC #CQWC-result .pk-hearts-13, .Poker #Poker-result .pk-hearts-13 { width: 29px; height: 38px; background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840') no-repeat 0px -1938px; display: inline-block; }
+.CQWC #CQWC-result .pk-gold {
+    width: 29px;
+    height: 38px;
+    background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840')  no-repeat 0px -1976px;
+    display: inline-block;
+}
+.CQWC #CQWC-result .pk-silver {
+    width: 29px;
+    height: 38px;
+    background: url('/TPL/pitaya/images/results-pk-suits_bg.png?1439180840')  no-repeat 0px -2014px;
+    display: inline-block;
+}
+
+.Poker #Poker-result .min-card .pk-spades-1 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px 0px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-2 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -21px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-3 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -42px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-4 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -63px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-5 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -84px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-6 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -105px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-7 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -126px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-8 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -147px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-9 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -168px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-10 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -189px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-11 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -210px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-12 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -231px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-spades-13 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -252px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-1 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -273px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-2 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -294px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-3 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -315px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-4 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -336px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-5 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -357px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-6 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -378px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-7 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -399px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-8 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -420px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-9 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -441px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-10 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -462px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-11 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -483px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-12 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -504px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-diamonds-13 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -525px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-1 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -546px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-2 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -567px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-3 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -588px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-4 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -609px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-5 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -630px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-6 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -651px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-7 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -672px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-8 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -693px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-9 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -714px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-10 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -735px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-11 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -756px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-12 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -777px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-clubs-13 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -798px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-1 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -819px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-2 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -840px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-3 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -861px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-4 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -882px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-5 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -903px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-6 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -924px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-7 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -945px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-8 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -966px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-9 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -987px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-10 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -1008px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-11 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -1029px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-12 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -1050px; display: inline-block; vertical-align: middle; }
+.Poker #Poker-result .min-card .pk-hearts-13 { width: 32px; height: 21px; background: url('/TPL/pitaya/images/rule-poker_bg.jpg?1447744732') no-repeat 0px -1071px; display: inline-block; vertical-align: middle; }
+
+.view-mask div#CenterView div#Content3D form[name=memberDataForm]  a,
+.view-mask div#CenterView div#Content3D div[id^=today]  a,
+.view-mask div#CenterView div#Content3D div[id^=history]  a {
+    color: #357cbb;
+}
+
+
+/*新增快选样式*/
+ul.showFastMoney {
+	/* background-color: #111; */
+	background: -moz-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	/* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(128,128,128,0.7)), color-stop(100%,rgba(17,17,17,1))); */
+	background: -webkit-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	background: -o-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(128, 128, 128, 0.7) 0%,
+		rgba(17, 17, 17, 1) 100%);
+	/* background: linear-gradient(to bottom, rgba(128,128,128,0.7) 0%,rgba(17,17,17,1) 100%); */
+	position: absolute;
+	z-index: 10005;
+	border-radius: 8px;
+	padding: 7px;
+	/* border: 1px solid #111; */
+	display: none;
+	box-shadow: 9px 9px 9px rgba(17, 17, 17, 0.3);
+	background-color: transparent \9;
+	padding: 0 \9;
+	margin: 0 \9;
+	width: 130px \9;
+}
+
+ul.showFastMoney::before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 15px solid #111;
+	background-color: transparent;
+	display: block;
+	position: absolute;
+	top: -15px;
+	left: 55px;
+}
+
+ul.showFastMoney li {
+	display: block;
+	width: 118px;
+	margin: 0 auto;
+	color: black;
+	font-size: 10pt;
+	height: 24px;
+	line-height: 24px;
+	text-decoration: none;
+	font-weight: normal;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+ul.showFastMoney li:hover {
+	background-color: #ccc;
+}
+
+ul.showFastMoney li a {
+	display: block;
+}
+
+/*玩法，砝码快选区域*/
+.betting-form li {
+    text-align: 14px;
+    float: left;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+.betting-form .width-s1 {
+    width: 95px;
+}
+
+.betting-form .width-s5 {
+    width: 55px;
+}
+
+.betting-form .btn-red {
+    background: #a51915;
+}
+
+.betting-form .btn-gray {
+    background: #aeaeae;
+}
+
+.betting-form .input-text {
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    padding: 1px 1px;
+    margin-top: 3px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.c50 {
+    float: left;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-left: 0px;
+    background-image: url(../../img/lottery/lottoBet/chip50.png) !important;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.c100 {
+    background-color: none;
+    background-image: url(../../img/lottery/lottoBet/chip100.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    float: left;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.c500 {
+    background-color: none;
+    background-image: url(../../img/lottery/lottoBet/chip500.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    float: left;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.c1000 {
+    background-color: none;
+    background-image: url(../../img/lottery/lottoBet/chip1000.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    float: left;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.c5000 {
+    background-color: none;
+    background-image: url(../../img/lottery/lottoBet/chip5000.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    float: left;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.c10000 {
+    background-color: none;
+    background-image: url(../../img/lottery/lottoBet/chip10000.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    float: left;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+#chiplisttm .active {
+    background-position: -50px 0;
+}

@@ -1,0 +1,44 @@
+{"code":0,"gameData":[
+  {
+    "gameName": "迷你21点",
+    "gameCode": "mbj",
+    "gameImgName": "smallicon/mbj.png",
+    "gameType": "MiniGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "迷你沙漠宝藏",
+    "gameCode": "dtm",
+    "gameImgName": "smallicon/dtm.png",
+    "gameType": "MiniGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "迷你弗兰基德托",
+    "gameCode": "mfdt",
+    "gameImgName": "smallicon/mfdt.png",
+    "gameType": "MiniGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "迷你足球",
+    "gameCode": "mfbr",
+    "gameImgName": "smallicon/mfbr.png",
+    "gameType": "MiniGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "迷你角斗士",
+    "gameCode": "mglr",
+    "gameImgName": "smallicon/mglr.png",
+    "gameType": "MiniGames",
+    "gameShi":"1"
+  },
+  {
+    "gameName": "迷你轮盘",
+    "gameCode": "mro_g",
+    "gameImgName": "smallicon/mro_g.png",
+    "gameType": "MiniGames",
+    "gameShi":"1"
+  }
+]}
